@@ -1,0 +1,11 @@
+{
+  "materia": "SOC100",
+  "nome": "Ética, Cidadania e Sociedade",
+  "secoes": [
+    { "id": "S1", "nome": "Ética e moral" },
+    { "id": "S2", "nome": "Cidadania e direitos" },
+    { "id": "S3", "nome": "Sociedade e cultura" },
+    { "id": "S4", "nome": "Política e democracia" }
+  ],
+  "questoes": []
+}

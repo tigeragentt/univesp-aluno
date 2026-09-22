@@ -1,12 +1,19 @@
 import { useState } from 'react';
+import Catalog from './pages/Catalog';
 import Home from './pages/Home';
 import Quiz from './pages/Quiz';
 import Result from './pages/Result';
 
 export default function App() {
-  const [screen, setScreen] = useState('home'); // 'home' | 'quiz' | 'result'
+  const [screen, setScreen] = useState('catalog'); // 'catalog' | 'home' | 'quiz' | 'result'
+  const [discipline, setDiscipline] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [finalScore, setFinalScore] = useState({ score: 0, total: 0 });
+
+  const handleSelectDiscipline = (d) => {
+    setDiscipline(d);
+    setScreen('home');
+  };
 
   const handleStart = (pool) => {
     setQuestions(pool);
@@ -24,6 +31,12 @@ export default function App() {
     setFinalScore({ score: 0, total: 0 });
   };
 
+  const handleBackToCatalog = () => {
+    setScreen('catalog');
+    setDiscipline(null);
+    setQuestions([]);
+  };
+
   if (screen === 'quiz') {
     return <Quiz questions={questions} onFinish={handleFinish} />;
   }
@@ -38,5 +51,15 @@ export default function App() {
     );
   }
 
-  return <Home onStart={handleStart} />;
+  if (screen === 'home') {
+    return (
+      <Home
+        discipline={discipline}
+        onStart={handleStart}
+        onBack={handleBackToCatalog}
+      />
+    );
+  }
+
+  return <Catalog onSelect={handleSelectDiscipline} />;
 }

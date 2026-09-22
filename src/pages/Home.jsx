@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import data from '../questions/let110.json';
 import './Home.css';
 
-export default function Home({ onStart }) {
+export default function Home({ discipline, onStart, onBack }) {
+  const { data } = discipline;
   const [secao, setSecao] = useState('all');
   const [numQ, setNumQ] = useState(() => data.questoes.length);
 
@@ -34,9 +34,11 @@ export default function Home({ onStart }) {
   return (
     <div className="home-container">
       <div className="home-card">
+        <button className="btn-back" onClick={onBack}>← Disciplinas</button>
+
         <div className="home-header">
           <span className="home-badge">UNIVESP</span>
-          <h1 className="home-title">LET110 – Letramento, Leitura e Escrita</h1>
+          <h1 className="home-title">{data.materia} – {data.nome}</h1>
           <p className="home-subtitle">Pratique com questões de múltipla escolha e veja explicações detalhadas.</p>
         </div>
 

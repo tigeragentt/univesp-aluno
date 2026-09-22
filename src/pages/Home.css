@@ -1,3 +1,18 @@
+.btn-back {
+  background: none;
+  border: none;
+  color: #6366f1;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0 0 1.25rem;
+  display: block;
+}
+
+.btn-back:hover {
+  color: #4338ca;
+}
+
 .home-container {
   min-height: 100vh;
   display: flex;
