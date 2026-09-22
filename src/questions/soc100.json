@@ -2,10 +2,1055 @@
   "materia": "SOC100",
   "nome": "Ética, Cidadania e Sociedade",
   "secoes": [
-    { "id": "S1", "nome": "Ética e moral" },
-    { "id": "S2", "nome": "Cidadania e direitos" },
-    { "id": "S3", "nome": "Sociedade e cultura" },
-    { "id": "S4", "nome": "Política e democracia" }
+    {
+      "id": "S1",
+      "nome": "Ética e moral"
+    },
+    {
+      "id": "S2",
+      "nome": "Cidadania e direitos"
+    },
+    {
+      "id": "S3",
+      "nome": "Sociedade e cultura"
+    },
+    {
+      "id": "S4",
+      "nome": "Política e democracia"
+    },
+    {
+      "id": "S5",
+      "nome": "Ética profissional"
+    },
+    {
+      "id": "S6",
+      "nome": "Direitos humanos e diversidade"
+    },
+    {
+      "id": "S7",
+      "nome": "Ética na pesquisa e sustentabilidade"
+    }
   ],
-  "questoes": []
+  "questoes": [
+    {
+      "id": 1,
+      "secao": "S1",
+      "source": "modulo",
+      "enunciado": "A criação das regras éticas é um processo dinâmico e multifacetado cujas influências abrangem diversos domínios do conhecimento e da experiência humana. O consenso social também é um fator determinante, uma vez que as normas éticas frequentemente emergem e se consolidam através do acordo coletivo e das práticas comunitárias. Assinale a alternativa correta que descreve corretamente um aspecto atrelado às regras éticas.",
+      "alternativas": {
+        "A": "As regras éticas, embora dinâmicas, são fundamentalmente estáveis, já que os princípios filosóficos e religiosos que as sustentam são imutáveis ao longo do tempo.",
+        "B": "A integração das influências filosóficas, religiosas, históricas e sociais é essencial para a criação de regras éticas, demonstrando que a ética é uma construção coletiva e adaptativa.",
+        "C": "As normas éticas são universalmente aplicáveis, independentemente das variações culturais e temporais, visto que os fundamentos morais são inerentes à natureza humana.",
+        "D": "A contribuição da filosofia e da religião na formação das regras éticas é limitada, uma vez que as normas emergem principalmente do consenso social e das práticas comunitárias.",
+        "E": "O contexto histórico é o principal determinante das regras éticas, pois a evolução das concepções morais depende unicamente das transformações sociais e eventos históricos."
+      },
+      "gabarito": "B",
+      "explicacao": "Feedback E Sua resposta está correta. A resposta correta é: A integração das influências filosóficas, religiosas, históricas e sociais é essencial para a criação de regras éticas, demonstrando que a ética é uma construção coletiva e adaptativa. A alternativa correta é a B."
+    },
+    {
+      "id": 2,
+      "secao": "S1",
+      "source": "modulo",
+      "enunciado": "Ao longo da história, diferentes estudiosos buscaram compreender o papel dos princípios que orientam as decisões humanas. Em cada sociedade, surgem reflexões que moldam o entendimento sobre o que é considerado adequado, correto ou justo, guiando a interação entre os indivíduos. Com base nisso, assinale a alternativa que apresenta a ética como uma disciplina que investiga e orienta a conduta humana.",
+      "alternativas": {
+        "A": "É o estudo filosófico que analisa os princípios e valores que orientam as ações humanas e a convivência em sociedade.",
+        "B": "É o estudo filosófico dos comportamentos humanos em situações específicas, sem considerar princípios universais.",
+        "C": "É o estudo científico das reações emocionais e dos comportamentos individuais para compreender a conduta das pessoas.",
+        "D": "É um conjunto de normas baseadas em tradições culturais que regulam as ações das pessoas em sociedade.",
+        "E": "É um conjunto de leis criadas para garantir a justiça social e reduzir conflitos nas relações entre indivíduos na sociedade."
+      },
+      "gabarito": "A",
+      "explicacao": "A alternativa correta é a A. A. É o estudo filosófico que analisa os princípios e valores que orientam as ações humanas e a convivência em sociedade. Esta alternativa define corretamente a ética como uma disciplina filosófica que investiga e orienta a conduta humana, examinando os princípios e valores por trás das ações e da vida em sociedade. Ela dialoga diretamente com o enunciado, que fala em \"reflexões que moldam o entendimento sobre o que é considerado adequado, correto ou justo\". As demais estão incorretas porque distorcem ou reduzem o conceito de ética: - B limita a ética a situações específicas e nega os princípios universais, o que restringe indevidamente seu campo de investigação."
+    },
+    {
+      "id": 3,
+      "secao": "S1",
+      "source": "modulo",
+      "enunciado": "Com o fortalecimento dos Estados nacionais europeus na Idade Moderna, a separação entre Igreja e Estado foi consolidada, promovendo uma reorganização social, política e econômica. Esse período foi marcado pela ascensão da burguesia e pelo surgimento de novas ideologias políticas e éticas, redefinindo o papel do Estado como regulador das condições de justiça e subsistência. Com relação a este contexto e sobre o conteúdo estudado, analise as asserções a seguir e a relação proposta entre elas: I. Na Idade Moderna, a ética passou a ocupar um papel central nas decisões políticas, consolidando o Estado como principal promotor do bem-estar coletivo e dos direitos individuais, deixando de lado a moral religiosa como base da vida pública. PORQUE II. A ascensão de ideias filosóficas de pensadores como Spinoza e Descartes impulsionou a valorização da razão e do bom senso como princípios orientadores, separando o exercício político das bases religiosas e reafirmando a autonomia do indivíduo no Estado. A respeito dessas asserções, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "B": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "C": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "D": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "E": "As asserções I e II são falsas. A resposta correta é: As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I."
+      },
+      "gabarito": "D",
+      "explicacao": "A alternativa correta é a D. D. As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I. Análise da asserção I (verdadeira): Na Idade Moderna, com o fortalecimento dos Estados nacionais e a separação entre Igreja e Estado, a ética passou a ocupar papel central nas decisões políticas. O Estado se consolidou como promotor do bem-estar coletivo e dos direitos individuais, deixando a moral religiosa de ser a base da vida pública. Isso está alinhado com o contexto descrito no enunciado. Análise da asserção II (verdadeira): A ascensão de pensadores como Spinoza e Descartes de fato impulsionou a valorização da razão e do bom senso como princípios orientadores. Esse movimento racionalista contribuiu para separar o exercício político das bases religiosas e para reafirmar a autonomia do indivíduo. Por que a II não justifica a I: apesar de as duas serem verdadeiras e tratarem do mesmo contexto histórico, a segunda asserção não é a causa direta ou a explicação suficiente da primeira. A centralização da ética nas decisões políticas e a consolidação do Estado como promotor do bem-estar (I) resultaram de um conjunto amplo de transformações sociais, políticas e econômicas — como o fortalecimento dos Estados nacionais e a ascensão da burguesia mencionados no enunciado —, e não apenas da valorização da razão promovida por esses filósofos (II). A asserção II descreve um fator do mesmo período, mas não estabelece uma relação de causa e efeito que explique integralmente a I. Por isso, as duas são verdadeiras, mas sem vínculo de justificativa entre elas."
+    },
+    {
+      "id": 4,
+      "secao": "S1",
+      "source": "modulo",
+      "enunciado": "Viver em sociedade implica uma série de responsabilidades e entendimentos sobre a convivência humana, sendo um exercício constante de colaboração, respeito e compromisso com o bem comum. Sendo assim, viver em sociedade é um aspecto fundamental da experiência humana, caracterizado pela convivência e interação de indivíduos em um ambiente compartilhado. Analise as seguintes afirmativas: I. A convivência em sociedade requer que os indivíduos subordinem seus interesses pessoais em prol do bem comum, promovendo, dessa forma, uma harmonia que sustenta o tecido social. II. A interação social é um processo automático e deixa de requerer esforço consciente dos indivíduos, já que as normas sociais garantem o comportamento adequado sem necessidade de reflexão ou compromisso pessoal. III. A colaboração e o respeito mútuo são elementos essenciais para a manutenção de uma sociedade funcional, pois sem esses elementos, a convivência social se torna inviável e conflituosa. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "III, apenas.",
+        "B": "I, apenas.",
+        "C": "II e III, apenas.",
+        "D": "II, apenas.",
+        "E": "I e III, apenas."
+      },
+      "gabarito": "E",
+      "explicacao": "A alternativa correta é a E. E. I e III, apenas. Análise da afirmativa I (correta): A convivência em sociedade realmente exige que os indivíduos, em certa medida, subordinem seus interesses pessoais em prol do bem comum. Esse equilíbrio entre o interesse individual e o coletivo é o que sustenta a harmonia e o tecido social. Análise da afirmativa II (incorreta): A interação social não é um processo automático que dispensa esforço ou reflexão. Pelo contrário, viver em sociedade — como o próprio enunciado afirma — é um \"exercício constante de colaboração, respeito e compromisso\". As normas sociais não garantem sozinhas o comportamento adequado; é necessário esforço consciente, reflexão e compromisso pessoal dos indivíduos. Análise da afirmativa III (correta): A colaboração e o respeito mútuo são de fato elementos essenciais para uma sociedade funcional. Sem eles, a convivência se torna inviável e marcada por conflitos, o que reforça a ideia central do enunciado sobre a importância do compromisso com o bem comum."
+    },
+    {
+      "id": 5,
+      "secao": "S1",
+      "source": "modulo",
+      "enunciado": "O desenvolvimento moral do adulto parte da ideia de \"tábula rasa\" de Locke, que sugere que nascemos como uma \"folha em branco\" e acumulamos valores ao longo do tempo. A moralidade não é inata, mas construída socialmente e adaptada conforme nossas experiências e os contextos em que vivemos, como o ambiente de trabalho. Esse processo moral é contínuo, leva anos e transita entre fases de heteronomia, em que seguimos normas externas, e autonomia, em que desenvolvemos princípios éticos próprios, influenciados por crenças, valores e habilidades adquiridos ao longo da vida. Neste contexto, associe os níveis do desenvolvimento moral às suas características. Níveis do desenvolvimento moral Características I. Nível 1: ausência de moral própria A. O indivíduo age para ser aceito, seguindo normas sociais. II. Nível 2: oportunismo B. O indivíduo age sem princípios internos, guiado por impulsos básicos. III. Nível 3: conformidade com o grupo C. O respeito às leis e às regras formais como guia moral. IV. Nível 4: conformidade com as instituições D. O foco são os interesses próprios, sem consideração ética pelas normas e consequências. V. Nível 5: autonomia e universalidade E. Guiado por princípios éticos próprios e valores universais. Assinale a alternativa que contém a associação correta.",
+      "alternativas": {
+        "A": "I-E; II-A; III-D; IV-B; V-C.",
+        "B": "I-A; II-C; III-E; IV-D; V-B.",
+        "C": "I-B; II-D; III-A; IV-C; V-E.",
+        "D": "I-B; II-E; III-A; IV-C; V-D.",
+        "E": "I-D; II-B; III-C; IV-E; V-A."
+      },
+      "gabarito": "C",
+      "explicacao": ""
+    },
+    {
+      "id": 6,
+      "secao": "S2",
+      "source": "modulo",
+      "enunciado": "A diversidade cultural reflete as distintas formas como diferentes povos estruturam seus costumes, normas e valores. Essas variações refletem como os contextos históricos e sociais moldam as normas e valores que orientam os costumes, evidenciando a complexidade das relações culturais entre diferentes povos. Com relação a este contexto e sobre o conteúdo estudado, analise as asserções a seguir e a relação proposta entre elas: I. As diferenças culturais entre grupos e povos evidenciam que costumes, comportamentos e gestos não possuem significados universais, sendo moldados por normas e valores relacionados a contextos históricos e sociais específicos que variam de uma sociedade para outra. PORQUE II. O relativismo cultural explica que costumes, normas e valores dependem do contexto social, destacando que práticas consideradas normais em uma cultura podem ser vistas como estranhas ou ofensivas em outra, reforçando a diversidade cultural entre povos e grupos. A respeito dessas asserções, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "B": "As asserções I e II são falsas.",
+        "C": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "D": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "E": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I."
+      },
+      "gabarito": "D",
+      "explicacao": "Alternativa D — As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I. Por quê: A asserção I é verdadeira: costumes, gestos e comportamentos não carregam significado intrínseco ou universal. O mesmo gesto pode ser cumprimento em um lugar e ofensa em outro; o mesmo alimento pode ser sagrado, comum ou proibido conforme a sociedade. Esses sentidos são construídos historicamente e socialmente. A asserção II também é verdadeira: o relativismo cultural é justamente a perspectiva antropológica que propõe compreender práticas a partir do sistema de significados da própria cultura que as produz, em vez de julgá-las pelos parâmetros da cultura do observador (o que caracterizaria o etnocentrismo). E II justifica I porque fornece o princípio teórico que explica a constatação feita em I. A asserção I descreve o fenômeno (os significados variam); a II apresenta a chave interpretativa que dá conta desse fenômeno (os significados dependem do contexto social em que são produzidos). Uma é a observação, a outra é a explicação — daí a relação de causa entre elas."
+    },
+    {
+      "id": 7,
+      "secao": "S2",
+      "source": "modulo",
+      "enunciado": "Na Grécia antiga, tanto os mitos quanto o pensamento filosófico desempenharam papeis significativos no desenvolvimento de reflexões sobre ética e moralidade. Com base neste contexto, observe as afirmativas a seguir: I. Os mitos gregos desempenhavam um papel multifacetado na sociedade antiga, funcionando não apenas como narrativas estéticas, mas também como ferramentas educacionais que inculcavam valores e normas morais, servindo como um meio de coesão social e de comunicação de princípios éticos fundamentais. II. A função dos mitos gregos era primordialmente estética e recreativa, proporcionando, certamente, entretenimento ao público, deixando de exercer influência significativa na formação de uma consciência moral ou na orientação das práticas consideradas sociais e individuais. III. A transição para o pensamento filosófico na Grécia antiga representou uma ruptura epistemológica, onde a moralidade passou a ser compreendida por meio de uma lente racional e crítica, dissociando-se das explicações sobrenaturais e enfatizando o papel do indivíduo como agente moral autônomo. IV. A moral na Grécia antiga, antes da influência filosófica, era amplamente determinada pelos mitos, que, ao refletirem as ações dos deuses e semideuses, estabeleciam padrões de comportamento esperados, influenciando profundamente as práticas sociais e a organização comunitária. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "I, II, III e IV.",
+        "B": "I e IV, apenas.",
+        "C": "I, II e IV, apenas.",
+        "D": "I, III e IV, apenas.",
+        "E": "II e III, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": "Alternativa D — I, III e IV, apenas. Análise: I (verdadeira). Os mitos gregos não eram meras narrativas de fruição estética. Homero e Hesíodo funcionavam como base da *paideia* grega: as histórias transmitiam virtudes (coragem, hospitalidade, respeito aos deuses), advertiam contra a *hýbris* e forneciam referências compartilhadas que sustentavam a coesão da comunidade. II (falsa). Contradiz diretamente a I e desconsidera a dimensão formativa e normativa do mito. Reduzir a mitologia grega a entretenimento ignora seu papel na educação, no culto religioso e na legitimação das normas sociais. III (verdadeira). A passagem do *mythos* ao *lógos* implicou buscar explicações racionais em vez de recorrer à vontade dos deuses. Com Sócrates, Platão e Aristóteles, a moralidade passa a ser objeto de exame crítico — a virtude é investigada, definida, argumentada —, e o indivíduo ganha protagonismo como agente capaz de deliberar sobre o bem."
+    },
+    {
+      "id": 8,
+      "secao": "S2",
+      "source": "modulo",
+      "enunciado": "A moral tem sido historicamente discutida de diferentes formas, com algumas abordagens enfatizando a sua estabilidade e outras, a sua mutabilidade ao longo do tempo. Considerando essa discussão, analise as seguintes afirmativas: I. A moral é compreendida como um conjunto específico fixo de regras que permanece inalterado ao longo do tempo, independe das mudanças nas culturas e sociedades. II. A moral deve ser entendida como um sistema rígido e universal de regras que os indivíduos devem seguir sem considerar o contexto histórico e cultural que estão inseridos. III. A moral é vista como um fenômeno dinâmico e histórico que se reconstrói continuamente por meio da interação do indivíduo com seu grupo social e sua linguagem simbólica. IV. A moral é intrínseca ligada à linguagem simbólica, linguagem verbal e não verbal, e essa ligação permite a reconstrução constante das normas e valores morais dentro de um grupo. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "I, III e IV, apenas.",
+        "C": "I e II, apenas.",
+        "D": "III e IV, apenas.",
+        "E": "I e IV, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": "Alternativa D — III e IV, apenas. Análise: I (falsa). Trata a moral como um conjunto fixo e imutável de regras, independente das transformações culturais e sociais. O enunciado da questão já sinaliza o contrário: a moral tem história, e normas outrora inquestionáveis (sobre escravidão, papéis de gênero, punições) foram profundamente revistas. II (falsa). Reforça o mesmo equívoco da I, acrescentando a pretensão de universalidade rígida e a recusa a considerar contexto histórico e cultural. Isso desconsidera que os valores morais se constituem dentro de sociedades concretas. III (verdadeira). Apresenta a moral como fenômeno dinâmico e histórico, continuamente reconstruído na interação entre indivíduo e grupo social. É a perspectiva coerente com a abordagem sociológica e antropológica: as normas são produzidas, negociadas e transformadas na vida coletiva."
+    },
+    {
+      "id": 9,
+      "secao": "S2",
+      "source": "modulo",
+      "enunciado": "No campo da antropologia, o conceito de cultura é essencial para compreender a diversidade das formas de vida humana e a complexidade das sociedades. A cultura abrange as práticas, crenças, valores, normas, símbolos e artefatos que são compartilhados e transmitidos entre os membros de um grupo social. Com base no conceito de cultura na antropologia, avalie as seguintes afirmativas: I. A cultura é estática e imutável, uma vez que é um legado do passado transmitido de geração em geração sem alterações. II. Os elementos simbólicos e materiais da cultura são transmitidos e transformados pelos seres humanos, refletindo tanto a continuidade quanto a inovação dentro das sociedades. III. A construção de identidades e laços sociais está intimamente ligada à cultura, que desempenha um papel central no processo de interação social. IV. A cultura abrange tanto o aprendizado compartilhado quanto a capacidade de adaptação e inovação frente a novos desafios e influências. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "I, II, III e IV.",
+        "B": "I, II e IV, apenas.",
+        "C": "I e III, apenas.",
+        "D": "II e IV, apenas.",
+        "E": "II, III e IV, apenas."
+      },
+      "gabarito": "E",
+      "explicacao": "Alternativa E — II, III e IV, apenas. Análise: I (falsa). Afirmar que a cultura é estática e imutável contraria o entendimento antropológico consolidado. A cultura é transmitida, sim, mas nunca de forma idêntica: cada geração reinterpreta, seleciona, incorpora elementos externos e descarta outros. Contato entre povos, mudanças materiais e conflitos internos produzem transformação contínua. II (verdadeira). Sintetiza bem essa dinâmica: os elementos simbólicos (línguas, crenças, rituais) e materiais (técnicas, objetos, artefatos) são ao mesmo tempo herdados e reelaborados. Há continuidade — reconhecemos tradições que atravessam séculos — e há inovação, porque os sujeitos não são receptores passivos. III (verdadeira). A cultura fornece os códigos compartilhados que tornam a interação social possível e inteligível. É nesse repertório comum que os indivíduos constroem pertencimento, marcam diferenças e estabelecem laços — a identidade se forma na relação com o grupo e seus significados."
+    },
+    {
+      "id": 10,
+      "secao": "S2",
+      "source": "modulo",
+      "enunciado": "O multiculturalismo aprecia a diversidade cultural e incentiva a coexistência harmoniosa entre diferentes culturas. Emergiu como uma alternativa à assimilação cultural, objetivando a igualdade no acesso a serviços, educação e oportunidades de emprego. Medidas inclusivas combatem estereótipos e percebem as culturas como manifestações dinâmicas da diversidade humana. Observe os princípios e desafios associados à implementação de políticas públicas multiculturais: I. O multiculturalismo se opõe ao conceito de assimilação cultural ao promover a coexistência de diversas culturas, enfatizando que todas as culturas devem ser preservadas e respeitadas como partes integrantes da sociedade. II. A implementação de políticas públicas multiculturais deve ser baseada em leis que garantam a igualdade formal de oportunidades, sem necessidade de ações específicas para combater estereótipos e promover a compreensão mútua entre diferentes culturas. III. O multiculturalismo busca criar um ambiente em que a diversidade cultural é reconhecida como uma riqueza e não apenas um desafio, promovendo políticas inclusivas que garantam a igualdade de acesso a serviços e oportunidades para todos. IV. A flexibilidade nas políticas multiculturais é essencial para garantir que as culturas sejam compreendidas como dinâmicas e em constante evolução, evitando a imposição de estereótipos e a visão estática das culturas. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": ". I, III e IV, apenas.",
+        "B": "II e IV,apenas.",
+        "C": "I, II e IV, apenas.",
+        "D": "I e III, apenas.",
+        "E": "II e III, apenas."
+      },
+      "gabarito": "A",
+      "explicacao": "Estão corretas as afirmativas I, III e IV, apenas. Análise: I (verdadeira). O multiculturalismo surge justamente como contraponto à assimilação, modelo que espera que grupos minoritários abandonem seus traços culturais para se dissolverem na cultura dominante. A proposta multicultural inverte essa lógica: as diferentes culturas devem ser preservadas e reconhecidas como partes legítimas do tecido social, e não toleradas apenas enquanto se apagam. II (falsa). Reduz o multiculturalismo à igualdade formal — a mera previsão legal de que todos têm os mesmos direitos — e nega explicitamente a necessidade de ações voltadas ao combate a estereótipos. Isso contraria o próprio enunciado, que menciona medidas inclusivas para enfrentar estereótipos. Na prática, a igualdade no papel não desfaz preconceitos enraizados nem barreiras concretas de acesso; sem medidas ativas, a desigualdade se reproduz. III (verdadeira). Sintetiza o princípio orientador dessas políticas: tratar a diversidade como patrimônio e não como problema a ser administrado, o que se traduz em iniciativas que assegurem acesso efetivo a serviços, educação e oportunidades de trabalho."
+    },
+    {
+      "id": 11,
+      "secao": "S2",
+      "source": "modulo",
+      "enunciado": "A lógica capitalista, centrada nas leis do mercado, é frequentemente alvo de críticas por sua relação com a ética e o aumento das desigualdades sociais. Muitos teóricos questionam se os princípios do mercado podem coexistir com uma ética voltada para a justiça social. Com base nessas reflexões, avalie as seguintes afirmativas sobre a crítica ao capitalismo e sua relação com a ética: I. A visão de Demo é que a lógica capitalista, centrada nas leis do mercado, é um sistema que ignora os princípios éticos fundamentais e promove uma desigualdade estrutural entre diferentes classes sociais. II. Segundo Demo, a ética pode ser incorporada ao capitalismo de maneira a harmonizar os interesses de mercado com a justiça social, o que implica que a ética pode e deve ser moldada para se adequar às exigências econômicas. III. Demo argumenta que o capitalismo se torna capaz de transformar a ética em um conceito subalterno, onde o valor moral é sacrificado em prol dos objetivos financeiros e da maximização do lucro. IV. De acordo com Demo, a crítica ao capitalismo e à globalização é um desafio à ideia de que o mercado é um instrumento neutro para promover o bem-estar geral, e não um sistema que reproduz desigualdades. Assinale a alternativa correta:",
+      "alternativas": {
+        "A": ". II e IV, apenas.",
+        "B": "III e IV, apenas.",
+        "C": "I e III, apenas.",
+        "D": "II e III, apenas.",
+        "E": "I e IV, apenas."
+      },
+      "gabarito": "C",
+      "explicacao": "I e III formam o par que sustenta o argumento de Demo: A I apresenta o diagnóstico: a lógica de mercado opera por uma racionalidade própria — competitividade, acumulação, lucro — que não toma princípios éticos como critério, e daí resulta uma desigualdade estrutural, inscrita no funcionamento do sistema e não um desvio corrigível. A III mostra a consequência desse diagnóstico no plano da ética: ela é rebaixada à condição de subalterna. Deixa de orientar decisões e vira acessório discursivo, enquanto o que efetivamente decide é a maximização do lucro. Uma afirmativa descreve o sistema; a outra, o destino que esse sistema reserva à ética. Sobre a II: falsa, como já apontei. Ela propõe conciliação harmoniosa e, pior, que a ética se molde às exigências econômicas — exatamente a subordinação que Demo critica. Sobre a IV: o conteúdo não é propriamente falso, mas a redação é truncada. A construção \"é um desafio à ideia de que o mercado é um instrumento neutro... e não um sistema que reproduz desigualdades\" fica ambígua: pode ser lida como se a crítica negasse que o mercado reproduz desigualdades, o que inverteria a posição do autor. Provavelmente é por aí que o gabarito a descarta."
+    },
+    {
+      "id": 12,
+      "secao": "S2",
+      "source": "modulo",
+      "enunciado": "A ética é uma área da filosofia dedicada ao estudo das normas e princípios que orientam o comportamento humano. Ao longo da história, diferentes sociedades e épocas desenvolveram sistemas morais diversos. A ética busca analisar esses sistemas e refletir sobre suas implicações. Assinale a alternativa que apresenta a complexidade da relação entre ética e as normas morais estabelecidas por diferentes culturas e contextos históricos.",
+      "alternativas": {
+        "A": ". A ética explora os sistemas morais em busca de uma única verdade moral universal que deve ser aplicada a todas as culturas e contextos históricos, desconsiderando as variações e especificidades culturais.",
+        "B": "A ética deve ser entendida como uma reflexão sobre a moralidade humana que busca, sem sucesso, criar uma teoria moral única e universal que possa ser aplicada a todas as culturas e contextos históricos, independentemente de suas diferenças.",
+        "C": "A ética analisa os sistemas morais para refutar as normas e proibições estabelecidas, argumentando que todas as normas morais são arbitrárias e que não há fundamento filosófico para qualquer ordem moral específica.",
+        "D": "A ética investiga as normas morais e os sistemas de valores das diversas culturas para compreender os fundamentos e pressupostos que as sustentam, promovendo um diálogo crítico sobre a moralidade em contextos históricos e culturais distintos.",
+        "E": "A ética deve ser vista como uma ciência objetiva que pode determinar de maneira universal a bondade ou maldade das ações humanas, independentemente das diferentes normas morais estabelecidas por culturas diversas."
+      },
+      "gabarito": "D",
+      "explicacao": "Alternativa D Por quê: A alternativa D descreve com precisão o trabalho da ética como disciplina filosófica: ela toma os sistemas morais concretos — as normas efetivamente vigentes em cada sociedade — como objeto de investigação, procurando identificar os fundamentos e pressupostos que os sustentam. Não se trata de simplesmente registrar costumes (tarefa mais próxima da antropologia), nem de decretar de fora qual moral é a correta, mas de submeter esses sistemas a um exame crítico e argumentativo, atento às condições históricas e culturais em que se formaram. É justamente aí que reside a complexidade apontada no enunciado: a ética sustenta uma tensão produtiva entre reconhecer a diversidade moral e ainda assim manter a possibilidade de avaliação racional. Por que as demais estão incorretas: A — reduz a ética à busca de uma verdade moral única e, pior, exige que ela ignore as variações culturais. Desconsiderar as especificidades culturais é o oposto do procedimento reflexivo que caracteriza a disciplina."
+    },
+    {
+      "id": 13,
+      "secao": "S3",
+      "source": "modulo",
+      "enunciado": "O conceito de cidadania, como descrito pelo sociólogo Thomas Humphrey Marshall, envolve diferentes grupos de direitos que emergiram ao longo da história. Cada um desses direitos é representativo de uma etapa importante no processo de democratização do estado liberal. Com base no texto, assinale a alternativa que apresenta corretamente a associação dos grupos de direitos com suas respectivas eras históricas.",
+      "alternativas": {
+        "A": ". Os direitos civis surgiram no século XVIII, os direitos políticos se destacaram no século XIX, e os direitos sociais foram implementados no século XX.",
+        "B": "Os direitos sociais se originaram no século XVIII, os direitos civis se afirmaram no século XIX, e os direitos políticos ganharam força no século XX.",
+        "C": "Os direitos civis se consolidaram no século XIX, os direitos sociais se manifestaram no século XVIII, e os direitos políticos tiveram maior desenvolvimento no século XX.",
+        "D": "Os direitos políticos começaram a se firmar no século XIX, os direitos sociais se estabeleceram no século XVIII, e os direitos civis se estruturaram no século XX.",
+        "E": "Os direitos políticos emergiram no século XVIII, os direitos civis foram consolidados no século XIX, e os direitos sociais se desenvolveram no século XX."
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 14,
+      "secao": "S3",
+      "source": "modulo",
+      "enunciado": "Immanuel Kant, filósofo alemão do século XVIII, desenvolveu o conceito de “Esclarecimento” (ou “Aufklärung”). Segundo Kant, o esclarecimento é a saída do homem de sua menoridade, da qual ele próprio é culpado. Em outras palavras, trata-se da capacidade de usar o entendimento sem depender da direção externa de outros indivíduos. Kant enfatiza a autonomia da razão e encoraja as pessoas a pensarem por si mesmas, questionando preceitos estabelecidos. Esse conceito é fundamental para a busca da verdade e o progresso social. Com base em seus conhecimentos, assinale a alternativa que reflete o pensamento de Kant sobre o Esclarecimento:",
+      "alternativas": {
+        "A": ". Kant defende que a menoridade é causada exclusivamente pela falta de acesso à educação formal, sendo esta a única barreira para a emancipação do indivíduo e o desenvolvimento da autonomia da razão.",
+        "B": "O Esclarecimento, para Kant, é um processo passivo em que o indivíduo recebe conhecimentos de autoridades externas, como o Estado e a Igreja, sem necessidade de questionamento ou autonomia.",
+        "C": "Segundo Kant, a menoridade humana é uma condição inevitável e eterna, que deve ser aceita como parte da natureza humana, pois a maioria das pessoas não é capaz de pensar por si mesma.",
+        "D": "Para Kant, a saída da menoridade é possível apenas através da ciência e da tecnologia, que fornecem as ferramentas necessárias para o desenvolvimento da autonomia e do pensamento crítico.",
+        "E": "O conceito de Esclarecimento em Kant está intrinsecamente ligado à ideia de que a razão humana deve ser livre e autônoma, permitindo que os indivíduos desenvolvam um senso crítico independente das influências externas."
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 15,
+      "secao": "S3",
+      "source": "modulo",
+      "enunciado": "Os direitos civis são essenciais para todos os cidadãos. Eles garantem que todas as pessoas tenham acesso aos mesmos direitos e oportunidades, sem discriminação por raça, gênero, religião, orientação sexual ou qualquer outra característica pessoal. Esses direitos incluem a liberdade de expressão, associação, reunião pacífica, igualdade perante a lei, liberdade religiosa, liberdade de imprensa e proteção contra a discriminação. Além disso, o Pacto Internacional sobre Direitos Civis e Políticos estabelece que todos os povos têm direito à [preencher 1], podendo determinar livremente seu [preencher 2] e assegurar seu desenvolvimento econômico, social e cultural. Os termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
+      "alternativas": {
+        "A": ". 1- igualdade jurídica ; 2- papel social",
+        "B": "1- autodeterminação ; 2- estatuto político",
+        "C": "1- soberania ; 2- crescimento econômico",
+        "D": "1- liberdade individual ; 2- progresso social",
+        "E": "1- autonomia ; 2- sistema jurídico"
+      },
+      "gabarito": "B",
+      "explicacao": ""
+    },
+    {
+      "id": 16,
+      "secao": "S3",
+      "source": "modulo",
+      "enunciado": "Leia o texto a seguir. Maria mora em uma pequena cidade e sempre se preocupou com o bem-estar de seus vizinhos. Recentemente, ela começou a participar de um projeto comunitário que ajuda famílias em situação de vulnerabilidade. Durante uma reunião, ela ouviu que a palavra cidadania tem uma relação com a palavra \"caridade\" e ficou curiosa para saber mais sobre isso. Com base nas concepções de cidadania e caridade, analise as seguintes afirmativas e escolha a alternativa que melhor reflete uma compreensão crítica da relação entre cidadania, caridade e engajamento social: I. A cidadania pode ser entendida como uma forma de caridade, onde os cidadãos realizam ações altruístas para ajudar os menos favorecidos, e essa visão reforça a ideia de que a cidadania é essencialmente um ato de benevolência pessoal. II. O conceito de cidadania está intrinsecamente ligado à participação ativa na vida comunitária e política, já que a caridade é uma expressão individual de compaixão que pode ser feita de forma isolada, sem necessariamente promover a justiça social ou a igualdade. III. A caridade e a cidadania são conceitos equivalentes, pois ambos visam ajudar os mais necessitados e promover o bem-estar coletivo, sendo a diferença entre eles apenas uma questão de escala e contexto. IV. A cidadania envolve a responsabilidade de atuar para a construção de uma sociedade justa e equitativa, enquanto a caridade é um ato voluntário que, embora benéfico, não necessariamente altera as estruturas de poder ou promove mudanças sociais significativas. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": ". II e III, apenas.",
+        "B": "III e IV, apenas.",
+        "C": "I e IV, apenas.",
+        "D": "II e IV, apenas.",
+        "E": "I e III, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 17,
+      "secao": "S3",
+      "source": "modulo",
+      "enunciado": "Immanuel Kant, um dos filósofos mais influentes da era moderna, explora a condição humana e a liberdade no seu célebre ensaio \"O Que é Esclarecimento?\". Uma de suas reflexões mais impactantes é a frase: \"A preguiça e a covardia são as causas pelas quais uma parte tão grande dos homens, libertos há muito pela natureza de toda tutela alheia, comprazem-se em permanecer por toda a sua vida menores e é por isso que é tão fácil a outros instituírem-se seus tutores.\" Nessa frase, Kant argumenta que a maioria das pessoas não exerce sua capacidade de pensar e agir de forma autônoma, apesar de serem naturalmente livres para fazê-lo. Ele identifica duas principais causas para essa condição: a preguiça e a covardia. Com base nesta reflexão sobre o esclarecimento e a autonomia da razão, a alternativa que melhor descreve a visão de Kant sobre a condição humana e a liberdade consta em:",
+      "alternativas": {
+        "A": "Kant acredita que a autonomia da razão é compreendida como um estado alcançado por uma minoria privilegiada a qual consegue ter o acesso a recursos tipicamente educacionais e culturais.",
+        "B": "Kant afirma que a verdadeira liberdade e o esclarecimento são alcançados através da adoção de tutelas externas e da aceitação de lideranças que orientem os indivíduos na busca por autonomia.",
+        "C": "Para Kant, tanto a preguiça quanto a covardia são externas ao indivíduo e resultam das estruturas tipicamente sociais e políticas que mantêm as pessoas em um estado de menoridade.",
+        "D": "Kant defende que o esclarecimento pode ser alcançado por meio de tutelas externas, como a intervenção de líderes e instituições que guiem os indivíduos para a razão e a liberdade.",
+        "E": "Kant argumenta que o esclarecimento é um processo que exige uma mudança interna, onde a liberdade é alcançada ao se libertar das limitações impostas pela preguiça e pela covardia."
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 18,
+      "secao": "S3",
+      "source": "modulo",
+      "enunciado": "Leia sobre os conceitos a seguir. 1. Direitos Civis: * Garantem a liberdade individual e a existência da sociedade civil. * Exemplos: liberdade de ir e vir, liberdade de expressão, direito à vida e à propriedade. 1. Direitos Políticos: * Referem-se à participação do cidadão no governo. * Incluem o direito ao voto, à organização política e à liberdade de expressão. Com base nos conceitos de direitos civis e direitos políticos, assinale a alternativa que transmite corretamente a distinção entre esses dois tipos de direitos:",
+      "alternativas": {
+        "A": "Os direitos civis são capazes de garantir a proteção dos indivíduos contra abusos de poder, enquanto os direitos políticos tratam da liberdade de expressão e participação política.",
+        "B": "Os direitos civis são capazes de envolver a participação direta em processos tipicamente políticos, enquanto os direitos políticos conseguem garantir tanto a liberdade de religião quanto a de expressão.",
+        "C": "Os direitos civis asseguram tanto a proteção da vida quanto da propriedade, enquanto os direitos políticos estão fortemente relacionados tanto ao direito de votar quanto o de ser eleito.",
+        "D": "Os direitos civis garantem a igualdade perante a lei e a proteção contra discriminação, enquanto os direitos políticos focam na possibilidade de participação ativa na administração pública.",
+        "E": "Os direitos civis asseguram a liberdade de movimentação e a proteção da propriedade pessoal, enquanto os direitos políticos permitem aos cidadãos atuarem diretamente em questões e decisões governamentais."
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 19,
+      "secao": "S3",
+      "source": "modulo",
+      "enunciado": "Leia o texto a seguir. Platão, em sua filosofia, concebe a trajetória do indivíduo como uma jornada da ignorância à luz da razão, acreditando que o ser humano começa em um estado de ignorância, simbolizado pela caverna em sua alegoria da caverna. Ao passar por etapas de educação, o indivíduo é gradualmente conduzido ao conhecimento e à consciência. Esse processo envolve a superação das sombras e ilusões do mundo sensível para alcançar a verdade e a sabedoria do mundo inteligível. Assim, Platão vê a educação como um caminho de ascensão espiritual e intelectual, onde o indivíduo, guiado pela razão, emerge da escuridão para um lugar iluminado pela luz da razão. Segundo Platão, o percurso educativo visa a conduzir o indivíduo da [preencher 1] até a [preencher 2], processo no qual a razão desempenha um papel central para o alcance da sabedoria. Os termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
+      "alternativas": {
+        "A": "1 - ilusão; 2 - sabedoria",
+        "B": "1 - ignorância; 2 - razão",
+        "C": "1 - escuridão; 2 - sabedoria",
+        "D": "1 - ilusão; 2 - verdade",
+        "E": "1 - ignorância; 2 - iluminação"
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 20,
+      "secao": "S3",
+      "source": "modulo",
+      "enunciado": "A democracia formal, caracterizada pelo respeito aos procedimentos eleitorais e à separação dos poderes, é uma instituição amplamente valorizada no mundo ocidental. Contudo, ela enfrenta desafios e críticas que têm gerado um sentimento de descontentamento entre a população, o que se reflete no aumento da abstenção e no ceticismo quanto à efetividade do sistema político. Com relação a este tema e à crescente desilusão com a democracia formal, analise as afirmativas a seguir: I. A crescente desilusão com a democracia formal pode ser mitigada através da implementação de reformas especificamente institucionais que garantam maior transparência e responsabilidade dos representantes políticos, reforçando a confiança pública no sistema. II. O desencanto com a democracia é predominantemente causado pela ausência de participação ativa dos cidadãos no processo político, e, portanto, aumentar tanto a educação cívica quanto as oportunidades de engajamento direto é suficiente para resolver o problema. III. A polarização política e a percepção de que o sistema favorece elites políticas são fenômenos que podem ser superados por meio de reformas profundamente estruturais que sejam capazes de promover uma maior inclusão e ampla representatividade no processo eleitoral. IV. A alta taxa de abstenção nas eleições é um indicativo claro de que a democracia formal falhou em atender às necessidades e expectativas da população, sugerindo que uma mudança de sistema para uma democracia direta seria, de fato, eficaz para restaurar a confiança. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "I e IV, apenas.",
+        "B": "I e II, apenas.",
+        "C": "II e IV, apenas.",
+        "D": "I e III, apenas.",
+        "E": "II e III, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 21,
+      "secao": "S3",
+      "source": "modulo",
+      "enunciado": "A formação do Estado Moderno, entre os séculos XVI e XVIII, foi um marco no desenvolvimento das estruturas de poder e organização social, influenciando também a evolução das concepções de ética e cidadania. Nesse período, ideias sobre moralidade, justiça e participação social passaram por transformações que impactaram significativamente as sociedades modernas. Considerando a relação entre a ética, a cidadania e a formação do Estado Moderno, assinale a alternativa que exemplifica corretamente a influência dessas ideias na construção das sociedades modernas: I. A formação do Estado Moderno resultou em uma ênfase na moralidade tradicional e na manutenção das hierarquias sociais estabelecidas, sem promover uma redefinição significativa da cidadania. II. O desenvolvimento do Estado Moderno promoveu a emergência de conceitos éticos baseados na razão e na igualdade, influenciando a redefinição da cidadania como um conjunto de direitos e deveres universais. III. A evolução da ética e da cidadania no contexto do Estado Moderno foi marcada pela preservação das práticas feudais e das autoridades absolutas, com pouca influência das novas ideias iluministas. IV. O Estado Moderno, ao ser constituído, estabeleceu uma distinção clara entre ética e cidadania, tratando esses conceitos separadamente, de modo a inexistir interação significativa entre eles. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "II, apenas.",
+        "B": "IV, apenas.",
+        "C": "I, apenas.",
+        "D": "III, apenas.",
+        "E": "II e IV, apenas."
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 22,
+      "secao": "S3",
+      "source": "modulo",
+      "enunciado": "Em seu ensaio “O Que é o Esclarecimento?”, Immanuel Kant argumenta que o processo de esclarecimento depende da liberdade para o uso público da razão, possibilitando que os indivíduos alcancem a autonomia ao pensar de forma independente e crítica. Para Kant, o esclarecimento é um processo que liberta o indivíduo da dependência e da incapacidade de raciocinar sem orientação externa. Analise as afirmativas abaixo e assinale aquela que corretamente reflete a interdependência entre autonomia e uso da razão pública segundo Kant. I. Kant propõe que a autonomia é alcançada pela capacidade inata de pensar criticamente, independente das influências externas, sendo a liberdade de pensamento uma característica natural do indivíduo. II. Segundo Kant, o fortalecimento da autonomia individual ocorre através da prática contínua de debates e discussões, em que a argumentação aberta estimula o pensamento crítico e contribui para a superação da dependência. III. Para Kant, a prática pública da razão é um instrumento de emancipação, permitindo ao indivíduo questionar e desafiar as imposições da tradição e da autoridade, promovendo assim o progresso intelectual. IV. Kant considera que o exercício público da razão é essencial para o desenvolvimento da autonomia, pois permite ao indivíduo realizar um processo de emancipação que beneficia tanto o próprio indivíduo quanto a sociedade em geral. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "III e IV, apenas.",
+        "B": "II e III, apenas.",
+        "C": "I e II , apenas.",
+        "D": "II, III e IV, apenas",
+        "E": "II e IV, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 23,
+      "secao": "S4",
+      "source": "modulo",
+      "enunciado": "No século XXI, o conceito de direitos humanos continuou a evoluir para incluir novas categorias de direitos, como os direitos ambientais e os direitos de grupos minoritários, ampliando a compreensão da dignidade humana para além das liberdades individuais básicas. Paralelamente, o conteúdo da cidadania foi revisitado e expandido para refletir essas novas realidades. Sobre a evolução dos direitos humanos e a revisão do conceito de cidadania no século XXI, a alternativa que reflete de maneira mais precisa as transformações ocorridas nesses aspectos está presente em:",
+      "alternativas": {
+        "A": "O conceito de cidadania tem se mantido estritamente ligado às tradições oriundas do século XX, sem incorporar novas dimensões relacionadas aos direitos de grupos minoritários ou às questões ambientais, mantendo o foco, sobretudo, nas liberdades individuais tradicionais.",
+        "B": "A ampliação dos direitos humanos no século XXI tem levado à criação de novas categorias de direitos que, paradoxalmente, têm restringido a aplicação prática da cidadania às esferas nacionais, ignorando a interconexão entre direitos globais e responsabilidades cidadãs.",
+        "C": "O século XXI testemunhou uma revisão do conceito de cidadania que, apesar de ampliar o escopo dos direitos humanos, tem promovido uma visão mais segmentada de dignidade, onde os direitos ambientais e dos minorias são tratados como questões separadas e não integradas ao entendimento da dignidade humana.",
+        "D": "A revisão contemporânea do conceito de cidadania reflete um avanço na compreensão dos direitos humanos, incorporando novas dimensões como a justiça social e a sustentabilidade ambiental, e promovendo um engajamento cidadão que abarca tanto direitos quanto responsabilidades globais.",
+        "E": "O conceito contemporâneo de cidadania, no século XXI, se deslocou para um modelo que prioriza exclusivamente os direitos individuais, com uma ênfase reduzida na participação ativa dos cidadãos em questões coletivas e no engajamento em causas globais."
+      },
+      "gabarito": "D",
+      "explicacao": "Alternativa D. Ela é a única coerente com o enunciado: descreve a cidadania contemporânea como ampliada, integrando dimensões como justiça social e sustentabilidade ambiental, e articulando direitos com responsabilidades que ultrapassam a fronteira nacional — a chamada cidadania global ou ecológica. Por que as demais estão erradas: A — nega a própria premissa do enunciado, afirmando que a cidadania permaneceu restrita ao modelo do século XX. B — inverte o movimento observado: a ampliação dos direitos humanos tende a transnacionalizar a cidadania, não a confiná-la ao Estado-nação."
+    },
+    {
+      "id": 24,
+      "secao": "S4",
+      "source": "modulo",
+      "enunciado": "O conceito de dignidade humana tem evoluído ao longo da história, sendo associado a valores essenciais, como liberdade e igualdade. Em documentos jurídicos e constitucionais, a dignidade é reconhecida como elemento estruturante de direitos que buscam promover condições justas e igualitárias para todos os indivíduos. Com base nas informações apresentadas, analise e assinale a alternativa que representa a correta relação entre a dignidade humana e os direitos fundamentais nas constituições contemporâneas.",
+      "alternativas": {
+        "A": "A dignidade humana é um princípio integrador, que fundamenta os direitos fundamentais e irradia seus efeitos por todo o ordenamento jurídico, promovendo sua universalidade.",
+        "B": "O papel da dignidade humana nos direitos fundamentais está relacionado ao contexto histórico, limitando sua aplicação às constituições de regimes democráticos.",
+        "C": "A aplicação prática da dignidade humana depende de interações entre legislações nacionais e tratados internacionais, restringindo sua abrangência.",
+        "D": "Os direitos fundamentais se baseiam na dignidade humana, mas sua aplicação de maneira abrangente pode variar entre os ordenamentos jurídicos interno e internacional.",
+        "E": "Os textos constitucionais contemporâneos reconhecem a dignidade humana como um valor essencial, que estrutura direitos em dimensões sociais, civis e políticas."
+      },
+      "gabarito": "A",
+      "explicacao": "* A. Incorreta: A interação entre normas internas e internacionais não restringe a abrangência da dignidade humana; pelo contrário, expande sua proteção no âmbito do direito internacional e constitucional. * B. Incorreta: Embora a aplicação prática e a consolidação de garantias sejam mais efetivas em regimes democráticos, o conceito ontológico de dignidade humana aplica-se a todo ser humano, independentemente do regime político em que vive. * C. Incorreta: Apesar de ser uma afirmação conceitualmente coerente de forma geral, no gabarito oficial e no escopo teórico desta questão ela é considerada incompleta perto da abrangência contida na alternativa D. * D. Correta: O princípio da dignidade da pessoa humana opera como valor supremo e núcleo axiológico do ordenamento jurídico (efeito irradiante), fundamentando a totalidade dos direitos fundamentais e assegurando a universalidade de sua aplicação. * E. Incorreta: A variação na aplicação entre o plano interno e internacional não é a característica conceitual que define a *relação essencial* entre dignidade humana e direitos fundamentais nas constituições contemporâneas."
+    },
+    {
+      "id": 25,
+      "secao": "S4",
+      "source": "modulo",
+      "enunciado": "Os direitos humanos podem ser compreendidos através de três gerações distintas. A primeira geração de direitos humanos diz respeito aos direitos civis e políticos, focando na individualidade e liberdade das pessoas. Esses direitos incluem, por exemplo, a liberdade de expressão, o direito à vida e a segurança pessoal. A segunda geração é composta pelos direitos sociais, econômicos e culturais, que são reservados ao grupo ou à sociedade. Esses direitos buscam garantir condições básicas de vida, como o direito ao trabalho, à educação e à saúde. A terceira geração refere-se aos direitos de solidariedade e fraternidade, englobando direitos coletivos e difusos, como o direito ao desenvolvimento, à paz, ao meio ambiente saudável e à autodeterminação dos povos. Esses direitos são essenciais para promover uma convivência harmoniosa e sustentável entre os indivíduos e as nações. Sobre as três gerações de direitos humanos, analise as seguintes afirmativas: I. A primeira geração de direitos humanos pode ser vista como uma etapa transitória para a terceira geração, pois a proteção dos direitos civis e políticos estabelece a base para a criação de um sistema global que visa a paz e o desenvolvimento sustentável. II. A segunda geração de direitos humanos, focada em direitos sociais e econômicos, ignora a dimensão coletiva dos direitos humanos e se limita a garantir o acesso individual a recursos e oportunidades, sem considerar a interdependência entre os direitos. III. A terceira geração de direitos humanos reflete um avanço teórico que integra conceitos anteriores, mas não é inovadora, pois suas preocupações com a justiça global e o meio ambiente são extensões diretas dos direitos civis e políticos. IV. A primeira geração de direitos humanos estabelece a base para a segunda e terceira gerações, pois a garantia de direitos civis e políticos permite que os direitos sociais, econômicos e culturais, entre outros, sejam plenamente exercidos e respeitados. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "IV, apenas.",
+        "B": "II, apenas.",
+        "C": "I, apenas.",
+        "D": "III, apenas.",
+        "E": "I, II, III e IV."
+      },
+      "gabarito": "A",
+      "explicacao": "* I. Incorreta: A primeira geração não é meramente uma \"etapa transitória\". Os direitos de primeira geração (liberdades individuais) têm valor autônomo e permanente, sendo indispensáveis em qualquer época, e não um simples degrau temporário. * II. Incorreta: Os direitos de segunda geração (sociais, econômicos e culturais) focam justamente na dimensão coletiva e social para reduzir as desigualdades, pautando-se pelo princípio do bem-estar social e pela interdependência dos direitos. * III. Incorreta: A terceira geração é plenamente inovadora, pois introduziu a titularidade difusa e coletiva (direitos transindividuais), como o direito ao meio ambiente ecologicamente equilibrado, ao desenvolvimento e à paz, conceitos que vão muito além do escopo individualista dos direitos civis e políticos. * IV. Correta: A garantia das liberdades individuais e políticas (1ª geração) cria as condições democráticas essenciais para que a sociedade possa reivindicar, exercer e proteger os direitos sociais (2ª geração) e os direitos difusos e coletivos (3ª geração), refletindo o princípio da indivisibilidade dos direitos humanos. A alternativa correta é a IV (Está correto apenas o que se afirma em IV)."
+    },
+    {
+      "id": 26,
+      "secao": "S4",
+      "source": "modulo",
+      "enunciado": "Hobbes e Locke foram contemporâneos às Revoluções Inglesas que marcaram quase todo o século XVII, caracterizadas principalmente pelo conflito entre a Coroa e o Parlamento. Esse período foi marcado por crises políticas, religiosas e econômicas. Foi nesse contexto de guerra civil e de uma sociedade carente de uma autoridade política central que Thomas Hobbes e John Locke, ambos ingleses, desenvolveram e escreveram suas teorias sobre o contrato social. Considerando as teorias de contrato social de Thomas Hobbes e John Locke no contexto das Revoluções Inglesas, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Hobbes defendia que, para evitar o estado de natureza, era essencial que o governo se baseasse no consentimento dos governados, permitindo a participação direta dos cidadãos nas decisões políticas e limitando o poder do soberano através da criação de uma Constituição.",
+        "B": "Para Hobbes, a solução para o estado de natureza era a criação de um governo absoluto, onde o soberano teria poderes ilimitados e os indivíduos abdicariam de todos os seus direitos, enquanto Locke defendia que os governados tinham o direito de resistir e substituir um governo que não respeitasse seus direitos naturais.",
+        "C": "Ambos os filósofos concordavam que a autoridade política deveria ser derivada do contrato social, mas divergiam sobre os meios para alcançá-la: Hobbes defendia uma monarquia constitucional com separação de poderes, enquanto Locke defendia uma democracia direta onde os cidadãos tinham o direito de votar em todas as leis.",
+        "D": "Locke acreditava que o estado de natureza era uma condição de guerra de todos contra todos, onde a vida, a liberdade e a propriedade dos indivíduos estavam em constante ameaça, e por isso defendia a necessidade de um governo absoluto para manter a paz e a segurança.",
+        "E": "Hobbes e Locke compartilhavam a visão de que a autoridade política deveria ser exercida por um soberano absoluto, mas diferiam na forma de aquisição dessa autoridade: Hobbes acreditava na eleição pelo povo, enquanto Locke defendia a hereditariedade do poder."
+      },
+      "gabarito": "B",
+      "explicacao": "Alternativa B. É a única que descreve corretamente as duas teorias. Para Hobbes, o estado de natureza é a \"guerra de todos contra todos\", e a saída é o pacto pelo qual os indivíduos transferem seus direitos a um soberano de poder absoluto e indivisível — o Leviatã. Para Locke, o estado de natureza já possui uma lei natural que garante vida, liberdade e propriedade; o governo é criado para proteger esses direitos e, ao violá-los sistematicamente, rompe a confiança depositada nele, legitimando o direito de resistência e a substituição dos governantes. Por que as outras estão erradas: * A — atribui a Hobbes teses lockeanas/liberais (consentimento contínuo, participação direta, limitação constitucional do soberano). * C — inverte as posições: Hobbes não defendia monarquia constitucional com separação de poderes, nem Locke democracia direta (ele pensava em governo representativo, com supremacia do Legislativo)."
+    },
+    {
+      "id": 27,
+      "secao": "S4",
+      "source": "modulo",
+      "enunciado": "Leia o trecho a seguir: “Podemos considerar como premissa que os direitos humanos visam à satisfação das necessidades humanas individuais [...]. É nesse sentido que, ao transportar a noção do binômio necessidade/direito para o processo de elaboração de normas jurídicas, verificamos que estas normas – quando fixam certo limite à liberdade do homem mediante a imposição de condutas – denotam o acatamento social mediante um intrínseco processo de acomodação natural.” Campello, L. G. B., & da Silveira, V. O. (2011). Cidadania e direitos humanos. Revista Interdisciplinar Do Direito - Faculdade De Direito De Valença, 8(01), p.91. (Adaptado). Sobre a relação entre os direitos humanos, a mobilização social e a efetividade das políticas públicas, analise as seguintes afirmativas: I. A mobilização social é uma ferramenta secundária que apoia as políticas públicas voltadas para os direitos humanos, mas sua influência é irrelevante para a criação ou a implementação de leis relacionadas a esses direitos. II. A implementação eficaz dos direitos humanos muitas vezes exige um esforço coordenado entre o governo e a sociedade civil, onde a mobilização social desempenha um papel crucial em pressionar por mudanças e em assegurar a aplicação prática das políticas. III. A simples adoção de leis e políticas ligadas aos direitos humanos deixa de garantir que esses direitos sejam efetivamente protegidos, pois a mobilização social é necessária para monitorar e garantir a aplicação prática e contínua dessas normas. IV. O envolvimento da sociedade civil na promoção dos direitos humanos é frequentemente voltado ao apoio a iniciativas governamentais já estabelecidas, inexistindo impacto significativo nas mudanças nas políticas públicas. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "III e IV, apenas.",
+        "B": "II e III, apenas.",
+        "C": "I e II, apenas.",
+        "D": "I, II, III e IV.",
+        "E": "I e IV, apenas."
+      },
+      "gabarito": "B",
+      "explicacao": "Alternativa B — II e III, apenas. II (correta): a efetivação dos direitos humanos depende de articulação entre Estado e sociedade civil, e a mobilização social atua pressionando por mudanças e cobrando a aplicação prática das políticas. III (correta): a existência formal de leis e políticas não basta; é o controle social — monitoramento, denúncia, cobrança contínua — que converte a norma escrita em direito efetivo. I (incorreta): subestima a mobilização, tratando-a como secundária e irrelevante, quando historicamente ela é fonte de conquista e de implementação de direitos. IV (incorreta): reduz a sociedade civil a mera coadjuvante de iniciativas governamentais, negando sua capacidade de provocar mudanças nas políticas públicas."
+    },
+    {
+      "id": 28,
+      "secao": "S4",
+      "source": "modulo",
+      "enunciado": "O Estado Democrático de Direito é um conceito fundamental para o regime político brasileiro, consagrado na Constituição Federal de 1988. Esse princípio estabelece que o poder estatal deve ser exercido em conformidade com a lei e que todos os cidadãos têm direitos fundamentais garantidos e protegidos pela Constituição. No Brasil, o Estado Democrático de Direito significa que a legitimidade do poder público deriva da soberania popular e que todas as ações do governo estão sujeitas a um controle jurídico, visando a justiça e a igualdade. Sobre o conceito de Estado Democrático de Direito e sua aplicação no regime político brasileiro, considere as seguintes afirmações e escolha a alternativa correta:",
+      "alternativas": {
+        "A": "Requer que a atuação do governo estabelecido esteja, constantemente, em conformidade com a lei e visa a promover tanto a justiça quanto a equidade na sociedade em que se vive.",
+        "B": "Foca especificamente na garantia dos direitos fundamentais, ausente da necessidade de um sistema de freios e também de contrapesos entre os poderes Executivo, Legislativo e Judiciário.",
+        "C": "Impõe que o poder estatal seja exercido em conformidade com a Constituição, mas limita a contestação judicial de violações aos direitos fundamentais apenas aos casos de maior gravidade.",
+        "D": "Garante que o governo pode agir de forma autônoma desde que suas ações respeitem os direitos fundamentais, sendo desnecessária a busca pela justiça social.",
+        "E": "Estabelece que a soberania popular seja exercida, sobretudo, por meio de eleições regulares, isenta da necessidade de mecanismos adicionais de participação cidadã."
+      },
+      "gabarito": "A",
+      "explicacao": "* A. Correta: O Estado Democrático de Direito exige a estrita submissão do poder público à legislação (princípio da legalidade) e busca ativamente a promoção da justiça e da igualdade social (equidade). * B. Incorreta: O sistema de freios e contrapesos (*checks and balances*) entre os Poderes é indispensável para evitar abusos e garantir a limitação do poder estatal. * C. Incorreta: A Constituição garante o direito fundamental do acesso à Justiça (inafastabilidade da jurisdição, art. 5º, XXXV), permitindo a contestação de qualquer lesão ou ameaça a direito, independentemente do nível de gravidade. * D. Incorreta: A busca pela justiça social e a igualdade de oportunidades são objetivos fundamentais da República (art. 3º da CF/88), sendo incompatível a atuação governamental descompromissada com a justiça social. * E. Incorreta: A soberania popular é exercida pelo sufrágio universal e pelo voto direto e secreto, mas também por mecanismos diretos de participação cidadã, como plebiscito, referendo e iniciativa popular (art. 14 da CF/88)."
+    },
+    {
+      "id": 29,
+      "secao": "S4",
+      "source": "modulo",
+      "enunciado": "No decorrer do século XX e XXI, a evolução das normas de direitos humanos consolidou a relação entre dignidade e direitos humanos, especialmente após a Segunda Guerra Mundial. Documentos internacionais, como a Declaração Universal dos Direitos Humanos de 1948, marcaram um avanço significativo ao estabelecer a dignidade humana como um princípio fundamental para a proteção dos direitos humanos. Sobre a influência da Declaração Universal dos Direitos Humanos e a evolução dos direitos humanos, considere as seguintes afirmações: I. A Declaração Universal dos Direitos Humanos estabeleceu um padrão universal de direitos que foi amplamente adotado sem modificações pelos países, refletindo uma abordagem uniforme para a proteção dos direitos humanos. II. A incorporação dos princípios da Declaração Universal dos Direitos Humanos nas legislações nacionais exige ajustes para alinhar os princípios com as realidades culturais e jurídicas locais, mostrando a flexibilidade do documento na adaptação a contextos variados. III. A Declaração Universal dos Direitos Humanos abordou especificamente direitos civis e políticos, sem considerar a necessidade de proteção dos direitos econômicos, sociais e culturais, que se tornaram importantes apenas nas décadas seguintes. IV. A evolução dos direitos humanos após a Segunda Guerra Mundial demonstrou crescente conscientização sobre a interconexão entre dignidade humana e direitos sociais, por meio da inclusão dos direitos econômicos e sociais em tratados internacionais posteriores. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "II e IV, apenas.",
+        "C": "I e IV, apenas.",
+        "D": "I e II, apenas.",
+        "E": "I, II, III e IV."
+      },
+      "gabarito": "B",
+      "explicacao": "* I. Incorreta: A Declaração Universal dos Direitos Humanos (DUDH) não foi adotada sem modificações de forma uniforme. Sua aplicação nos ordenamentos jurídicos internos exige recepcionamento e adaptações de acordo com os sistemas legais de cada país. * II. Correta: A implementação dos direitos humanos no plano nacional requer a harmonização com as particularidades culturais, sociais e jurídicas locais, refletindo a flexibilidade e o dinamismo de sua aplicação. * III. Incorreta: A DUDH de 1948 contemplou expressamente tanto os direitos civis e políticos quanto os direitos econômicos, sociais e culturais (expressos, por exemplo, nos artigos 22 a 27). * IV. Correta: O período pós-Segunda Guerra fortaleceu a compreensão da indivisibilidade e interdependência dos direitos humanos, resultando no desenvolvimento e consolidação dos direitos econômicos, sociais e culturais em pactos e tratados internacionais subsequentes (como o Pacto Internacional dos Direitos Econômicos, Sociais e Culturais de 1966). A alternativa correta é a que indica como verdadeiras as afirmações II e IV."
+    },
+    {
+      "id": 30,
+      "secao": "S4",
+      "source": "modulo",
+      "enunciado": "O Estado liberal surgiu em oposição a modelos de governo centralizadores, predominantes antes do Iluminismo, nos séculos XVII e XVIII. Este modelo se consolidou ao incorporar valores que buscavam transformar as relações entre governo e sociedade, promovendo novas bases para o exercício do poder e a organização política. Com relação a este contexto e sobre o conteúdo estudado, analise as asserções a seguir e a relação proposta entre elas: I. O Estado liberal de direito marcou uma ruptura histórica com o Estado absolutista, substituindo o modelo centralizador e autoritário por um governo baseado em liberdades individuais, limitação do poder estatal e respeito à propriedade, buscando maior equilíbrio nas relações entre governo e sociedade. PORQUE II. O Estado liberal se fundamentou em valores iluministas, como a separação dos poderes e a proteção de direitos fundamentais, que rejeitavam o autoritarismo absoluto. Esses princípios garantiam maior autonomia aos cidadãos e estruturaram a relação entre Estado e sociedade sob novas bases políticas e sociais. A respeito dessas asserções, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "B": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "C": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "D": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "E": "As asserções I e II são falsas."
+      },
+      "gabarito": "D",
+      "explicacao": "* I. Incorreta: A primeira geração não é meramente uma \"etapa transitória\". Os direitos de primeira geração (liberdades individuais) têm valor autônomo e permanente, sendo indispensáveis em qualquer época, e não um simples degrau temporário. * II. Incorreta: Os direitos de segunda geração (sociais, econômicos e culturais) focam justamente na dimensão coletiva e social para reduzir as desigualdades, pautando-se pelo princípio do bem-estar social e pela interdependência dos direitos. * III. Incorreta: A terceira geração é plenamente inovadora, pois introduziu a titularidade difusa e coletiva (direitos transindividuais), como o direito ao meio ambiente ecologicamente equilibrado, ao desenvolvimento e à paz, conceitos que vão muito além do escopo individualista dos direitos civis e políticos. * IV. Correta: A garantia das liberdades individuais e políticas (1ª geração) cria as condições democráticas essenciais para que a sociedade possa reivindicar, exercer e proteger os direitos sociais (2ª geração) e os direitos difusos e coletivos (3ª geração), refletindo o princípio da indivisibilidade dos direitos humanos. A alternativa correta é a IV (Está correto apenas o que se afirma em IV)."
+    },
+    {
+      "id": 31,
+      "secao": "S5",
+      "source": "modulo",
+      "enunciado": "A internet tem provocado transformações significativas nos costumes da sociedade moderna, refletindo um aumento considerável nas formas de controle químico e psíquico sobre as pessoas. As plataformas digitais e os processos de comunicação em massa têm facilitado a disseminação de informações e influências de maneira nunca antes vista. Acerca das transformações provocadas pela internet, a alternativa que apresenta corretamente as mudanças e os impactos descritos estão evidentes em: I. A internet amplia a capacidade das empresas de controlar comportamentos e preferências dos usuários por meio da coleta de dados pessoais e algoritmos de publicidade direcionada. II. A principal forma de controle promovida pela internet é a manipulação das emoções dos usuários através de conteúdos de entretenimento e redes sociais. III. A análise de big data permite a personalização de experiências on-line, mas não tem impacto sobre as decisões e comportamentos individuais. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": ". I e II, apenas.",
+        "B": "II e III, apenas.",
+        "C": "I, apenas.",
+        "D": "I, II e III.",
+        "E": "I e III, apenas."
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 32,
+      "secao": "S5",
+      "source": "modulo",
+      "enunciado": "Leia o texto a seguir: No campo da informação, o profissional desempenha um papel crucial que beneficia o Estado, as instituições, as empresas, os investidores, entre outros. As tendências mais modernas buscam a normalização desses informes, adaptando-os às necessidades específicas de cada utilidade que devem prestar. O papel do profissional é gerar essa utilidade através de seu conhecimento e virtudes pessoais, assegurando a eficácia na utilização da riqueza. Isso se traduz na produção de informes, pareceres, laudos, estudos, planos e outras formas de documentação técnica. Essas contribuições não apenas melhoram a tomada de decisões, mas também garantem transparência e precisão nas informações, fortalecendo a confiança e a eficiência em diversos setores. Com base no conhecimento adquirido, analise as afirmativas a seguir sobre o papel do profissional no campo da informação e as tendências modernas na normalização de informes: I. A normalização dos informes modernos busca adaptar os documentos técnicos às necessidades específicas de cada situação, ao invés de promover uma padronização rígida e inflexível. II. No campo da informação, o profissional desempenha um papel essencial na produção de documentos técnicos, como informes e laudos, que têm um impacto significativo sobre o Estado, as instituições, as empresas e os investidores. III. A eficácia dos documentos técnicos torna-se dependente principalmente da aplicação de padrões normativos gerais, sem considerar a experiência e o julgamento individual dos profissionais. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": ". I, apenas.",
+        "B": "II e III.",
+        "C": "III, apenas.",
+        "D": "I e III.",
+        "E": "II, apenas."
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 33,
+      "secao": "S5",
+      "source": "modulo",
+      "enunciado": "A ética deontológica é muitas vezes associada ao filósofo Immanuel Kant. De acordo com a ética deontológica, a moralidade de uma ação é determinada por sua conformidade com um conjunto de regras ou deveres, e não pelos resultados que ela produz. As principais características das regras deontológicas incluem: Princípio da Deontologia, Universalidade, Respeito aos Outros e Dever Moral. Considerando os princípios da ética deontológica, assinale a alternativa que reflete corretamente a essência dessa abordagem ética.",
+      "alternativas": {
+        "A": "A ética deontológica avalia a moralidade de uma ação com base em suas consequências diretas e nos resultados finais produzidos pela ação.",
+        "B": "A ética deontológica se concentra especificamente na análise das intenções pessoais por trás das ações, desconsiderando a conformidade com normas universais.",
+        "C": "A ética deontológica enfatiza a importância de seguir normas morais universais e princípios, independentemente dos resultados que as ações possam gerar.",
+        "D": "A ética deontológica permite o ajustamento dos deveres morais com base nas circunstâncias específicas e as necessidades individuais, adaptando a aplicação das regras.",
+        "E": "A ética deontológica adota uma abordagem situacional, onde o cumprimento dos deveres morais depende do contexto em que a ação é realizada."
+      },
+      "gabarito": "C",
+      "explicacao": ""
+    },
+    {
+      "id": 34,
+      "secao": "S5",
+      "source": "modulo",
+      "enunciado": "A ética profissional desempenha um papel crucial em todas as esferas de trabalho, pois estabelece os padrões para a prática ética e para a construção de uma reputação sólida e confiável. A ética profissional se baseia em três pilares principais: Integridade, Responsabilidade e Respeito. A dedicação à ética profissional contribui para um ambiente de trabalho mais justo, transparente e respeitável, beneficiando todos os envolvidos e fortalecendo a sociedade como um todo. Com base na temática sobre a ética profissional, identifique e associe corretamente as ideias referentes aos conceitos e às sentenças. Considere que nem todos os itens das colunas podem possuir associação ou podem possuir mais de uma correlação. Conceitos I. Normas de conduta que orientam os comportamentos e decisões dos profissionais. II. Princípios que vão além de leis e regulamentos, promovendo confiança e bem-estar. III. Guia para a construção de um ambiente de trabalho justo e ético. Sentenças",
+      "alternativas": {
+        "A": "I-A; II-D; III-B",
+        "B": "I-D; II-B; III-A",
+        "C": "I-B; II-C; III-A",
+        "D": "I-C; II-A; III-D",
+        "E": "I-D; II-A; III-C"
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 35,
+      "secao": "S5",
+      "source": "modulo",
+      "enunciado": "No ambiente de trabalho, questões éticas frequentemente emergem diante de dilemas que envolvem a tomada de atitudes responsáveis e retas. Diferentes profissões criaram códigos que orientam comportamentos esperados e ajudam a definir condutas apropriadas. Esses códigos, por sua vez, têm suas bases em princípios fundamentais que norteiam as ações humanas no contexto profissional. Com base nesse contexto, assinale a alternativa que define o conceito de ética profissional.",
+      "alternativas": {
+        "A": "A ética profissional envolve decisões baseadas em diretrizes organizacionais e institucionais com metas estabelecidas para atender a demandas práticas e coletivas.",
+        "B": "As práticas, no contexto da ética no trabalho, estão centradas na execução eficiente de tarefas, priorizando resultados mensuráveis e objetivos acima de valores e normas culturais.",
+        "C": "A ética profissional consiste em comportamentos ajustados às percepções individuais de cada profissional, focados em atender necessidades específicas do ambiente em que atua.",
+        "D": "A ética profissional está diretamente associada ao cumprimento de regulamentações legais e à intuição na aplicação de princípios culturais ou coletivos.",
+        "E": "O conceito de ética profissional abrange princípios que orientam condutas justas e morais no trabalho, levando em consideração valores culturais, históricos e normas jurídicas."
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 36,
+      "secao": "S5",
+      "source": "modulo",
+      "enunciado": "Leia o texto a seguir: Importa destacar que o reconhecimento e a notoriedade adquiridos pelos profissionais ao cumprirem suas responsabilidades podem gerar uma expectativa de [preencher 1], que se traduz em apoio e confiança da sociedade. Consequentemente, muitos desses profissionais conseguem, com [preencher 2], ocupar cargos eletivos, aproveitando o prestígio conquistado por suas atuações. Os termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
+      "alternativas": {
+        "A": "1 - reciprocidade moral; 2 - facilidade tipicamente relativa",
+        "B": "1 - gratificação social prolongada; 2 - suporte político intrínseco",
+        "C": "1 - reconhecimento público institucional; 2 - legitimação popular espontânea",
+        "D": "1 - exigência ética coletiva; 2- ascensão social progressiva",
+        "E": "1- reciprocidade meritocrática; 2 - articulação estratégica"
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 37,
+      "secao": "S5",
+      "source": "modulo",
+      "enunciado": "O papel de qualquer profissional é gerar utilidade através de seu conhecimento e virtudes pessoais, assegurando a eficácia no uso da riqueza. Isso se traduz em informes, pareceres, laudos, estudos, planos e outras formas de contribuição técnica. Isso significa que os profissionais (peritos - no campo da justiça- e auditores - no campo da auditoria, por exemplo) devem assumir responsabilidades de alto teor e aplicar uma consciência rigorosa e específica em seu trabalho. Acerca do papel dos profissionais em contextos técnicos e judiciais, considere as afirmativas abaixo: I. Os profissionais que atuam especificamente como peritos judiciais devem garantir que suas análises e pareceres abstenham-se de influência nas decisões legais, mantendo uma postura neutra. II. A função de um auditor está direcionada para a certificação e a análise de dados, além de formar opiniões que são fundamentais para a emissão de pareceres detalhados e fundamentados. III. A \"fé pública\" atribuída aos informes e pareceres exige dos profissionais um compromisso com a precisão e integridade, o que é crucial para assegurar a justiça e o bem-estar social. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "I, II e III.",
+        "B": "I e II, apenas.",
+        "C": "II, apenas.",
+        "D": "II e III, apenas.",
+        "E": "I, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 38,
+      "secao": "S5",
+      "source": "modulo",
+      "enunciado": "Para pensar a ética do ponto de vista da aplicação prática na vida cotidiana, é essencial começar pelo entendimento do significado do trabalho. O trabalho transcende a simples execução de tarefas para se tornar um espaço onde os valores éticos e as virtudes profissionais se manifestam. A ética profissional, nesse contexto, não é apenas um conjunto de regras, mas um princípio orientador para a prática diária. Ao reconhecer o trabalho como um meio de expressão ética, os profissionais podem aplicar conceitos como honestidade, responsabilidade e respeito de maneira a promover um ambiente de trabalho justo e ético, que contribua tanto para o desenvolvimento pessoal quanto para o bem-estar social. Pensar a ética do ponto de vista da aplicação prática na vida cotidiana está fortemente atrelado à ética profissional. Considerando essa relação, a alternativa que melhor reflete o entendimento do significado do trabalho e sua conexão com a prática da ética profissional se verifica em:",
+      "alternativas": {
+        "A": "A ética no trabalho é uma questão secundária em relação ao cumprimento de leis e regulamentos, sendo que a prática da ética profissional não depende de uma compreensão profunda do trabalho como uma atividade significativa.",
+        "B": "O entendimento do trabalho como uma atividade que contribui para a realização pessoal e o bem-estar coletivo é essencial para aplicar a ética profissional de maneira eficaz na vida cotidiana.",
+        "C": "O significado do trabalho é exclusivamente uma fonte de rendimento financeiro, e a ética profissional emerge apenas como um conjunto de normas que devem ser seguidas para evitar punições legais.",
+        "D": "A ética profissional pode ser aplicada na vida cotidiana sem a necessidade de refletir sobre o significado do trabalho, focando apenas em cumprir as tarefas e responsabilidades estipuladas pelas leis e regulamentos.",
+        "E": "A ética profissional se manifesta principalmente através do cumprimento de regulamentos e leis, sem a necessidade de uma compreensão mais profunda do significado do trabalho na vida cotidiana."
+      },
+      "gabarito": "B",
+      "explicacao": ""
+    },
+    {
+      "id": 39,
+      "secao": "S5",
+      "source": "modulo",
+      "enunciado": "As teorias éticas do passado, como a ética das virtudes, a ética deontológica e o utilitarismo, abordavam a moralidade com um foco significativo nas relações entre as pessoas e na construção de uma vida moralmente boa. Cada abordagem tem, portanto, seus pontos fortes e suas limitações. Assinale a alternativa que reflete corretamente a comparação entre essas teorias e suas abordagens em relação à moralidade, às intenções e às consequências das ações.",
+      "alternativas": {
+        "A": "As teorias éticas atuais, como o utilitarismo, ignoram a importância das virtudes e deveres nas relações humanas, ao contrário das éticas do passado que se concentram especificamente em princípios universais.",
+        "B": "A ética deontológica e a ética das virtudes mantêm seus focos, sobretudo, nas consequências das ações, enquanto o utilitarismo examina a moralidade, com base em princípios universais e deveres.",
+        "C": "As éticas do passado tinham como finalidade focar mais nas intenções individuais, enquanto as teorias atuais concentram-se, de maneira efetiva, nas consequências das ações.",
+        "D": "A ética das virtudes e a ética deontológica estavam mais voltadas para as relações interpessoais, enquanto o utilitarismo aborda questões de bem-estar geral e as teorias atuais expandem essa abordagem para contextos mais amplos.",
+        "E": "As éticas do passado tinham como focos centrais a justiça global e os direitos humanos, enquanto as teorias éticas atuais mantinham o foco em virtudes e deveres caracteristicamente pessoais."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 40,
+      "secao": "S5",
+      "source": "modulo",
+      "enunciado": "As virtudes profissionais são qualidades essenciais que orientam a conduta ética e eficaz dos indivíduos em suas carreiras. Entre essas virtudes, destacam-se a honestidade, que garante a integridade nas ações e decisões; o sigilo, que protege informações confidenciais e respeita a privacidade; e a competência, que assegura que o profissional possui as habilidades e conhecimentos necessários para realizar suas tarefas com excelência. A prudência orienta o profissional a agir com cautela e reflexão, evitando decisões impulsivas. A coragem é a virtude que permite enfrentar desafios e tomar decisões difíceis, mesmo diante de adversidades. A perseverança reflete a capacidade de continuar trabalhando em busca de objetivos, mesmo frente a obstáculos. A compreensão promove a empatia e a capacidade de ouvir e entender os outros, enquanto a humildade incentiva o reconhecimento das próprias limitações e a busca contínua por aprimoramento. Finalmente, a imparcialidade assegura que decisões e julgamentos sejam feitos com justiça e sem preconceitos, mantendo a equidade nas relações profissionais. Essas virtudes não são apenas ideais, mas práticas essenciais que sustentam a confiança e a eficácia no ambiente profissional, promovendo um ambiente de trabalho ético e produtivo. Com base nas virtudes profissionais descritas, analise as afirmativas a seguir: I. A honestidade e o sigilo são virtudes interdependentes, pois a capacidade de manter sigilo sobre informações confidenciais deriva da honestidade do profissional em cumprir seus compromissos éticos. II. A competência e a prudência são virtudes que podem ser compensadas pela coragem e pela perseverança, sem necessidade de um equilíbrio entre todas as virtudes no desempenho profissional. III. A compreensão e a humildade são caracterizadas como virtudes que permitem aos profissionais reconhecer e valorizar diferentes perspectivas e aprender com suas próprias limitações. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "Apenas III.",
+        "B": "Apenas II.",
+        "C": "Apenas I.",
+        "D": "I e III, apenas.",
+        "E": "II e III, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 41,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "A diversidade humana abrange uma ampla gama de diferenças entre indivíduos, incluindo aspectos culturais, sociais, religiosos e de gênero. Essas variações não apenas enriquecem as interações humanas, mas também influenciam a maneira como as sociedades desenvolvem suas estruturas políticas e sociais. Considerando o impacto da diversidade na prática da cidadania e no fortalecimento das sociedades democráticas, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A promoção da diversidade não afeta significativamente a prática da cidadania, uma vez que os direitos e deveres dos cidadãos são estabelecidos independentemente das variações culturais e sociais existentes na sociedade.",
+        "B": "A integração de princípios de diversidade nas práticas de cidadania fortalece a democracia ao incentivar a participação ativa de diferentes grupos sociais, promover o respeito mútuo e a justiça social, e ao desafiar normas e práticas discriminatórias.",
+        "C": "A ênfase na diversidade pode levar a um relativismo cultural extremo, onde todas as práticas e crenças são igualmente aceitas, mesmo quando elas contradizem princípios fundamentais de direitos humanos e equidade.",
+        "D": "A valorização da diversidade pode resultar em uma sociedade fragmentada, onde as diferenças são enfatizadas a ponto de criar divisões entre grupos, ao invés de promover uma coesão social.",
+        "E": "A promoção da diversidade pode ser vista como um desafio para a construção de políticas públicas, pois a integração de múltiplas perspectivas pode complicar o processo de tomada de decisões e a criação de normas universais."
+      },
+      "gabarito": "B",
+      "explicacao": ""
+    },
+    {
+      "id": 42,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "A modernidade é um período marcado por profundas transformações nas formas de organização social, política e cultural. Nesse contexto, surgem debates sobre a centralidade do indivíduo, a busca por princípios universais e a valorização da liberdade e da autonomia como elementos essenciais para o progresso das sociedades. Essas ideias influenciaram diversas áreas do pensamento humano, incluindo a filosofia, o direito e a política, trazendo à tona discussões sobre os direitos e deveres dos indivíduos e as relações entre o poder do Estado e a liberdade pessoal. Com relação a este contexto e sobre o conteúdo estudado, analise as asserções a seguir e a relação proposta entre elas: I. O projeto civilizatório da modernidade é fundamentado em conceitos como universalidade, individualidade e autonomia, sendo essa matriz a base dos direitos fundamentais do ser humano. PORQUE II. Os direitos civis e políticos, como as liberdades de religião e expressão, direito ao voto e proteção contra abusos de poder, surgiram como reivindicações de autonomia e liberdade frente ao Estado. A respeito dessas asserções, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "As asserções I e II são falsas.",
+        "B": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "C": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "D": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "E": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I."
+      },
+      "gabarito": "C",
+      "explicacao": ""
+    },
+    {
+      "id": 43,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "A ética profissional transcende normas e regulamentações, estabelecendo diretrizes para condutas éticas em ambientes profissionais. Ao articular respeito, autonomia e direitos fundamentais, a dignidade humana se torna um marco civilizatório que orienta o comportamento ético nas relações de trabalho e impacta diretamente na forma como pessoas e organizações se relacionam. Com base na análise da relação entre a dignidade humana e a ética profissional, assinale a alternativa que apresenta como a dignidade humana fundamenta as condutas éticas nas relações de trabalho.",
+      "alternativas": {
+        "A": "A dignidade humana guia a ética profissional por meio da adequação de comportamentos aos interesses institucionais e sociais.",
+        "B": "A aplicação da dignidade humana nas relações de trabalho é definida por regulamentações jurídicas em contextos profissionais.",
+        "C": "O reconhecimento da dignidade humana estabelece condutas éticas baseadas no valor específico e nos direitos inalienáveis dos indivíduos.",
+        "D": "A dignidade humana é um princípio ético que orienta ações profissionais por meio do cumprimento de normas específicas, com foco em condutas institucionais.",
+        "E": "A dignidade humana fundamenta padrões éticos que se aplicam em organizações que priorizam a autonomia dos seus profissionais."
+      },
+      "gabarito": "C",
+      "explicacao": ""
+    },
+    {
+      "id": 44,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "O direito é amplamente considerado uma criação humana que se molda a diferentes realidades sociais e históricas, sendo desenvolvido para regular relações, resolver conflitos e promover a justiça dentro de um determinado contexto. Esse conceito permite interpretações variadas sobre a natureza e a função do direito em diversas sociedades. Com base nisso, escolha a alternativa que identifica corretamente essa concepção do direito.",
+      "alternativas": {
+        "A": "O direito deve ser interpretado de maneira estrita e literal, independentemente das mudanças sociais, para garantir a estabilidade e a previsibilidade das normas jurídicas.",
+        "B": "A função do direito é preservar uma ordem social idealizada, baseada em valores universais e eternos, que transcendem as particularidades de cada sociedade.",
+        "C": "A essência do direito reside em princípios abstratos de justiça que não variam com as mudanças culturais e sociais, sendo aplicáveis uniformemente em qualquer contexto.",
+        "D": "O direito é um conjunto de normas fixas e universais que derivam de princípios imutáveis da natureza humana, aplicáveis de forma idêntica em todas as sociedades.",
+        "E": "O direito é uma produção coletiva, dinâmica e evolutiva, que atende às necessidades específicas e concretas das relações sociais em diferentes contextos históricos e culturais."
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 45,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "O respeito pelas identidades, gêneros, comportamentos, visões de mundo e manifestações culturais é fundamental para o fortalecimento da cidadania e da democracia. Ao aplicar esses princípios, construímos uma sociedade onde todos têm a oportunidade de participar plenamente e de serem reconhecidos em sua singularidade. Neste contexto, sobre a integração dos princípios de ética e cidadania com um compromisso com a diversidade e a inclusão contribui para o fortalecimento da democracia e a construção de uma sociedade mais justa, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A ética e a cidadania apenas garantem que os direitos básicos sejam respeitados, enquanto a diversidade e a inclusão são aspectos secundários no fortalecimento da democracia e da justiça social.",
+        "B": "A cidadania consegue se fortalecer quando a ética é aplicada de maneira rígida e uniforme, deixando de considerar as diferentes realidades tanto culturais quanto sociais dos indivíduos.",
+        "C": "A diversidade e a inclusão podem ser consideradas desnecessárias para o fortalecimento da cidadania, desde que existam leis e normas que garantam direitos iguais para todos os cidadãos.",
+        "D": "A ética e a cidadania, quando combinadas com um forte compromisso com a diversidade e a inclusão, promovem uma participação mais rica e equitativa na democracia, permitindo que diferentes identidades e perspectivas sejam reconhecidas e valorizadas.",
+        "E": "O compromisso com a diversidade e a inclusão é um conceito recente que, embora importante, não tem um impacto significativo no fortalecimento da cidadania e da democracia comparado às tradições e normas estabelecidas."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 46,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "A dignidade humana é um princípio central nas teorias contemporâneas de direitos humanos e justiça social. Reconhecida como um valor fundamental, a dignidade humana não se limita a um aspecto específico da vida das pessoas, mas abrange um amplo espectro de direitos e condições que são essenciais para uma vida digna. Este princípio é manifestado tanto nos direitos civis e políticos quanto nos direitos econômicos, sociais e culturais, refletindo uma visão integral e interdependente da dignidade humana. Sobre o conceito moderno de dignidade humana e sua aplicação nas teorias contemporâneas de direitos humanos e justiça social, analise as afirmativas a seguir: I. A dignidade humana é um conceito abstrato que se limita a uma reflexão filosófica sem implicações práticas diretas para a formulação de políticas públicas e a proteção dos direitos dos indivíduos. II. A dignidade humana é um princípio que se aplica exclusivamente aos direitos civis e políticos, sendo menos relevante para os direitos econômicos, sociais e culturais. III. A dignidade humana é um princípio universal que demanda a consideração de todos os direitos humanos, civis, políticos, econômicos, sociais e culturais, refletindo uma visão interdependente e integrada dos direitos e da justiça social. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "I e III, apenas.",
+        "B": "II e III, apenas.",
+        "C": "III, apenas.",
+        "D": "II, apenas.",
+        "E": "I e II, apenas."
+      },
+      "gabarito": "C",
+      "explicacao": ""
+    },
+    {
+      "id": 47,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "No âmbito da fundamentação tanto filosófica quanto jurídica dos direitos humanos, foram implementadas três concepções principais que oferecem diferentes perspectivas sobre a origem, a natureza e a aplicação desses direitos: as idealistas, as jurídico-positivistas e as histórico-estruturais. Considerando as três principais concepções dos direitos humanos – idealista, jurídico-positivista e histórico-estrutural, sobre a análise crítica das interações e contrastes, observe as afirmativas a seguir: I. A concepção idealista vê os direitos humanos como universais e baseados em princípios morais fundamentais, enquanto a visão jurídico-positivista os considera produtos das leis criadas pelos países e a perspectiva histórico-estrutural analisa como esses direitos mudam com o tempo e os contextos culturais. II. A visão jurídico-positivista dos direitos humanos argumenta que esses direitos são apenas aplicáveis se estiverem escritos em leis, indiferente aos princípios éticos ou à evolução histórica, enquanto a perspectiva idealista vê os direitos como princípios imutáveis. III. A abordagem histórico-estrutural sugere que os direitos humanos devem ser adaptados às necessidades culturais locais, em contraste com a perspectiva idealista que considera esses direitos como universais e a abordagem jurídico-positivista que se concentra na aplicação legal. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "I, apenas.",
+        "B": "I, II e III, apenas.",
+        "C": "II e III, apenas.",
+        "D": "III, apenas.",
+        "E": "II, apenas."
+      },
+      "gabarito": "B",
+      "explicacao": ""
+    },
+    {
+      "id": 48,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "Os conceitos de dignidade humana e direitos individuais, como os entendemos hoje, evoluíram ao longo do tempo e apresentam diferenças significativas em relação à forma como o status de humanidade era compreendido nas sociedades clássicas. Nas sociedades antigas, o valor do indivíduo e seus direitos variavam conforme seu papel e posição social. Com base nessas diferenças, assinale a alternativa que interpreta corretamente a distinção entre os conceitos modernos de dignidade humana e direitos individuais e a visão das sociedades clássicas.",
+      "alternativas": {
+        "A": "A visão moderna de dignidade humana é baseada na ideia de que os direitos individuais são garantidos por leis e constituições, enquanto nas sociedades clássicas, a dignidade humana era reconhecida apenas entre os cidadãos livres.",
+        "B": "A tradição greco-cristã e o Iluminismo têm em comum o foco na aplicação prática de direitos individuais para as elites, sem alterar a concepção de status social das sociedades clássicas.",
+        "C": "Nas sociedades clássicas, todos os indivíduos, independentemente de sua posição social, eram vistos como tendo dignidade e direitos iguais, uma ideia que foi refinada e expandida pela tradição greco-cristã e pelo Iluminismo.",
+        "D": "Os conceitos modernos de dignidade e direitos humanos foram inicialmente rejeitados pelas sociedades clássicas, mas foram posteriormente incorporados sem modificações durante a tradição greco-cristã e o Iluminismo.",
+        "E": "O conceito moderno de dignidade e direitos individuais defende que todos os seres humanos possuem direitos e valores intransferíveis, enquanto nas sociedades clássicas o status de humanidade era determinado pela posição social e papel específico na sociedade."
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 49,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "Quando os direitos são ampliados, o padrão de cidadania em uma sociedade democrática também se eleva. Esse processo permite um exercício mais profundo e abrangente da cidadania, no qual as pessoas não apenas beneficiam de maior proteção e liberdade, mas também têm mais oportunidades para atuarem de forma engajada e informada nos mecanismos igualitários. Sobre a relação entre a ampliação dos direitos e a cidadania em uma sociedade democrática, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A ampliação dos direitos pode ser um catalisador para o fortalecimento da cidadania e da democracia caso haja um consenso amplo sobre a necessidade desses novos direitos na sociedade.",
+        "B": "A ampliação dos direitos torna-se um mecanismo eficaz para fortalecer a cidadania e a democracia quando resulta em uma redução significativa das desigualdades econômicas e sociais.",
+        "C": "A ampliação dos direitos pode levar a uma maior participação cidadã e ao fortalecimento da democracia, se for acompanhada de uma reformulação das instituições políticas para acomodar as novas demandas.",
+        "D": "A promoção de novos direitos pode, a curto prazo, criar tensões sociais e desafios para as instituições democráticas, de modo que esses desafios sejam vistos como obstáculos temporários ao progresso da democracia.",
+        "E": "A eficácia da ampliação dos direitos para fortalecer a cidadania e a democracia depende tanto da capacidade das instituições de implementar essas mudanças quanto da participação ativa e informada dos cidadãos no processo democrático."
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 50,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "A diversidade humana abrange uma ampla gama de diferenças entre indivíduos, incluindo aspectos culturais, sociais, religiosos e de gênero. Essas variações não apenas enriquecem as interações humanas, mas também influenciam a maneira como as sociedades desenvolvem suas estruturas políticas e sociais. Considerando o impacto da diversidade na prática da cidadania e no fortalecimento das sociedades democráticas, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A promoção da diversidade não afeta significativamente a prática da cidadania, uma vez que os direitos e deveres dos cidadãos são estabelecidos independentemente das variações culturais e sociais existentes na sociedade.",
+        "B": "A integração de princípios de diversidade nas práticas de cidadania fortalece a democracia ao incentivar a participação ativa de diferentes grupos sociais, promover o respeito mútuo e a justiça social, e ao desafiar normas e práticas discriminatórias.",
+        "C": "A ênfase na diversidade pode levar a um relativismo cultural extremo, onde todas as práticas e crenças são igualmente aceitas, mesmo quando elas contradizem princípios fundamentais de direitos humanos e equidade.",
+        "D": "A valorização da diversidade pode resultar em uma sociedade fragmentada, onde as diferenças são enfatizadas a ponto de criar divisões entre grupos, ao invés de promover uma coesão social.",
+        "E": "A promoção da diversidade pode ser vista como um desafio para a construção de políticas públicas, pois a integração de múltiplas perspectivas pode complicar o processo de tomada de decisões e a criação de normas universais."
+      },
+      "gabarito": "B",
+      "explicacao": ""
+    },
+    {
+      "id": 51,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "O conceito de pessoa e de dignidade humana é um fenômeno relativamente recente na história da cultura, da política e da sociedade. Embora as ideias sobre a individualidade e o valor intrínseco do ser humano tenham raízes antigas, foi apenas nas últimas centenas de anos que essas ideias foram amplamente desenvolvidas e aceitas em diversas esferas da sociedade. Considerando a evolução histórica do conceito de pessoa e de dignidade humana, sobre como essas ideias foram desenvolvidas e aceitas na sociedade, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A Revolução Industrial foi o principal período de desenvolvimento do conceito de pessoa e dignidade humana, graças ao progresso tecnológico e ao aumento da produção em massa.",
+        "B": "O conceito de pessoa e dignidade humana só se tornou relevante após a Segunda Guerra Mundial, com a Declaração Universal dos Direitos Humanos, sendo ignorado antes desse período.",
+        "C": "O conceito de pessoa e dignidade humana foi integralmente desenvolvido na antiguidade clássica, sendo plenamente reconhecido nas esferas culturais, políticas e sociais daquela época.",
+        "D": "Foi durante o Iluminismo, nos séculos XVII e XVIII, que as ideias de pessoa e dignidade humana foram amplamente desenvolvidas e começaram a ser aceitas em diversas esferas da sociedade, influenciando a política e a cultura contemporâneas.",
+        "E": "As ideias sobre individualidade e valor intrínseco do ser humano tiveram um grande desenvolvimento durante a Idade Média, principalmente com o advento do feudalismo e da cultura monástica."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 52,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "A Constituição Federal de 1988 estabelece uma série de princípios e garantias fundamentais que orientam o funcionamento do Estado brasileiro, incluindo a proteção dos direitos fundamentais e a necessidade de fundamentação nas decisões judiciais. Esses princípios refletem a visão da Constituição sobre a organização e as responsabilidades do Estado. Considerando a importância da dignidade da pessoa humana e do Estado Social na Constituição Federal de 1988, observe as seguintes afirmativas: I. A dignidade da pessoa humana é um princípio fundamental que deve orientar todas as ações do Estado e garantir que os direitos fundamentais sejam protegidos contra qualquer forma de violação. II. A Constituição de 1988 adota o paradigma do Estado Social, que implica a responsabilidade do Estado em promover políticas públicas de caráter redistributivo e assegurar os direitos sociais, econômicos e culturais. III. A exigência de fundamentar as decisões judiciais garante que estas estejam alicerçadas em princípios constitucionais e direitos fundamentais, promovendo a transparência e a responsabilização do Poder Judiciário. IV. A fundamentação das decisões judiciais permite que o Judiciário limite ou suspenda direitos fundamentais em situações excepcionais, desde que haja uma justificativa detalhada e a decisão esteja em conformidade com os princípios constitucionais. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "I, III e IV, apenas.",
+        "B": "I, II, III e IV.",
+        "C": "I, II e IV, apenas.",
+        "D": "II, III e IV, apenas.",
+        "E": "I, II e III, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 53,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "“Dessa forma, para a República Federativa do Brasil, como um Estado Democrático de Direito, a dignidade humana é um princípio matriz de onde decorrem todos os demais direitos fundamentais, tais como o direito à vida, à intimidade, à honra, à imagem, dentre outros, estabelecendo o ser humano e sua dignidade como premissas do Estado Brasileiro.” (Arakaki; Viero, 2018). ARAKAKI, Fernanda Franklin Seixas; VIERO, Guérula Mello. Direitos humanos [recurso eletrônico]. [revisão técnica: Renato Selayaram]. – Porto Alegre: SAGAH, 2018, p.153. Considerando que, para a República Federativa do Brasil como um Estado Democrático de Direito, a dignidade humana é um princípio matriz de onde decorrem todos os demais direitos fundamentais, analise as seguintes afirmativas: I. A dignidade humana, como princípio matriz, não apenas orienta a interpretação dos direitos fundamentais, mas também estabelece a obrigação do Estado de garantir a igualdade material, implementando políticas públicas redistributivas e afirmativas. II. O princípio da dignidade humana na Constituição de 1988 confere ao Judiciário a capacidade de revisar e anular atos legislativos e executivos que violem direitos fundamentais, mesmo que tais atos tenham sido aprovados conforme os procedimentos democráticos. III. A Constituição de 1988 estabelece que a proteção à dignidade humana é uma premissa fundamental do Estado Brasileiro, influenciando a elaboração e a interpretação das leis, e servindo como critério de validade para todas as normas jurídicas. IV. O princípio da dignidade humana garante que a implementação de políticas públicas deve não só respeitar os direitos fundamentais, mas também promover a justiça social. No entanto, o Judiciário pode intervir quando houver violações de direitos fundamentais, ainda que a formulação dessas políticas seja prerrogativa do Executivo. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "III e IV, apenas.",
+        "B": "III, apenas.",
+        "C": "II e III, apenas.",
+        "D": "I e II, apenas.",
+        "E": "I, II e IV, apenas."
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 54,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "A inclusão social é um tema central em debates contemporâneos, com fortes implicações na construção de sociedades mais justas e equitativas. Para isso, diferentes perspectivas éticas e legais contribuem com princípios e ações que buscam reduzir desigualdades e promover oportunidades iguais para todos. Nesse sentido, assinale a alternativa que contém a relação entre ética, inclusão e direitos humanos.",
+      "alternativas": {
+        "A": "A ética fundamenta a inclusão ao considerar os direitos humanos como princípios que orientam ações voltadas à garantia de igualdade para todas as pessoas.",
+        "B": "A ética e os direitos humanos possuem abordagens complementares, sendo a ética responsável por orientar valores e os direitos humanos por garantir padrões normativos.",
+        "C": "A inclusão está vinculada à ética, promovendo igualdade em diversos âmbitos, enquanto os direitos humanos focam na redução das desigualdades sociais.",
+        "D": "A ética orienta a inclusão em situações sociais e culturais específicas, enquanto os direitos humanos buscam garantir a igualdade em diferentes contextos.",
+        "E": "A inclusão está relacionada à aplicação dos direitos humanos, e a ética avalia os impactos das ações voltadas para a promoção da justiça social."
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 55,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "O conceito de dignidade humana, amplamente discutido na filosofia ética e política, tem um papel central na obra de Immanuel Kant. Esse princípio reflete a ideia de que os seres humanos possuem um valor intrínseco, devendo ser tratados como fins em si mesmos. O impacto desse conceito pode ser observado tanto no campo moral quanto na formulação de leis e políticas públicas. Com base na teoria kantiana de dignidade humana e sua aplicação em direitos individuais e legislação, analise as afirmativas a seguir: I. Segundo Kant, considera-se a dignidade humana como um valor absoluto e intrínseco que deve ser a base para a formulação de leis e políticas públicas, assegurando que todas as pessoas sejam tratadas como fins em si mesmas e nunca como meios para alcançar outros objetivos. II. A filosofia kantiana propõe que a dignidade humana é um conceito que pode ser interpretado de forma relativa, dependendo do contexto cultural e histórico em que os direitos são aplicados, refletindo uma flexibilidade na aplicação prática do princípio da dignidade humana. III. A teoria ética de Kant sustenta que a dignidade humana é um princípio universal e inalienável que deve ser respeitado em todas as circunstâncias, mas não necessariamente incorpora a ideia de que esse princípio deve ser a base para a criação de leis que promovam a justiça social. IV. Kant argumenta que a dignidade humana é considerada um princípio ético abstrato que, apesar de ser fundamental na filosofia moral, não é capaz de traduzir, de modo direto, em políticas públicas ou leis práticas, com a finalidade de manter a proteção dos direitos individuais. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "III e IV, apenas.",
+        "C": "I e III, apenas.",
+        "D": "I e II, apenas.",
+        "E": "I, apenas."
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 56,
+      "secao": "S6",
+      "source": "modulo",
+      "enunciado": "Os códigos de ética refletem compromissos entre grupos sociais para estabelecer identidades e orientar ações baseadas em princípios éticos universais. Esses códigos ajudam a estabelecer parâmetros que favorecem a convivência social, com base em princípios que buscam equilíbrio e entendimento mútuo. Com base no texto apresentado, assinale a alternativa que contém o papel da ética na inclusão e respeito à diversidade humana.",
+      "alternativas": {
+        "A": "A ética promove a convivência entre grupos, estabelecendo normas gerais que orientam o comportamento e criam condições para interações baseadas em harmonia cultural.",
+        "B": "O objetivo dos códigos de ética é organizar os comportamentos sociais, regulando ações e garantindo uniformidade em situações envolvendo grupos diversos.",
+        "C": "Os códigos de ética asseguram condutas padronizadas para fortalecer as identidades coletivas dos grupos sociais, garantindo sua adaptação às regras dos ambientes culturais.",
+        "D": "A ética se fundamenta na dignidade humana, que promove inclusão e respeito à diversidade e orienta as relações para um ambiente de bem-estar no contexto sociocultural.",
+        "E": "A ética define diretrizes para regular a convivência social, buscando alinhar expectativas culturais por meio de normas adequadas a diferentes contextos e ambientes."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 57,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "A dignidade humana, conceito fundamental e universalmente reconhecido, orienta práticas éticas que buscam equilibrar o uso dos recursos naturais e a proteção dos direitos humanos. A sustentabilidade, como princípio ético, está intimamente relacionada a essa perspectiva, visando atender às necessidades presentes sem comprometer as futuras gerações. De acordo com o apresentado, assinale a alternativa que analisa corretamente como a dignidade humana fundamenta a relação entre ética e sustentabilidade.",
+      "alternativas": {
+        "A": "A dignidade humana justifica o uso moderado dos recursos, favorecendo práticas que garantam a continuidade da vida social e ambiental.",
+        "B": "O reconhecimento jurídico da dignidade humana assegura a adoção de práticas éticas que priorizam as demandas sociais.",
+        "C": "A ética garante que a dignidade humana determine a exploração de recursos para atender às necessidades individuais.",
+        "D": "O equilíbrio entre dignidade e sustentabilidade implica que os recursos naturais sejam considerados inatingíveis por ações humanas.",
+        "E": "A sustentabilidade reflete a universalidade da dignidade humana ao orientar a utilização responsável dos recursos naturais."
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 58,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "A ética empresarial é um conceito central na promoção da sustentabilidade dentro de uma organização, e sua eficácia depende de um esforço conjunto entre ações individuais, governamentais e de instituições privadas. Para que uma empresa possa realmente promover a sustentabilidade, é necessário que suas práticas éticas sejam integradas em todos os níveis de operação e se articulem com ações mais amplas da sociedade. Desde a gestão eficiente de recursos até a escolha de fornecedores com compromissos sustentáveis, as ações individuais formam a base para uma cultura corporativa voltada para a sustentabilidade. Com base no apresentado, identifique e associe corretamente as ideias que dizem respeito à ética empresarial e à sustentabilidade. Considere que nem todos os itens das colunas podem possuir associação ou podem possuir mais de uma correlação. Conceitos: I. Integração das práticas éticas em todos os níveis de operação. II. Escolha de fornecedores com compromissos sustentáveis. III. Necessidade de um esforço conjunto entre ações individuais, governamentais e de instituições privadas. Sentenças:",
+      "alternativas": {
+        "A": "I-B; II-A; III-D",
+        "B": "I-A; II-C; III-B",
+        "C": "I-C; II-A; III-D",
+        "D": "I-B; II-D; III-A",
+        "E": "I-D; II-B; III-C"
+      },
+      "gabarito": "E",
+      "explicacao": ""
+    },
+    {
+      "id": 59,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "A produção do conhecimento é guiada por um conjunto de regras e diretrizes que asseguram que as práticas de pesquisa sejam realizadas de maneira ética e responsável. Em muitas áreas do conhecimento, as pesquisas envolvem interações com seres humanos, animais e o meio ambiente, o que exige a observância de princípios éticos rigorosos. Quando uma pesquisa envolve seres humanos, a criação de um ambiente ético se torna especialmente importante. Isso significa que os pesquisadores devem seguir normas que garantam o respeito pela dignidade, direitos e segurança dos participantes. As regras éticas incluem [preencher 1], a proteção da privacidade e [preencher 2]. Os termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
+      "alternativas": {
+        "A": "1 \"o registro de todas as interações com os participantes\" - 2 \"a obtenção de aprovações institucionais\"",
+        "B": "1 \"a garantia da confidencialidade dos dados\" - 2 \"a realização de avaliações de risco-benefício\"",
+        "C": "1 \"a transparência na comunicação dos resultados\" - 2 \"a compensação financeira adequada para os participantes\"",
+        "D": "1 \"a obtenção de consentimento informado\" - 2 \"a garantia de que os benefícios da pesquisa superem os riscos\"",
+        "E": "1 \"a inclusão de protocolos de segurança para animais\" - 2 \"o cumprimento de regulamentações governamentais\""
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 60,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "A construção do conhecimento científico ocorre dentro de uma estrutura institucional que requer normas e regulamentações para garantir práticas éticas e padronizadas na produção de pesquisas e dessa forma tornar com equidade e transparência essa transmissão de conhecimento. Com relação ao assunto abordado, analise as asserções a seguir e a relação proposta entre elas: I. A ABNT (Associação Brasileira de Normas Técnicas) é responsável por criar normas que orientam a produção e apresentação de conhecimento científico, abrangendo aspectos técnicos e éticos, como formatação de trabalhos acadêmicos, citação de fontes e apresentação de resultados. PORQUE II. As normas da ABNT visam a garantir a integridade e o rigor da pesquisa científica. A padronização proporcionada pela ABNT é capaz de facilitar tanto a leitura como a compreensão dos textos científicos, além de garantir que todos os documentos sigam um padrão uniforme. A respeito dessas asserções, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "B": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "C": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "D": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "E": "As asserções I e II são falsas."
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 61,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "Leia o trecho a seguir: A sustentabilidade está profundamente entrelaçada com a ética na gestão empresarial, abrangendo tanto os recursos materiais quanto os humanos disponíveis. Do ponto de vista ético, uma empresa não deve apenas buscar a maximização dos lucros, mas também considerar o impacto de suas operações no meio ambiente e na sociedade. Recursos materiais, como matérias-primas e energia, devem ser utilizados de maneira responsável e eficiente. A integração de práticas sustentáveis nas operações empresariais pode envolver [preencher 1] e [preencher 2], que ajudam a garantir que as operações empresariais não apenas respeitem os limites ambientais, mas também promovam o bem-estar das comunidades envolvidas. Os termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
+      "alternativas": {
+        "A": "1 \"a inovação tecnológica\" - 2 \"a competição entre empresas\"",
+        "B": "1 \"a externalização de custos ambientais\"- 2 \"a maximização do retorno financeiro\"",
+        "C": "1 \"a gestão de resíduos\" - 2 \"a transparência com parceiros\"",
+        "D": "1 - a redução de desperdícios ; 2 - a promoção da justiça social",
+        "E": "1 \"a maximização dos lucros\" - 2 \"a minimização dos custos operacionais\""
+      },
+      "gabarito": "D",
+      "explicacao": ""
+    },
+    {
+      "id": 62,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "O envolvimento ético é essencial em todas as etapas da pesquisa científica, desde a definição do tópico até a divulgação dos resultados. Na definição do tópico, o pesquisador deve escolher questões que não apenas avancem o conhecimento, mas também respeitem normas éticas e sociais. Na seleção dos participantes, é fundamental garantir que todos sejam tratados com justiça e que sua participação seja baseada em consentimento informado e voluntário. Durante a execução da pesquisa, o compromisso com a honestidade, a integridade e a transparência assegura a coleta e análise de dados de maneira objetiva e ética. Finalmente, na divulgação dos achados, a clareza e a precisão na apresentação dos resultados são indispensáveis para a credibilidade da pesquisa e o avanço do conhecimento. Considerando a importância dos princípios éticos ao longo do processo de pesquisa, assinale a alternativa que apropriadamente reconhece um desafio ético complexo que pode surgir na fase de execução da pesquisa.",
+      "alternativas": {
+        "A": "Implementar mudanças na metodologia durante a pesquisa para melhorar a qualidade dos dados, sem informar a mudança aos participantes do estudo.",
+        "B": "Realizar uma análise preliminar dos dados antes da coleta final para ajustar a hipótese inicial com base nos primeiros achados.",
+        "C": "Usar uma abordagem metodológica padronizada para garantir a comparabilidade dos resultados com estudos anteriores.",
+        "D": "Expandir a amostra do estudo, negligenciando a reavaliação dos riscos potenciais, ainda que obtenha novo consentimento informado dos participantes envolvidos.",
+        "E": "Publicar os resultados da pesquisa apenas em uma revista de acesso aberto para garantir que um público amplo tenha acesso às informações."
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 63,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "O terceiro e mais recente aspecto da formação da sociedade tecnológica é a automação, um fenômeno amplamente impulsionado pela invenção do computador. Desde sua criação, o computador transformou radicalmente a maneira como vivemos e trabalhamos, dando origem a um novo paradigma de automação que afeta todos os setores da sociedade. Automação refere-se ao uso de tecnologias para realizar tarefas de maneira mais [preencher 1] e [preencher 2], reduzindo a necessidade de intervenção humana. O advento do computador possibilitou que tarefas complexas e repetitivas, antes realizadas manualmente, fossem automatizadas. Isso inclui a automação de processos industriais, como a fabricação em linha de montagem, e tarefas administrativas, como o gerenciamento de dados e a realização de cálculos complexos. Além disso, aspectos do cotidiano, como a automação residencial e a assistência virtual, se tornaram mais comuns. Os termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
+      "alternativas": {
+        "A": "1 \"rápida\" - 2 \"precisa\"",
+        "B": "1 \"manual\" - 2 \"imprecisa\"",
+        "C": "1 \"ineficiente\" - 2 \"pouco confiável\"",
+        "D": "1 \"demorada\" - 2 \"complexa\"",
+        "E": "1 \"limitada\" - 2 \"custosa\""
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 64,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "Os documentos necessários para a realização de pesquisas variam conforme a natureza e os requisitos do estudo, mas incluem um projeto detalhado, autorizações éticas emitidas por comitês especializados, termos de consentimento livre e esclarecido, cronogramas, instrumentos de coleta de dados, além de relatórios de impacto e justificativas técnicas do projeto. Com relação a este contexto e sobre o conteúdo estudado, analise as asserções a seguir e a relação proposta entre elas: I. A pesquisa no Brasil é regida pelas Resoluções n.º 196/1996 e n.º 466/2012, que estabelecem diretrizes éticas e normas para estudos envolvendo seres humanos, sob supervisão da Comissão Nacional de Ética em Pesquisa (CONEP). PORQUE II. A CONEP é responsável pela supervisão, garantindo que as pesquisas sigam essas diretrizes e cumpram os princípios éticos exigidos, promovendo a integridade e a transparência nos estudos científicos realizados no país. A respeito dessas asserções, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "B": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "C": "As asserções I e II são falsas.",
+        "D": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "E": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I."
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 65,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "Leia o trecho a seguir: A ética desempenha um papel fundamental na produção do conhecimento científico, garantindo que a pesquisa e a disseminação de informações sejam conduzidas de maneira responsável e justa. A produção do conhecimento científico não se limita a descobertas e inovações, mas também envolve a adesão a princípios éticos que asseguram a integridade do processo científico. Esses critérios éticos incluem a honestidade na coleta e apresentação de dados, o respeito pelos participantes da pesquisa, e a transparência na divulgação dos resultados. A prática ética na pesquisa deve, portanto, envolver [preencher 1] e [preencher 2], que são essenciais para manter a confiança pública na ciência e promover a qualidade e a confiabilidade das descobertas. Os termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
+      "alternativas": {
+        "A": "1 \"a integridade na manipulação dos dados\" - 2 \"a transparência na metodologia\"",
+        "B": "1 \"o uso de softwares avançados\" - 2 \"a redução de tempo de pesquisa\"",
+        "C": "1 \"a proteção contra falhas de segurança\" - 2 \"a revisão constante de hipóteses\"",
+        "D": "1 \"a comunicação interna entre equipes\" - 2 \"a revisão por supervisores internos\"",
+        "E": "1 \"a participação de pesquisadores externos\" - 2 \"a submissão contínua de relatórios\""
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 66,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "Quando um estudo inclui aplicações ou interações online, a preocupação com a ética deve ser redobrada, especialmente no que se refere ao anonimato e à proteção dos dados dos participantes. A natureza digital das interações web introduz desafios únicos para garantir a segurança e a privacidade das informações. Em um ambiente online, os dados dos participantes podem estar mais expostos a riscos de violação de segurança e acessos não autorizados. A proteção da identidade dos indivíduos e a segurança das informações coletadas exigem medidas rigorosas para evitar a coleta indevida de dados, o compartilhamento não autorizado e o uso inadequado das informações pessoais. Sobre os desafios éticos em estudos online, analise as seguintes afirmativas a seguir: 1. O anonimato dos participantes que acontece em pesquisas online pode ser garantido unicamente por técnicas de criptografia avançadas, sem necessidade de outras medidas éticas. 2. A coleta de dados em ambientes online pode ser realizada de maneira ética sem considerar as questões de consentimento informado, desde que os dados sejam anonimizados. 3. Em estudos online, é fundamental que os pesquisadores criem medidas de segurança robustas para proteger a privacidade dos participantes e garantam a transparência na coleta e uso dos dados. 4. A ética na pesquisa online deve incluir uma análise crítica dos impactos potenciais das interações digitais, considerando a acessibilidade dos participantes e a transparência nas práticas de coleta e divulgação dos dados. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "III e IV, apenas.",
+        "B": "I e III, apenas.",
+        "C": "II e III, apenas.",
+        "D": "II e IV, apenas.",
+        "E": "I e II, apenas."
+      },
+      "gabarito": "A",
+      "explicacao": ""
+    },
+    {
+      "id": 67,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "A ética é fundamental no desenvolvimento de pesquisas, assegurando responsabilidade ao longo de todo o processo. O pesquisador deve refletir sobre as consequências de suas ações e garantir que sua abordagem esteja de acordo com princípios responsáveis, promovendo um ambiente justo e científico. Nesse sentido, assinale a alternativa que traz um princípio da ética na pesquisa.",
+      "alternativas": {
+        "A": "A aplicação ética na pesquisa foca na veracidade dos dados apresentados nos relatórios finais.",
+        "B": "O envolvimento ético na pesquisa envolve a escolha do tema e a publicação dos resultados obtidos.",
+        "C": "A ética na pesquisa abrange todas as etapas, demonstrando o respeito do pesquisador aos impactos sobre os pesquisados.",
+        "D": "O respeito à ética na pesquisa é fundamental para evitar quaisquer problemas com órgãos reguladores externos.",
+        "E": "A ética na pesquisa exige que os pesquisadores justifiquem o impacto financeiro do estudo na amostra pesquisada."
+      },
+      "gabarito": "C",
+      "explicacao": ""
+    },
+    {
+      "id": 68,
+      "secao": "S7",
+      "source": "modulo",
+      "enunciado": "Nos últimos anos, a ética na pesquisa tem se tornado um tópico de crescente relevância, refletindo uma maior conscientização sobre a importância de práticas responsáveis e claras no campo científico. O desenvolvimento de códigos de ética institucionais é um resultado direto desse debate, com o objetivo de estabelecer diretrizes claras para a conduta ética dos pesquisadores. Esses códigos definem comportamentos esperados durante todas as etapas da pesquisa, desde o planejamento até a divulgação dos resultados, e visam garantir que os estudos sejam conduzidos de forma justa, honesta e responsável. Assinale a alternativa que ilustra corretamente o papel e a importância dos códigos de ética institucionais na pesquisa científica, considerando tanto os desafios éticos quanto às responsabilidades dos pesquisadores.",
+      "alternativas": {
+        "A": "Os códigos de ética institucionais se concentram especificamente em aspectos administrativos e regulatórios, isentando-se de fornecer orientações detalhadas sobre a ética no envolvimento e tratamento dos participantes na pesquisa.",
+        "B": "Os códigos de ética característicamente institucionais são originados principalmente com a intencionalidade de promover a competição saudável entre os diversos pesquisadores e garantir que as pesquisas se concentrem em áreas inovadoras e de alto impacto.",
+        "C": "O desenvolvimento de códigos de ética institucionais ajuda a assegurar que os pesquisadores sigam princípios de integridade e transparência durante todas as fases da pesquisa, prevenindo práticas desonestas e respeitando os direitos dos participantes.",
+        "D": "Os códigos de ética institucionais são documentos os quais definem os procedimentos para a submissão de projetos de pesquisa às agências de fomento, deixando de tratar das responsabilidades éticas dos pesquisadores, ao longo do processo de pesquisa.",
+        "E": "Os códigos de ética institucionais servem especificamente para fazer a regulamentação da escolha dos temas direcionados à área da pesquisa, assegurando que tópicos tipicamente de interesse acadêmico sejam selecionados pelos pesquisadores."
+      },
+      "gabarito": "C",
+      "explicacao": ""
+    }
+  ]
 }
