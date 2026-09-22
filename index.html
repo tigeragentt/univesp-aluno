@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UNIVESP – Quiz de Estudo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #f0f2f8;
+      --surface:   #ffffff;
+      --border:    #dde2f0;
+      --primary:   #4361ee;
+      --primary-d: #3451d1;
+      --purple:    #7209b7;
+      --text:      #1a1d2e;
+      --muted:     #6b7280;
+      --correct:   #16a34a;
+      --wrong:     #dc2626;
+      --warn:      #d97706;
+      --radius:    12px;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 24px 16px 48px;
+    }
+
+    /* ── header ──────────────────────────────────────────── */
+    .site-header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .site-header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--primary), var(--purple));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .site-header p {
+      color: var(--muted);
+      margin-top: 6px;
+      font-size: 0.9rem;
+    }
+
+    /* ── card ────────────────────────────────────────────── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+      max-width: 760px;
+      margin: 0 auto;
+      box-shadow: 0 2px 16px rgba(67,97,238,.07);
+    }
+
+    /* ── home screen ─────────────────────────────────────── */
+    #home .card h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 24px;
+    }
+    .form-row {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: 6px;
+    }
+    .form-group select,
+    .form-group input {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      color: var(--text);
+      background: var(--bg);
+      transition: border-color .15s;
+    }
+    .form-group select:focus,
+    .form-group input:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    /* ── buttons ─────────────────────────────────────────── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 11px 28px;
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s, transform .1s;
+    }
+    .btn:active { transform: scale(.97); }
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+    }
+    .btn-primary:hover { background: var(--primary-d); }
+    .btn-outline {
+      background: transparent;
+      color: var(--primary);
+      border: 1.5px solid var(--primary);
+    }
+    .btn-outline:hover { background: #eef0fd; }
+    #home .btn { margin-top: 8px; }
+
+    /* ── quiz screen ─────────────────────────────────────── */
+    #quiz { display: none; }
+
+    .quiz-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .section-badge {
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, var(--primary), var(--purple));
+      color: #fff;
+      letter-spacing: .02em;
+    }
+    .progress-label {
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .progress-bar-wrap {
+      background: var(--border);
+      border-radius: 99px;
+      height: 6px;
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      border-radius: 99px;
+      background: linear-gradient(90deg, var(--primary), var(--purple));
+      transition: width .35s ease;
+    }
+
+    .question-text {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--text);
+      margin-bottom: 24px;
+      white-space: pre-wrap;
+    }
+
+    /* ── options ─────────────────────────────────────────── */
+    .options-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .option-btn {
+      width: 100%;
+      text-align: left;
+      padding: 12px 16px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.93rem;
+      line-height: 1.5;
+      color: var(--text);
+      cursor: pointer;
+      transition: border-color .15s, background .15s;
+      display: flex;
+      gap: 10px;
+    }
+    .option-btn:not([disabled]):hover {
+      border-color: var(--primary);
+      background: #eef0fd;
+    }
+    .option-btn .opt-key {
+      font-weight: 700;
+      min-width: 22px;
+      color: var(--primary);
+    }
+    .option-btn.correct {
+      border-color: var(--correct);
+      background: #f0fdf4;
+    }
+    .option-btn.correct .opt-key { color: var(--correct); }
+    .option-btn.wrong {
+      border-color: var(--wrong);
+      background: #fef2f2;
+    }
+    .option-btn.wrong .opt-key { color: var(--wrong); }
+    .option-btn[disabled] { cursor: default; }
+
+    /* ── explanation ─────────────────────────────────────── */
+    .explanation-box {
+      margin-top: 20px;
+      padding: 18px 20px;
+      border-left: 4px solid var(--primary);
+      background: #f5f7ff;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: #2d3048;
+      white-space: pre-wrap;
+      display: none;
+    }
+    .explanation-box .expl-title {
+      font-weight: 700;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+
+    .quiz-footer {
+      margin-top: 24px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    /* ── result screen ───────────────────────────────────── */
+    #result { display: none; }
+
+    .result-inner { text-align: center; }
+    .score-circle {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      font-weight: 700;
+    }
+    .score-circle .pct {
+      font-size: 2.2rem;
+      line-height: 1;
+    }
+    .score-circle .lbl {
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: .04em;
+      margin-top: 4px;
+    }
+    .score-green  { background: #dcfce7; color: var(--correct); border: 3px solid var(--correct); }
+    .score-yellow { background: #fef9c3; color: var(--warn);    border: 3px solid var(--warn); }
+    .score-red    { background: #fee2e2; color: var(--wrong);   border: 3px solid var(--wrong); }
+
+    .result-inner h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .result-inner p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+    }
+    .result-inner .btn { min-width: 180px; }
+
+    /* ── responsive ──────────────────────────────────────── */
+    @media (max-width: 540px) {
+      .card { padding: 20px 16px; }
+      .site-header h1 { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <h1>UNIVESP – Quiz de Estudo</h1>
+  <p>Linguagem, Leitura e Escrita</p>
+</header>
+
+<!-- ── HOME ─────────────────────────────────────────────────── -->
+<section id="home">
+  <div class="card">
+    <h2>Configurar Teste</h2>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="sel-module">Módulo</label>
+        <select id="sel-module">
+          <option value="all">Todos</option>
+          <option value="S1">S1 – As funções sociais da leitura e da escrita</option>
+          <option value="S2">S2 – As concepções de linguagem</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="inp-count">Número de questões</label>
+        <input type="number" id="inp-count" min="1" placeholder="Todas" />
+      </div>
+      <div>
+        <button class="btn btn-primary" id="btn-start">Iniciar Teste</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── QUIZ ──────────────────────────────────────────────────── -->
+<section id="quiz">
+  <div class="card">
+    <div class="quiz-meta">
+      <span class="section-badge" id="q-section-badge"></span>
+      <span class="progress-label" id="q-progress-label"></span>
+    </div>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar-fill" id="q-progress-fill" style="width:0%"></div>
+    </div>
+    <div class="question-text" id="q-text"></div>
+    <ul class="options-list" id="q-options"></ul>
+    <div class="explanation-box" id="q-explanation">
+      <div class="expl-title">Gabarito comentado</div>
+      <div id="q-explanation-body"></div>
+    </div>
+    <div class="quiz-footer">
+      <button class="btn btn-primary" id="btn-next" style="display:none">Próxima Questão →</button>
+    </div>
+  </div>
+</section>
+
+<!-- ── RESULT ─────────────────────────────────────────────────── -->
+<section id="result">
+  <div class="card">
+    <div class="result-inner">
+      <div class="score-circle" id="score-circle">
+        <span class="pct" id="score-pct"></span>
+        <span class="lbl">acertos</span>
+      </div>
+      <h2 id="result-heading"></h2>
+      <p id="result-sub"></p>
+      <button class="btn btn-primary" id="btn-redo">↺ Refazer</button>
+    </div>
+  </div>
+</section>
+
+<script>
+// ── Question data ──────────────────────────────────────────────
+const QUESTIONS = [
+  // ── S1 ─────────────────────────────────────────────────────────────
+  {
+    id: 1, section: "S1",
+    question: "A crítica à abordagem tradicional de ensino da gramática, conforme discutida por Geraldi, enfatiza o uso problemático de estratégias como a imitação de textos considerados exemplares, sem necessariamente engajar os alunos no entendimento crítico ou na transformação de suas realidades. Considerando esse contexto, observe as seguintes afirmativas sobre o impacto da imitação de textos na formação cultural e linguística dos indivíduos e assinale a alternativa correta.",
+    options: {
+      A: "A imitação de textos exemplares, tratada como um fim em si mesma, não promove o impacto cultural ou a profunda compreensão literária esperada, resultando em uma aprendizagem que é meramente superficial e mecânica.",
+      B: "A imitação de textos em sala de aula pode restringir os alunos de desenvolverem uma conexão emocional ou cultural com a literatura, limitando sua capacidade de perceber e apreciar a diversidade linguística e cultural presente nos textos.",
+      C: "Imitar textos literários e culturais reconhecidos, enquanto prática pedagógica, pode não oferecer oportunidades suficientes para o desenvolvimento de habilidades analíticas ou expressivas, potencialmente restringindo a criatividade e a expressão pessoal dos alunos.",
+      D: "A prática de imitar textos reconhecidos academicamente não contribui significativamente para o entendimento ou a valorização de variações linguísticas, falhando em expandir a percepção crítica dos alunos.",
+      E: "A imitação de textos exemplares não proporciona aos alunos uma compreensão crítica ou a capacidade de reflexão sobre os textos, limitando-se à replicação superficial de estruturas textuais e impedindo um engajamento mais profundo com o conteúdo."
+    },
+    answer: "E",
+    explanation: "O eixo da questão está na formulação do enunciado: a imitação é criticada por ocorrer 'sem necessariamente engajar os alunos no entendimento crítico ou na transformação de suas realidades'. É esse o critério que separa a alternativa correta das demais.\n\nA – incorreta: desloca o foco para 'impacto cultural e compreensão literária', quando o texto-base fala em 'entendimento crítico e transformação da realidade'. São planos distintos.\n\nB – incorreta: introduz a dimensão afetiva ('conexão emocional'), ausente do enunciado.\n\nC – incorreta: desloca a crítica para o eixo expressivo-criativo ('criatividade e expressão pessoal'), que não é o argumento em jogo.\n\nD – incorreta: trata de variações linguísticas, tema legitimamente geraldiano, mas que não é o recorte desta questão.\n\nE – correta: 'não proporciona compreensão crítica ou capacidade de reflexão' retoma 'entendimento crítico'; 'replicação superficial de estruturas textuais' nomeia o que sobra; 'impedindo engajamento mais profundo' fecha o vínculo com a ausência de transformação."
+  },
+  {
+    id: 2, section: "S1",
+    question: "Dentro da reflexão de Paulo Freire, a leitura do mundo é um direito subjetivo fundamental que todos possuímos, pois dominar os signos e os sentidos circulando na sociedade é um pré-requisito essencial para o acesso ao poder e à cidadania. Com base nesse contexto, observe as afirmativas abaixo:\n\nI. A leitura do mundo permite que os indivíduos interpretem e critiquem as estruturas sociais existentes, promovendo a inclusão e a democratização do conhecimento.\nII. Quando compreendemos e interpretamos os símbolos e significados ao nosso redor, adquirimos o poder de transformar nossa realidade e exercer nossa cidadania.\nIII. O processo de humanização está diretamente relacionado à capacidade de compreender e utilizar os símbolos e significados presentes na sociedade.\n\nEstá correto o que se afirma em:",
+    options: {
+      A: "I, apenas.",
+      B: "II, apenas.",
+      C: "II e III, apenas.",
+      D: "I e III, apenas.",
+      E: "I, II e III."
+    },
+    answer: "E",
+    explanation: "Todas as três afirmativas são coerentes com o pensamento freiriano:\n\nI – Corresponde à noção de conscientização: a leitura do mundo permite perceber as estruturas sociais como algo historicamente construído — e, portanto, passível de crítica e mudança.\n\nII – Retoma quase diretamente a premissa do enunciado: dominar os signos e sentidos é condição de acesso ao poder e à cidadania. Para Freire, a palavra verdadeira carrega ação e reflexão, e por isso transforma a realidade.\n\nIII – Toca no núcleo ético da obra freiriana: a humanização como vocação ontológica do ser humano. Ao apropriar-se dos símbolos e significados, o sujeito deixa de ser objeto e torna-se sujeito da própria história."
+  },
+  {
+    id: 3, section: "S1",
+    question: "A linguagem é uma ferramenta fundamental que nos permite expressar e consagrar a essência do ser humano. Por meio dela, não apenas comunicamos pensamentos e sentimentos, mas também moldamos nossa identidade e compreendemos nosso lugar no mundo. Por meio dela, transmitimos conhecimentos, tradições e valores de geração em geração, assegurando a continuidade da identidade coletiva. Ao mesmo tempo, a linguagem é dinâmica, adaptando-se às novas realidades e incorporando novas expressões e significados. Essa adaptabilidade é importante para nos mantermos relevantes e conectados em um mundo em constante mudança. A alternativa que melhor reflete um dos papéis fundamentais da linguagem na experiência humana pode ser observada em:",
+    options: {
+      A: "A linguagem é um processo que distorce as experiências humanas e cria barreiras entre o indivíduo e o mundo ao seu redor.",
+      B: "A linguagem serve como um meio para a expressão da essência humana e para a integração dos indivíduos em um mundo que é essencialmente dinâmico e complexo.",
+      C: "A linguagem atua como um sistema fixo que permanece constante e imutável frente às novas realidades e evoluções culturais.",
+      D: "A linguagem é um mecanismo que preserva todas as tradições e valores culturais inalterados, independentemente das mudanças sociais e históricas.",
+      E: "A linguagem funciona como uma ferramenta para a comunicação pessoal, sem influência significativa sobre a evolução cultural ou as dinâmicas sociais."
+    },
+    answer: "B",
+    explanation: "B é a única que reúne os dois eixos do texto: a linguagem como expressão da essência humana e como via de integração do indivíduo num mundo dinâmico.\n\nA – inverte o sentido: fala em distorção e barreiras, quando o texto trata de expressão e conexão.\n\nC – nega a adaptabilidade explicitamente afirmada no último trecho.\n\nD – distorce a função de transmissão: o texto diz que a linguagem assegura a continuidade das tradições, não que as preserva inalteradas.\n\nE – reduz a linguagem ao plano individual, ignorando seu papel na identidade coletiva e na cultura."
+  },
+  {
+    id: 4, section: "S1",
+    question: "Tomando como base as reflexões de Paulo Freire sobre a importância da leitura do mundo e da palavra para a humanização, percebemos que o domínio dos signos e sentidos é crucial. A leitura não só enriquece o entendimento humano, mas se torna essencial para o processo de humanização. Ao explorar as palavras do oprimido, revelamos não apenas perspectivas únicas, mas também as ausências que clamam por justiça, cada palavra e pausa ecoando o que é silenciado e suprimido, desdobrando uma narrativa de opressão entrelaçada com injustiças e resistências.\n\nCom base no texto, analise as afirmativas:\n\nI. A leitura do mundo da palavra, como proposta por Paulo Freire, amplia o entendimento humano ao revelar tanto o que é expresso quanto o que é oculto, dando voz especialmente aos oprimidos.\nII. A sintaxe usada pelos oprimidos não apenas reflete uma perspectiva única, mas também destaca as lacunas significativas que clamam por reconhecimento, justiça social e reparação.\nIII. A experiência de aniquilamento, embora devastadora, é frequentemente retratada como algo que pode eventualmente contribuir para a resiliência e o fortalecimento da resistência contra a opressão.\n\nEstá correto o que se afirma em:",
+    options: {
+      A: "II e III, apenas.",
+      B: "III, apenas.",
+      C: "I, apenas.",
+      D: "I, II e III.",
+      E: "I e II, apenas."
+    },
+    answer: "D",
+    explanation: "I – correta: o texto afirma que a leitura 'enriquece o entendimento humano' e revela 'não apenas perspectivas únicas, mas também as ausências' — o dito e o não dito.\n\nII – correta: 'palavras e pausas do oprimido' correspondem à sintaxe; 'ausências que clamam por justiça' correspondem às lacunas que clamam por reconhecimento e reparação.\n\nIII – correta: o texto fala que a narrativa de opressão vem 'entrelaçada com injustiças e resistências'. Entrelaçar indica que a resistência nasce no interior da opressão — isso é fiel ao pensamento freiriano. A afirmativa usa modalizadores prudentes ('pode eventualmente'), não romantiza o sofrimento. A distração comum é descartar III por não conter o termo 'aniquilamento' literalmente no texto — mas o comando pede análise baseada no texto, não citações diretas."
+  },
+  {
+    id: 5, section: "S1",
+    question: "A era digital trouxe avanços significativos nas tecnologias de comunicação, como a internet e as redes sociais, facilitando a troca de informações e o acesso a uma vasta gama de conhecimentos e culturas. No entanto, essas tecnologias também geraram novos desafios, incluindo a superficialidade no consumo de informações, a superficialidade das interações sociais e o paradoxo de maior conectividade acompanhada de maior isolamento emocional e físico.\n\nConsidere as afirmativas:\n\nI. As tecnologias de comunicação, como a internet e as redes sociais, facilitaram a troca de informações, mas também contribuíram para o crescimento da incultura, caracterizada pela superficialidade no consumo de informações.\nII. A globalização e o acesso a uma diversidade de informações e culturas ampliaram os horizontes de conhecimento e experiência das pessoas, embora isso não tenha necessariamente resultado em interações sociais mais profundas.\nIII. A redução das barreiras físicas de distância, possibilitada pelas tecnologias de comunicação, tem levado a um aumento no distanciamento na área física e afetiva entre os indivíduos.\n\nEstá correto o que se afirma em:",
+    options: {
+      A: "III, apenas.",
+      B: "I, II e III.",
+      C: "I e III, apenas.",
+      D: "II e III, apenas.",
+      E: "I e II, apenas."
+    },
+    answer: "B",
+    explanation: "Todas as três afirmativas são sustentadas pelo enunciado:\n\nI – O texto menciona 'superficialidade no consumo de informações' como um dos novos desafios. A afirmativa nomeia isso como 'incultura', o que é consistente com a argumentação.\n\nII – O texto fala em 'acesso a vasta gama de conhecimentos e culturas', mas também em 'superficialidade das interações sociais'. A afirmativa captura essa tensão com o modalizador 'embora não tenha necessariamente resultado'.\n\nIII – O paradoxo descrito no enunciado é exatamente este: 'maior conectividade acompanhada de maior isolamento emocional e físico'."
+  },
+  {
+    id: 6, section: "S1",
+    question: "A escrita é um sistema de símbolos complexo e fundamental na transmissão de ideias e conhecimentos, seguindo convenções estabelecidas e compartilhadas dentro de grupos linguísticos. Esses símbolos, que incluem letras, caracteres ou sinais, permitem a comunicação eficaz e a preservação cultural entre aqueles que compartilham um mesmo contexto linguístico. Selecione a alternativa que corretamente descreve a natureza e o papel da escrita como um sistema de comunicação e preservação cultural.",
+    options: {
+      A: "Os símbolos da escrita são convencionais e essenciais para a comunicação e a preservação cultural dentro de uma comunidade linguística.",
+      B: "A escrita é um fenômeno histórico, contudo sua principal função não é a transmissão de conhecimento.",
+      C: "A escrita tem um papel secundário na documentação da história e na preservação da cultura.",
+      D: "A escrita serve principalmente para registrar dados visuais, não para comunicar informações significativas e linguísticas.",
+      E: "Os sistemas de escrita variam entre comunidades, mas não todos cumprem a função de codificar a linguagem de maneira reconhecível."
+    },
+    answer: "A",
+    explanation: "A é a única que reproduz fielmente os dois pontos do enunciado: os símbolos da escrita são convencionais (seguem convenções estabelecidas e compartilhadas) e cumprem papel essencial na comunicação e na preservação cultural.\n\nB – nega que a transmissão de conhecimento seja função principal: o enunciado afirma justamente o contrário.\n\nC – rebaixa a escrita a papel secundário, quando o texto a descreve como 'fundamental'.\n\nD – reduz a escrita a mero registro visual, esvaziando sua dimensão comunicativa e linguística.\n\nE – afirma que nem todos os sistemas codificam a linguagem de modo reconhecível, o que descaracteriza a própria definição de escrita apresentada."
+  },
+  {
+    id: 7, section: "S1",
+    question: "A escrita desempenha um papel significativo na sociedade, não apenas como uma ferramenta de comunicação, mas também como uma influência poderosa que pode amplificar e dar credibilidade às informações. Esse impacto é refletido na maneira como as notícias são percebidas quando publicadas em formas escritas, comparativamente à comunicação oral. Analise as alternativas a seguir e assinale a que aponta corretamente como a escola deve abordar o ensino da escrita para maximizar seu valor educacional e crítico, incorporando os avanços tecnológicos.",
+    options: {
+      A: "Manter um foco em formatos de escrita tradicionais sem integrar tecnologias modernas no processo de aprendizagem.",
+      B: "Incentivar a alfabetização digital e o pensamento crítico, ensinando os alunos a avaliar a credibilidade das fontes e a utilizar ferramentas tecnológicas para a produção e disseminação de textos.",
+      C: "Incentivar uma abordagem que enfatize a caligrafia e técnicas de cópia, visando a precisão na reprodução de textos.",
+      D: "Limitar as discussões sobre o impacto social da escrita para evitar controvérsias em sala de aula.",
+      E: "Considerar a escrita principalmente como uma ferramenta de comunicação básica, sem aprofundar em seu papel na formação de opiniões ou na cultura."
+    },
+    answer: "B",
+    explanation: "O enunciado pede que a escola 'maximize o valor educacional e crítico' da escrita, 'incorporando os avanços tecnológicos'. B é a única que atende a ambos os critérios: menciona explicitamente a alfabetização digital, o pensamento crítico e o uso de ferramentas tecnológicas para produção e disseminação de textos.\n\nAs demais contradizem o enunciado: A ignora a tecnologia; C foca em caligrafia e cópia; D limita discussões (oposto de pensamento crítico); E reduz a escrita a comunicação básica."
+  },
+
+  // ── S2 ─────────────────────────────────────────────────────────────
+  {
+    id: 8, section: "S2",
+    question: "Na teoria da linguagem, distinguem-se três tipos de atividades que os falantes realizam com a língua: atividade linguística, que é a prática direta de comunicar e compreender mensagens; atividade epilinguística, que é a reflexão imediata sobre o uso da língua durante a comunicação; e atividade metalinguística, que é uma reflexão mais profunda e formal sobre a estrutura e as regras da língua.\n\nConsidere as afirmações e assinale a alternativa correta:\n\nI. A atividade linguística é a base para a reflexão tanto epilinguística quanto metalinguística, fornecendo o contexto e as experiências necessárias para a análise formal e teórica da língua.\nII. A atividade metalinguística envolve uma análise profunda e abrangente das estruturas linguísticas, enquanto a atividade epilinguística ocorre de forma mais fluida e adaptável em contextos variados de comunicação.\nIII. A atividade epilinguística serve para ajustes e correções imediatas durante a comunicação, diferindo da atividade metalinguística que visa a uma compreensão teórica e sistemática das normas linguísticas.\n\nEstá correto o que se afirma em:",
+    options: {
+      A: "II e III, apenas.",
+      B: "I e II, apenas.",
+      C: "II, apenas.",
+      D: "I, II e III.",
+      E: "I, apenas."
+    },
+    answer: "D",
+    explanation: "As três afirmações estão de acordo com a distinção apresentada no texto:\n\nI – A atividade linguística é o ponto de partida: é no uso efetivo da língua que se produzem os dados sobre os quais qualquer reflexão vai incidir. Sem a prática, não há o que analisar.\n\nII – A metalinguística é caracterizada pela análise sistemática das estruturas, com uso de terminologia e categorias descritivas. A epilinguística, por contraste, é operatória e situada: acontece no fluxo da comunicação.\n\nIII – Descreve corretamente o contraste funcional: a epilinguística manifesta-se em reformulações, hesitações, autocorreções e escolhas de palavras feitas 'ao vivo'; a metalinguística busca explicitar e sistematizar normas.\n\nDica conceitual: na perspectiva de Franchi e Geraldi, a atividade epilinguística funciona como ponte pedagógica — prepara o terreno para a metalinguagem, por isso o ensino de gramática rende mais quando parte do uso e da reflexão epilinguística."
+  },
+  {
+    id: 9, section: "S2",
+    question: "Na análise linguística, os princípios teóricos desempenham um papel fundamental na compreensão dos fenômenos da linguagem. Inicialmente, são formulados com base em observações de dados linguísticos e, posteriormente, são testados e ajustados conforme necessário para melhor explicar e prever os comportamentos linguísticos observados. O papel dos princípios teóricos na análise linguística pode ser observado em:",
+    options: {
+      A: "Estabelecer uma base estática para interpretação de dados empíricos, ignorando ajustes conforme novas evidências surgem.",
+      B: "Adaptar continuamente teorias pré-concebidas aos novos dados linguísticos, sem considerar a necessidade de revisão teórica.",
+      C: "Iterar entre formulação teórica e ajustes empíricos para melhor alinhamento, refinando continuamente a teoria com base em observações linguísticas.",
+      D: "Formular hipóteses teóricas apenas após confirmação empírica, negligenciando a importância da intuição teórica inicial.",
+      E: "Desconsiderar dados empíricos em favor de teorias estabelecidas, limitando a evolução teórica."
+    },
+    answer: "C",
+    explanation: "C é a única que reproduz o movimento descrito no enunciado: os princípios são formulados a partir da observação de dados, depois testados e ajustados — uma relação de mão dupla entre teoria e evidência (ciclo hipotético-dedutivo aplicado à linguística).\n\nA e E engessam a teoria, tratando-a como imune à revisão.\n\nB contém uma contradição interna: 'adaptar teorias sem revisão teórica' é impossível — a adaptação já é uma forma de revisão. Além disso, 'teorias pré-concebidas' inverte a ordem apresentada.\n\nD elimina o papel da hipótese e da intuição teórica: na prática, é a hipótese que orienta quais dados buscar e como interpretá-los."
+  },
+  {
+    id: 10, section: "S2",
+    question: "Considere as afirmações abaixo sobre a aplicação do conhecimento linguístico no cotidiano do ser humano:\n\nI. A compreensão dos fonemas e sua correta articulação são fundamentais para a alfabetização e a aquisição da linguagem nas crianças.\nII. O domínio dos morfemas e suas regras de combinação facilita a aprendizagem de novos vocabulários e a construção de palavras complexas.\nIII. O entendimento das estruturas sintáticas ajuda na produção e interpretação de sentenças complexas, melhorando a comunicação escrita e oral.\n\nEstá correto o que se afirma em:",
+    options: {
+      A: "I e II, apenas.",
+      B: "I, apenas.",
+      C: "II, apenas.",
+      D: "I, II e III.",
+      E: "III, apenas."
+    },
+    answer: "D",
+    explanation: "As três afirmações descrevem corretamente aplicações do conhecimento linguístico em diferentes níveis de análise:\n\nI – Nível fonológico: a consciência fonológica é um dos preditores mais consistentes do sucesso na alfabetização, especialmente em sistemas alfabéticos como o português, onde a criança precisa relacionar grafemas a fonemas.\n\nII – Nível morfológico: reconhecer radicais, prefixos e sufixos permite inferir o significado de palavras desconhecidas e formar novas palavras produtivamente, ampliando o vocabulário de modo econômico.\n\nIII – Nível sintático: dominar mecanismos de coordenação, subordinação e concordância é o que possibilita produzir e processar períodos longos, com encaixes e retomadas — habilidade especialmente exigida na escrita formal.\n\nAs três afirmações percorrem níveis complementares (som → palavra → sentença), não competem entre si."
+  },
+  {
+    id: 11, section: "S2",
+    question: "Lev Vygotsky enfatiza o papel da linguagem como uma ferramenta fundamental no desenvolvimento cognitivo. Segundo ele, a linguagem não apenas permite a comunicação, mas também serve como um meio através do qual as experiências são internalizadas e os conhecimentos são construídos. Esta função mediatória da linguagem facilita a interação entre o indivíduo e seu ambiente social e cultural, promovendo a formação do pensamento crítico.\n\nExamine as afirmativas:\n\nI. Para Vygotsky, a linguagem serve como um meio de comunicação fundamental que facilita a interação entre indivíduos e o mundo, contribuindo significativamente para a evolução da cognição.\nII. A visão de Vygotsky sobre a linguagem destaca sua função como ferramenta de pensamento, mediando não só a interação com o ambiente mas também permitindo a internalização de experiências e a construção de significados.\nIII. Vygotsky considera a mediação das relações sociais pela linguagem como um fator importante no desenvolvimento cognitivo, mas reconhece que outros aspectos do ambiente também são influentes.\n\nEstá correto o que se afirma em:",
+    options: {
+      A: "II e III, apenas.",
+      B: "I, apenas.",
+      C: "II, apenas.",
+      D: "I e II, apenas.",
+      E: "I, II e III."
+    },
+    answer: "E",
+    explanation: "As três afirmativas são compatíveis com a teoria histórico-cultural:\n\nI – Reconhece a função comunicativa e interacional. Para Vygotsky, essa é a função primária e cronologicamente anterior: a linguagem nasce social, na relação com o outro, antes de se converter em instrumento do pensamento individual.\n\nII – Captura o núcleo da tese — a linguagem como instrumento psicológico. É por meio dela que os processos interpsicológicos (entre pessoas) se convertem em intrapsicológicos (no indivíduo), no movimento chamado internalização. O discurso egocêntrico da criança, que depois se torna fala interior, é o exemplo clássico.\n\nIII – Está correta e é o item que mais exige atenção por conter uma ressalva. O conceito vygotskiano de mediação é mais amplo do que apenas a linguagem: abrange instrumentos e outros sistemas de signos, além das condições históricas e materiais da cultura. Afirmar que outros aspectos do ambiente também influenciam não contradiz a teoria — ao contrário, é fiel a ela.\n\nDica: itens com ressalvas ('mas reconhece que...') só invalidam uma afirmativa quando negam algo essencial à teoria — o que não ocorre aqui."
+  }
+];
+
+// ── Section labels ─────────────────────────────────────────────
+const SECTION_LABELS = {
+  S1: "S1 – As funções sociais da leitura e da escrita",
+  S2: "S2 – As concepções de linguagem"
+};
+
+// ── State ──────────────────────────────────────────────────────
+let pool = [];
+let current = 0;
+let score = 0;
+let answered = false;
+
+// ── DOM refs ───────────────────────────────────────────────────
+const homeEl    = document.getElementById('home');
+const quizEl    = document.getElementById('quiz');
+const resultEl  = document.getElementById('result');
+
+const selModule  = document.getElementById('sel-module');
+const inpCount   = document.getElementById('inp-count');
+const btnStart   = document.getElementById('btn-start');
+
+const qBadge     = document.getElementById('q-section-badge');
+const qProgLabel = document.getElementById('q-progress-label');
+const qProgFill  = document.getElementById('q-progress-fill');
+const qText      = document.getElementById('q-text');
+const qOptions   = document.getElementById('q-options');
+const qExplBox   = document.getElementById('q-explanation');
+const qExplBody  = document.getElementById('q-explanation-body');
+const btnNext    = document.getElementById('btn-next');
+
+const scoreCircle  = document.getElementById('score-circle');
+const scorePct     = document.getElementById('score-pct');
+const resultHeading= document.getElementById('result-heading');
+const resultSub    = document.getElementById('result-sub');
+const btnRedo      = document.getElementById('btn-redo');
+
+// ── Helpers ────────────────────────────────────────────────────
+function show(el) { el.style.display = ''; }
+function hide(el) { el.style.display = 'none'; }
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// ── Start quiz ─────────────────────────────────────────────────
+btnStart.addEventListener('click', () => {
+  const mod = selModule.value;
+  let filtered = mod === 'all' ? [...QUESTIONS] : QUESTIONS.filter(q => q.section === mod);
+  filtered = shuffle(filtered);
+
+  const countVal = parseInt(inpCount.value, 10);
+  if (!isNaN(countVal) && countVal > 0 && countVal < filtered.length) {
+    filtered = filtered.slice(0, countVal);
+  }
+
+  if (filtered.length === 0) {
+    alert('Nenhuma questão disponível para a seleção feita.');
+    return;
+  }
+
+  pool = filtered;
+  current = 0;
+  score = 0;
+
+  hide(homeEl);
+  show(quizEl);
+  renderQuestion();
+});
+
+// ── Render question ────────────────────────────────────────────
+function renderQuestion() {
+  answered = false;
+  hide(btnNext);
+  qExplBox.style.display = 'none';
+
+  const q = pool[current];
+  const total = pool.length;
+  const pct = Math.round((current / total) * 100);
+
+  qBadge.textContent = SECTION_LABELS[q.section] || q.section;
+  qProgLabel.textContent = `Questão ${current + 1} de ${total}`;
+  qProgFill.style.width = pct + '%';
+  qText.textContent = q.question;
+
+  qOptions.innerHTML = '';
+  Object.entries(q.options).forEach(([key, text]) => {
+    const li = document.createElement('li');
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.dataset.key = key;
+    btn.innerHTML = `<span class="opt-key">${key}</span><span>${text}</span>`;
+    btn.addEventListener('click', () => handleAnswer(key));
+    li.appendChild(btn);
+    qOptions.appendChild(li);
+  });
+}
+
+// ── Handle answer ──────────────────────────────────────────────
+function handleAnswer(chosen) {
+  if (answered) return;
+  answered = true;
+
+  const q = pool[current];
+  const correct = q.answer;
+  if (chosen === correct) score++;
+
+  // Disable all, highlight
+  qOptions.querySelectorAll('.option-btn').forEach(btn => {
+    btn.disabled = true;
+    const key = btn.dataset.key;
+    if (key === correct) btn.classList.add('correct');
+    else if (key === chosen) btn.classList.add('wrong');
+  });
+
+  // Show explanation
+  qExplBody.textContent = q.explanation;
+  qExplBox.style.display = 'block';
+
+  // Show next button
+  show(btnNext);
+  if (current + 1 >= pool.length) {
+    btnNext.textContent = 'Ver Resultado →';
+  } else {
+    btnNext.textContent = 'Próxima Questão →';
+  }
+}
+
+// ── Next question ──────────────────────────────────────────────
+btnNext.addEventListener('click', () => {
+  current++;
+  if (current >= pool.length) {
+    showResult();
+  } else {
+    renderQuestion();
+  }
+});
+
+// ── Result screen ──────────────────────────────────────────────
+function showResult() {
+  hide(quizEl);
+  show(resultEl);
+
+  const total = pool.length;
+  const pct = Math.round((score / total) * 100);
+
+  scorePct.textContent = pct + '%';
+
+  scoreCircle.className = 'score-circle';
+  if (pct >= 70) scoreCircle.classList.add('score-green');
+  else if (pct >= 50) scoreCircle.classList.add('score-yellow');
+  else scoreCircle.classList.add('score-red');
+
+  resultHeading.textContent = `${score} de ${total} acertos`;
+
+  let msg = '';
+  if (pct >= 70) msg = 'Muito bem! Continue assim.';
+  else if (pct >= 50) msg = 'Resultado razoável. Vale revisar o conteúdo.';
+  else msg = 'Precisa reforçar o estudo. Tente novamente!';
+  resultSub.textContent = msg;
+
+  // Update progress bar to 100%
+  qProgFill.style.width = '100%';
+}
+
+// ── Redo ───────────────────────────────────────────────────────
+btnRedo.addEventListener('click', () => {
+  hide(resultEl);
+  show(homeEl);
+});
+
+// ── Set max on count input based on module selection ───────────
+selModule.addEventListener('change', updateCountMax);
+function updateCountMax() {
+  const mod = selModule.value;
+  const count = mod === 'all' ? QUESTIONS.length : QUESTIONS.filter(q => q.section === mod).length;
+  inpCount.max = count;
+  inpCount.placeholder = `Todas (${count})`;
+  if (parseInt(inpCount.value, 10) > count) inpCount.value = '';
+}
+updateCountMax();
+</script>
+
+</body>
+</html>
