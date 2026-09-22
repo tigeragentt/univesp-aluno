@@ -33,19 +33,21 @@ export default function Catalog({ onSelect }) {
             const total = d.data.questoes.length;
             const disabled = total === 0;
             return (
-              <button
+              <div
                 key={d.code}
                 className={`disc-item${disabled ? ' disc-disabled' : ''}`}
                 style={{ '--accent': d.color }}
                 onClick={() => !disabled && onSelect(d)}
-                disabled={disabled}
+                role="button"
+                tabIndex={disabled ? -1 : 0}
+                onKeyDown={(e) => e.key === 'Enter' && !disabled && onSelect(d)}
               >
                 <span className="disc-item-code">{d.code}</span>
                 <span className="disc-item-name">{d.data.nome}</span>
                 <span className="disc-item-count">
                   {disabled ? 'Em breve' : `${total} ${total === 1 ? 'questão' : 'questões'}`}
                 </span>
-              </button>
+              </div>
             );
           })}
         </div>
