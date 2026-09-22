@@ -1,0 +1,170 @@
+{
+  "materia": "LET110",
+  "nome": "Letramento, Leitura e Escrita",
+  "secoes": [
+    {
+      "id": "S1",
+      "nome": "As funções sociais da leitura e da escrita"
+    },
+    {
+      "id": "S2",
+      "nome": "As concepções de linguagem"
+    }
+  ],
+  "questoes": [
+    {
+      "id": 1,
+      "secao": "S1",
+      "enunciado": "A crítica à abordagem tradicional de ensino da gramática, conforme discutida por Geraldi, enfatiza o uso problemático de estratégias como a imitação de textos considerados exemplares, sem necessariamente engajar os alunos no entendimento crítico ou na transformação de suas realidades. Considerando esse contexto, observe as seguintes afirmativas sobre o impacto da imitação de textos na formação cultural e linguística dos indivíduos e assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A imitação de textos exemplares, tratada como um fim em si mesma, não promove o impacto cultural ou a profunda compreensão literária esperada, resultando em uma aprendizagem que é meramente superficial e mecânica.",
+        "B": "A imitação de textos em sala de aula pode restringir os alunos de desenvolverem uma conexão emocional ou cultural com a literatura, limitando sua capacidade de perceber e apreciar a diversidade linguística e cultural presente nos textos.",
+        "C": "Imitar textos literários e culturais reconhecidos, enquanto prática pedagógica, pode não oferecer oportunidades suficientes para o desenvolvimento de habilidades analíticas ou expressivas, potencialmente restringindo a criatividade e a expressão pessoal dos alunos.",
+        "D": "A prática de imitar textos reconhecidos academicamente não contribui significativamente para o entendimento ou a valorização de variações linguísticas, falhando em expandir a percepção crítica dos alunos.",
+        "E": "A imitação de textos exemplares não proporciona aos alunos uma compreensão crítica ou a capacidade de reflexão sobre os textos, limitando-se à replicação superficial de estruturas textuais e impedindo um engajamento mais profundo com o conteúdo."
+      },
+      "gabarito": "E",
+      "explicacao": "O eixo da questão está na formulação do enunciado: a imitação é criticada por ocorrer 'sem necessariamente engajar os alunos no entendimento crítico ou na transformação de suas realidades'.\n\nA – desloca o foco para 'impacto cultural e compreensão literária', quando o texto-base fala em 'entendimento crítico e transformação da realidade'. São planos distintos.\n\nB – introduz a dimensão afetiva ('conexão emocional'), ausente do enunciado.\n\nC – desloca a crítica para o eixo expressivo-criativo ('criatividade e expressão pessoal'), que não é o argumento em jogo.\n\nD – trata de variações linguísticas, tema geraldiano, mas que não é o recorte desta questão.\n\nE – correta: 'não proporciona compreensão crítica ou capacidade de reflexão' retoma 'entendimento crítico'; 'replicação superficial de estruturas textuais' nomeia o que sobra; 'impedindo engajamento mais profundo' fecha o vínculo com a ausência de transformação."
+    },
+    {
+      "id": 2,
+      "secao": "S1",
+      "enunciado": "Dentro da reflexão de Paulo Freire, a leitura do mundo é um direito subjetivo fundamental que todos possuímos, pois dominar os signos e os sentidos circulando na sociedade é um pré-requisito essencial para o acesso ao poder e à cidadania. Com base nesse contexto, observe as afirmativas abaixo:\n\nI. A leitura do mundo permite que os indivíduos interpretem e critiquem as estruturas sociais existentes, promovendo a inclusão e a democratização do conhecimento.\nII. Quando compreendemos e interpretamos os símbolos e significados ao nosso redor, adquirimos o poder de transformar nossa realidade e exercer nossa cidadania.\nIII. O processo de humanização está diretamente relacionado à capacidade de compreender e utilizar os símbolos e significados presentes na sociedade.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "I, apenas.",
+        "B": "II, apenas.",
+        "C": "II e III, apenas.",
+        "D": "I e III, apenas.",
+        "E": "I, II e III."
+      },
+      "gabarito": "E",
+      "explicacao": "Todas as três afirmativas são coerentes com o pensamento freiriano:\n\nI – Corresponde à noção de conscientização: a leitura do mundo permite perceber as estruturas sociais como algo historicamente construído — e, portanto, passível de crítica e mudança.\n\nII – Retoma a premissa do enunciado: dominar os signos e sentidos é condição de acesso ao poder e à cidadania. Para Freire, a palavra verdadeira carrega ação e reflexão, e por isso transforma a realidade.\n\nIII – Toca no núcleo ético da obra freiriana: a humanização como vocação ontológica. Ao apropriar-se dos símbolos e significados, o sujeito deixa de ser objeto e torna-se sujeito da própria história."
+    },
+    {
+      "id": 3,
+      "secao": "S1",
+      "enunciado": "A linguagem é uma ferramenta fundamental que nos permite expressar e consagrar a essência do ser humano. Por meio dela, não apenas comunicamos pensamentos e sentimentos, mas também moldamos nossa identidade e compreendemos nosso lugar no mundo. Por meio dela, transmitimos conhecimentos, tradições e valores de geração em geração, assegurando a continuidade da identidade coletiva. Ao mesmo tempo, a linguagem é dinâmica, adaptando-se às novas realidades e incorporando novas expressões e significados. Essa adaptabilidade é importante para nos mantermos relevantes e conectados em um mundo em constante mudança. A alternativa que melhor reflete um dos papéis fundamentais da linguagem na experiência humana pode ser observada em:",
+      "alternativas": {
+        "A": "A linguagem é um processo que distorce as experiências humanas e cria barreiras entre o indivíduo e o mundo ao seu redor.",
+        "B": "A linguagem serve como um meio para a expressão da essência humana e para a integração dos indivíduos em um mundo que é essencialmente dinâmico e complexo.",
+        "C": "A linguagem atua como um sistema fixo que permanece constante e imutável frente às novas realidades e evoluções culturais.",
+        "D": "A linguagem é um mecanismo que preserva todas as tradições e valores culturais inalterados, independentemente das mudanças sociais e históricas.",
+        "E": "A linguagem funciona como uma ferramenta para a comunicação pessoal, sem influência significativa sobre a evolução cultural ou as dinâmicas sociais."
+      },
+      "gabarito": "B",
+      "explicacao": "B é a única que reúne os dois eixos do texto: a linguagem como expressão da essência humana e como via de integração do indivíduo num mundo dinâmico.\n\nA – inverte o sentido: fala em distorção e barreiras.\nC – nega a adaptabilidade explicitamente afirmada no texto.\nD – afirma preservação inalterada, quando o texto diz que a linguagem se adapta.\nE – reduz ao plano individual, ignorando o papel na identidade coletiva e na cultura."
+    },
+    {
+      "id": 4,
+      "secao": "S1",
+      "enunciado": "Tomando como base as reflexões de Paulo Freire sobre a importância da leitura do mundo e da palavra para a humanização, percebemos que o domínio dos signos e sentidos é crucial. A leitura não só enriquece o entendimento humano, mas se torna essencial para o processo de humanização. Ao explorar as palavras do oprimido, revelamos não apenas perspectivas únicas, mas também as ausências que clamam por justiça, cada palavra e pausa ecoando o que é silenciado e suprimido, desdobrando uma narrativa de opressão entrelaçada com injustiças e resistências.\n\nCom base no texto, analise as afirmativas:\n\nI. A leitura do mundo da palavra, como proposta por Paulo Freire, amplia o entendimento humano ao revelar tanto o que é expresso quanto o que é oculto, dando voz especialmente aos oprimidos.\nII. A sintaxe usada pelos oprimidos não apenas reflete uma perspectiva única, mas também destaca as lacunas significativas que clamam por reconhecimento, justiça social e reparação.\nIII. A experiência de aniquilamento, embora devastadora, é frequentemente retratada como algo que pode eventualmente contribuir para a resiliência e o fortalecimento da resistência contra a opressão.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "III, apenas.",
+        "C": "I, apenas.",
+        "D": "I, II e III.",
+        "E": "I e II, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": "I – correta: o texto afirma que a leitura 'enriquece o entendimento humano' e revela 'não apenas perspectivas únicas, mas também as ausências' — o dito e o não dito.\n\nII – correta: 'palavras e pausas do oprimido' correspondem à sintaxe; 'ausências que clamam por justiça' correspondem às lacunas que clamam por reconhecimento e reparação.\n\nIII – correta: o texto diz que a narrativa de opressão vem 'entrelaçada com injustiças e resistências'. Entrançar indica que a resistência nasce no interior da opressão. A afirmativa usa modalizadores prudentes ('pode eventualmente'), não romantiza o sofrimento."
+    },
+    {
+      "id": 5,
+      "secao": "S1",
+      "enunciado": "A era digital trouxe avanços significativos nas tecnologias de comunicação, como a internet e as redes sociais, facilitando a troca de informações e o acesso a uma vasta gama de conhecimentos e culturas. No entanto, essas tecnologias também geraram novos desafios, incluindo a superficialidade no consumo de informações, a superficialidade das interações sociais e o paradoxo de maior conectividade acompanhada de maior isolamento emocional e físico.\n\nConsidere as afirmativas:\n\nI. As tecnologias de comunicação, como a internet e as redes sociais, facilitaram a troca de informações, mas também contribuíram para o crescimento da incultura, caracterizada pela superficialidade no consumo de informações.\nII. A globalização e o acesso a uma diversidade de informações e culturas ampliaram os horizontes de conhecimento e experiência das pessoas, embora isso não tenha necessariamente resultado em interações sociais mais profundas.\nIII. A redução das barreiras físicas de distância, possibilitada pelas tecnologias de comunicação, tem levado a um aumento no distanciamento na área física e afetiva entre os indivíduos.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "III, apenas.",
+        "B": "I, II e III.",
+        "C": "I e III, apenas.",
+        "D": "II e III, apenas.",
+        "E": "I e II, apenas."
+      },
+      "gabarito": "B",
+      "explicacao": "Todas as três afirmativas são sustentadas pelo enunciado:\n\nI – O texto menciona 'superficialidade no consumo de informações' como um dos novos desafios.\n\nII – O texto fala em 'acesso a vasta gama de conhecimentos e culturas', mas também em 'superficialidade das interações sociais'.\n\nIII – O paradoxo descrito no enunciado é exatamente este: 'maior conectividade acompanhada de maior isolamento emocional e físico'."
+    },
+    {
+      "id": 6,
+      "secao": "S1",
+      "enunciado": "A escrita é um sistema de símbolos complexo e fundamental na transmissão de ideias e conhecimentos, seguindo convenções estabelecidas e compartilhadas dentro de grupos linguísticos. Esses símbolos, que incluem letras, caracteres ou sinais, permitem a comunicação eficaz e a preservação cultural entre aqueles que compartilham um mesmo contexto linguístico. Selecione a alternativa que corretamente descreve a natureza e o papel da escrita como um sistema de comunicação e preservação cultural.",
+      "alternativas": {
+        "A": "Os símbolos da escrita são convencionais e essenciais para a comunicação e a preservação cultural dentro de uma comunidade linguística.",
+        "B": "A escrita é um fenômeno histórico, contudo sua principal função não é a transmissão de conhecimento.",
+        "C": "A escrita tem um papel secundário na documentação da história e na preservação da cultura.",
+        "D": "A escrita serve principalmente para registrar dados visuais, não para comunicar informações significativas e linguísticas.",
+        "E": "Os sistemas de escrita variam entre comunidades, mas não todos cumprem a função de codificar a linguagem de maneira reconhecível."
+      },
+      "gabarito": "A",
+      "explicacao": "A reproduz fielmente os dois pontos do enunciado: os símbolos da escrita são convencionais (seguem convenções estabelecidas e compartilhadas) e cumprem papel essencial na comunicação e na preservação cultural.\n\nB – nega que a transmissão de conhecimento seja função principal, contradizendo o texto.\nC – rebaixa a escrita a papel secundário, quando o texto a descreve como 'fundamental'.\nD – reduz a escrita a mero registro visual.\nE – afirma que nem todos os sistemas codificam a linguagem de modo reconhecível."
+    },
+    {
+      "id": 7,
+      "secao": "S1",
+      "enunciado": "A escrita desempenha um papel significativo na sociedade, não apenas como uma ferramenta de comunicação, mas também como uma influência poderosa que pode amplificar e dar credibilidade às informações. Esse impacto é refletido na maneira como as notícias são percebidas quando publicadas em formas escritas, comparativamente à comunicação oral. Analise as alternativas a seguir e assinale a que aponta corretamente como a escola deve abordar o ensino da escrita para maximizar seu valor educacional e crítico, incorporando os avanços tecnológicos.",
+      "alternativas": {
+        "A": "Manter um foco em formatos de escrita tradicionais sem integrar tecnologias modernas no processo de aprendizagem.",
+        "B": "Incentivar a alfabetização digital e o pensamento crítico, ensinando os alunos a avaliar a credibilidade das fontes e a utilizar ferramentas tecnológicas para a produção e disseminação de textos.",
+        "C": "Incentivar uma abordagem que enfatize a caligrafia e técnicas de cópia, visando a precisão na reprodução de textos.",
+        "D": "Limitar as discussões sobre o impacto social da escrita para evitar controvérsias em sala de aula.",
+        "E": "Considerar a escrita principalmente como uma ferramenta de comunicação básica, sem aprofundar em seu papel na formação de opiniões ou na cultura."
+      },
+      "gabarito": "B",
+      "explicacao": "O enunciado pede que a escola 'maximize o valor educacional e crítico' da escrita, 'incorporando os avanços tecnológicos'. B é a única que atende a ambos: menciona explicitamente a alfabetização digital, o pensamento crítico e o uso de ferramentas tecnológicas.\n\nA – ignora a tecnologia.\nC – foca em caligrafia e cópia.\nD – limita discussões, oposto de pensamento crítico.\nE – reduz a escrita a comunicação básica."
+    },
+    {
+      "id": 8,
+      "secao": "S2",
+      "enunciado": "Na teoria da linguagem, distinguem-se três tipos de atividades que os falantes realizam com a língua: atividade linguística, que é a prática direta de comunicar e compreender mensagens; atividade epilinguística, que é a reflexão imediata sobre o uso da língua durante a comunicação; e atividade metalinguística, que é uma reflexão mais profunda e formal sobre a estrutura e as regras da língua.\n\nConsidere as afirmações e assinale a alternativa correta:\n\nI. A atividade linguística é a base para a reflexão tanto epilinguística quanto metalinguística, fornecendo o contexto e as experiências necessárias para a análise formal e teórica da língua.\nII. A atividade metalinguística envolve uma análise profunda e abrangente das estruturas linguísticas, enquanto a atividade epilinguística ocorre de forma mais fluida e adaptável em contextos variados de comunicação.\nIII. A atividade epilinguística serve para ajustes e correções imediatas durante a comunicação, diferindo da atividade metalinguística que visa a uma compreensão teórica e sistemática das normas linguísticas.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "I e II, apenas.",
+        "C": "II, apenas.",
+        "D": "I, II e III.",
+        "E": "I, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": "As três afirmações estão de acordo com a distinção apresentada no texto:\n\nI – A atividade linguística é o ponto de partida: é no uso efetivo da língua que se produzem os dados sobre os quais qualquer reflexão vai incidir.\n\nII – A metalinguística é caracterizada pela análise sistemática das estruturas com terminologia descritiva. A epilinguística é operatória e situada: acontece no fluxo da comunicação.\n\nIII – A epilinguística manifesta-se em reformulações, hesitações e autocorreções 'ao vivo'; a metalinguística busca explicitar e sistematizar normas.\n\nDica: na perspectiva de Franchi e Geraldi, a atividade epilinguística funciona como ponte pedagógica — prepara o terreno para a metalinguagem."
+    },
+    {
+      "id": 9,
+      "secao": "S2",
+      "enunciado": "Na análise linguística, os princípios teóricos desempenham um papel fundamental na compreensão dos fenômenos da linguagem. Inicialmente, são formulados com base em observações de dados linguísticos e, posteriormente, são testados e ajustados conforme necessário para melhor explicar e prever os comportamentos linguísticos observados. O papel dos princípios teóricos na análise linguística pode ser observado em:",
+      "alternativas": {
+        "A": "Estabelecer uma base estática para interpretação de dados empíricos, ignorando ajustes conforme novas evidências surgem.",
+        "B": "Adaptar continuamente teorias pré-concebidas aos novos dados linguísticos, sem considerar a necessidade de revisão teórica.",
+        "C": "Iterar entre formulação teórica e ajustes empíricos para melhor alinhamento, refinando continuamente a teoria com base em observações linguísticas.",
+        "D": "Formular hipóteses teóricas apenas após confirmação empírica, negligenciando a importância da intuição teórica inicial.",
+        "E": "Desconsiderar dados empíricos em favor de teorias estabelecidas, limitando a evolução teórica."
+      },
+      "gabarito": "C",
+      "explicacao": "C é a única que reproduz o movimento descrito no enunciado: os princípios são formulados a partir da observação de dados, depois testados e ajustados — uma relação de mão dupla entre teoria e evidência.\n\nA e E engessam a teoria, tratando-a como imune à revisão.\nB contém contradição interna: 'adaptar teorias sem revisão teórica' é impossível.\nD elimina o papel da hipótese e da intuição teórica na condução da pesquisa."
+    },
+    {
+      "id": 10,
+      "secao": "S2",
+      "enunciado": "Considere as afirmações abaixo sobre a aplicação do conhecimento linguístico no cotidiano do ser humano:\n\nI. A compreensão dos fonemas e sua correta articulação são fundamentais para a alfabetização e a aquisição da linguagem nas crianças.\nII. O domínio dos morfemas e suas regras de combinação facilita a aprendizagem de novos vocabulários e a construção de palavras complexas.\nIII. O entendimento das estruturas sintáticas ajuda na produção e interpretação de sentenças complexas, melhorando a comunicação escrita e oral.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "I e II, apenas.",
+        "B": "I, apenas.",
+        "C": "II, apenas.",
+        "D": "I, II e III.",
+        "E": "III, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": "As três afirmações descrevem aplicações do conhecimento linguístico em níveis complementares:\n\nI – Nível fonológico: a consciência fonológica é um dos preditores mais consistentes do sucesso na alfabetização.\n\nII – Nível morfológico: reconhecer radicais, prefixos e sufixos permite inferir significado de palavras desconhecidas e ampliar vocabulário economicamente.\n\nIII – Nível sintático: dominar coordenação, subordinação e concordância possibilita produzir e processar períodos longos, especialmente na escrita formal.\n\nAs três afirmações percorrem níveis complementares (som → palavra → sentença), não competem entre si."
+    },
+    {
+      "id": 11,
+      "secao": "S2",
+      "enunciado": "Lev Vygotsky enfatiza o papel da linguagem como uma ferramenta fundamental no desenvolvimento cognitivo. Segundo ele, a linguagem não apenas permite a comunicação, mas também serve como um meio através do qual as experiências são internalizadas e os conhecimentos são construídos. Esta função mediatória da linguagem facilita a interação entre o indivíduo e seu ambiente social e cultural, promovendo a formação do pensamento crítico.\n\nExamine as afirmativas:\n\nI. Para Vygotsky, a linguagem serve como um meio de comunicação fundamental que facilita a interação entre indivíduos e o mundo, contribuindo significativamente para a evolução da cognição.\nII. A visão de Vygotsky sobre a linguagem destaca sua função como ferramenta de pensamento, mediando não só a interação com o ambiente mas também permitindo a internalização de experiências e a construção de significados.\nIII. Vygotsky considera a mediação das relações sociais pela linguagem como um fator importante no desenvolvimento cognitivo, mas reconhece que outros aspectos do ambiente também são influentes.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "I, apenas.",
+        "C": "II, apenas.",
+        "D": "I e II, apenas.",
+        "E": "I, II e III."
+      },
+      "gabarito": "E",
+      "explicacao": "As três afirmativas são compatíveis com a teoria histórico-cultural de Vygotsky:\n\nI – A função comunicativa e interacional é a função primária: a linguagem nasce social, na relação com o outro, antes de se converter em instrumento do pensamento individual.\n\nII – Captura o núcleo da tese — a linguagem como instrumento psicológico. É por meio dela que os processos interpsicológicos se convertem em intrapsicológicos (internalização). O discurso egocêntrico da criança que se torna fala interior é o exemplo clássico.\n\nIII – Correta e com ressalva pertinente: o conceito vygotskiano de mediação é mais amplo que apenas a linguagem — abrange outros sistemas de signos e condições históricas da cultura. Afirmar que outros aspectos do ambiente também influenciam é fiel à teoria."
+    }
+  ]
+}

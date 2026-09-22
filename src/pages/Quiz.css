@@ -1,0 +1,77 @@
+.quiz-container {
+  min-height: 100vh;
+  background: #f5f3ff;
+  padding: 1.5rem 1rem 4rem;
+}
+
+.quiz-header {
+  max-width: 760px;
+  margin: 0 auto 1.5rem;
+}
+
+.quiz-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.quiz-counter {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4338ca;
+}
+
+.quiz-score {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6d28d9;
+}
+
+.progress-bar-bg {
+  height: 6px;
+  background: #ddd6fe;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.quiz-footer {
+  max-width: 760px;
+  margin: 1.5rem auto 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-next {
+  padding: 0.75rem 2rem;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+}
+
+.btn-next:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn-next:active {
+  transform: translateY(0);
+}
+
+/* make QuestionCard take full width inside quiz */
+.quiz-container .question-card {
+  max-width: 760px;
+  margin: 0 auto;
+}
