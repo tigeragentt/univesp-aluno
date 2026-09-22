@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -11,36 +11,41 @@ function shuffle(arr) {
 
 export function useQuiz(questions) {
   const [current, setCurrent] = useState(0);
-  const [selected, setSelected] = useState(null);
-  const [answered, setAnswered] = useState(false);
-  const [score, setScore] = useState(0);
+  // answers: { [index]: letter }
+  const [answers, setAnswers] = useState({});
   const [finished, setFinished] = useState(false);
   const [shuffled] = useState(() => shuffle(questions));
 
-  const question = shuffled[current];
   const total = shuffled.length;
+  const question = shuffled[current];
+  const selected = answers[current] ?? null;
+  const answered = selected !== null;
+
+  const score = useMemo(
+    () =>
+      Object.entries(answers).filter(
+        ([i, letter]) => shuffled[Number(i)].gabarito === letter
+      ).length,
+    [answers, shuffled]
+  );
 
   const answer = useCallback(
     (letter) => {
-      if (answered) return;
-      setSelected(letter);
-      setAnswered(true);
-      if (letter === question.gabarito) {
-        setScore((s) => s + 1);
-      }
+      if (answers[current] !== undefined) return;
+      setAnswers((prev) => ({ ...prev, [current]: letter }));
     },
-    [answered, question]
+    [answers, current]
   );
 
   const next = useCallback(() => {
-    if (current + 1 >= total) {
-      setFinished(true);
-    } else {
-      setCurrent((c) => c + 1);
-      setSelected(null);
-      setAnswered(false);
-    }
+    if (current + 1 < total) setCurrent((c) => c + 1);
   }, [current, total]);
+
+  const prev = useCallback(() => {
+    if (current > 0) setCurrent((c) => c - 1);
+  }, [current]);
+
+  const finish = useCallback(() => setFinished(true), []);
 
   return {
     question,
@@ -52,5 +57,7 @@ export function useQuiz(questions) {
     finished,
     answer,
     next,
+    prev,
+    finish,
   };
 }

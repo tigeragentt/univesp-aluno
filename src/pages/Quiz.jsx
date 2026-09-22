@@ -3,14 +3,16 @@ import QuestionCard from '../components/QuestionCard';
 import './Quiz.css';
 
 export default function Quiz({ questions, onFinish }) {
-  const { question, current, total, selected, answered, score, finished, answer, next } = useQuiz(questions);
+  const { question, current, total, selected, answered, score, finished, answer, next, prev, finish } =
+    useQuiz(questions);
 
   if (finished) {
     onFinish(score, total);
     return null;
   }
 
-  const progress = ((current) / total) * 100;
+  const progress = ((current + (answered ? 1 : 0)) / total) * 100;
+  const isLast = current + 1 >= total;
 
   return (
     <div className="quiz-container">
@@ -31,13 +33,33 @@ export default function Quiz({ questions, onFinish }) {
         onAnswer={answer}
       />
 
-      {answered && (
-        <div className="quiz-footer">
-          <button className="btn-next" onClick={next}>
-            {current + 1 < total ? 'Próxima Questão' : 'Ver Resultado'}
+      <div className="quiz-footer">
+        <button
+          className="btn-nav btn-prev"
+          onClick={prev}
+          disabled={current === 0}
+        >
+          ← Anterior
+        </button>
+
+        {isLast ? (
+          <button
+            className="btn-nav btn-next"
+            onClick={finish}
+            disabled={!answered}
+          >
+            Ver Resultado
           </button>
-        </div>
-      )}
+        ) : (
+          <button
+            className="btn-nav btn-next"
+            onClick={next}
+            disabled={!answered}
+          >
+            Próxima →
+          </button>
+        )}
+      </div>
     </div>
   );
 }
