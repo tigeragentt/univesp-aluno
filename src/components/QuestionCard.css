@@ -32,6 +32,22 @@
   white-space: pre-line;
 }
 
+div.enunciado {
+  white-space: normal;
+}
+
+div.enunciado p {
+  margin: 0 0 0.25rem;
+}
+
+.enunciado-item {
+  padding: 0.35rem 0.75rem;
+  background: #f5f3ff;
+  border-left: 3px solid #c4b5fd;
+  border-radius: 0 6px 6px 0;
+  margin: 0.3rem 0 !important;
+}
+
 .options {
   list-style: none;
   padding: 0;
