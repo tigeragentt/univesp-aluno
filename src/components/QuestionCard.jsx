@@ -10,8 +10,12 @@ export default function QuestionCard({ question, selected, answered, onAnswer })
     return 'option';
   };
 
+  const sourceLabel = question.source === 'prova' ? '📝 Prova' : '📖 Módulo';
+  const sourceClass = question.source === 'prova' ? 'source-badge prova' : 'source-badge modulo';
+
   return (
     <div className="question-card">
+      <span className={sourceClass}>{sourceLabel}</span>
       <p className="enunciado">{question.enunciado}</p>
       <ul className="options">
         {LETTERS.filter((l) => question.alternativas[l] !== undefined).map((letter) => (
