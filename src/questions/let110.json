@@ -2,14 +2,12 @@
   "materia": "LET110",
   "nome": "Letramento, Leitura e Escrita",
   "secoes": [
-    {
-      "id": "S1",
-      "nome": "As funções sociais da leitura e da escrita"
-    },
-    {
-      "id": "S2",
-      "nome": "As concepções de linguagem"
-    }
+    { "id": "S1", "nome": "As funções sociais da leitura e da escrita" },
+    { "id": "S2", "nome": "As concepções de linguagem" },
+    { "id": "S3", "nome": "As relações entre a leitura e a escrita" },
+    { "id": "S4", "nome": "Coesão e coerência" },
+    { "id": "S5", "nome": "Informatividade e clareza" },
+    { "id": "S6", "nome": "Discurso e adequação" }
   ],
   "questoes": [
     {
@@ -164,7 +162,567 @@
         "E": "I, II e III."
       },
       "gabarito": "E",
-      "explicacao": "As três afirmativas são compatíveis com a teoria histórico-cultural de Vygotsky:\n\nI – A função comunicativa e interacional é a função primária: a linguagem nasce social, na relação com o outro, antes de se converter em instrumento do pensamento individual.\n\nII – Captura o núcleo da tese — a linguagem como instrumento psicológico. É por meio dela que os processos interpsicológicos se convertem em intrapsicológicos (internalização). O discurso egocêntrico da criança que se torna fala interior é o exemplo clássico.\n\nIII – Correta e com ressalva pertinente: o conceito vygotskiano de mediação é mais amplo que apenas a linguagem — abrange outros sistemas de signos e condições históricas da cultura. Afirmar que outros aspectos do ambiente também influenciam é fiel à teoria."
+      "explicacao": "As três afirmativas são compatíveis com a teoria histórico-cultural de Vygotsky:\n\nI – A função comunicativa e interacional é a função primária: a linguagem nasce social, na relação com o outro, antes de se converter em instrumento do pensamento individual.\n\nII – Captura o núcleo da tese — a linguagem como instrumento psicológico. É por meio dela que os processos interpsicológicos se convertem em intrapsicológicos (internalização). O discurso egocêntrico da criança que se torna fala interior é o exemplo clássico.\n\nIII – Correta e com ressalva pertinente: o conceito vygotskiano de mediação é mais amplo que apenas a linguagem — abrange outros sistemas de signos e condições históricas da cultura."
+    },
+    {
+      "id": 12,
+      "secao": "S3",
+      "enunciado": "O desenvolvimento de habilidades de leitura é um aspecto vital da educação, especialmente no contexto acadêmico. Estratégias eficazes de leitura não só aprimoram a capacidade de entender textos complexos, mas também ampliam a capacidade crítica e analítica do leitor.\n\nCom base na descrição das estratégias de leitura, leia as seguintes afirmativas sobre a compreensão leitora:\n\nI. A decodificação, embora seja fundamental, representa apenas o início do processo de leitura, sendo a base para avançar para etapas mais complexas de interpretação e análise crítica de textos.\nII. Compreender um texto envolve mais do que apenas reconhecer palavras; requer a habilidade de conectar ideias, questionar conceitos e discutir suas implicações, tornando a leitura uma atividade cognitiva ativa.\nIII. O papel dos professores é essencial para guiar os alunos para além da decodificação mecânica, promovendo habilidades de interpretação profunda e análise crítica essenciais no ensino superior.\n\nEstá correto o que afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "II, apenas.",
+        "C": "I, apenas.",
+        "D": "I e II, apenas.",
+        "E": "I, II e III."
+      },
+      "gabarito": "E",
+      "explicacao": "As três afirmativas estão corretas:\n\nI – A decodificação é o ponto de partida, mas a leitura plena exige ir além, para interpretação e análise crítica.\n\nII – Leitura ativa implica conectar ideias, questionar e inferir — não apenas decodificar.\n\nIII – O papel mediador do professor é fundamental para orientar esse avanço da decodificação mecânica para a compreensão profunda, especialmente no nível superior."
+    },
+    {
+      "id": 13,
+      "secao": "S3",
+      "enunciado": "Para entender bem os textos, tanto no ensino médio quanto no ensino superior, é importante saber tanto ler quanto compreender o que está escrito. Ler envolve reconhecer as palavras e frases no papel ou na tela. Compreender, por outro lado, significa interpretar e dar sentido ao que se lê. Na escola, por exemplo, quando você está estudando um livro de história, primeiro você precisa ler as palavras (decifração) e depois entender o contexto e as ideias apresentadas (compreensão). Portanto, essas duas habilidades juntas ajudam a ter um bom desempenho nas tarefas escolares e nos estudos em geral.\n\nCom base no contexto, assinale a alternativa que apresenta o que é importante para garantir que a leitura seja uma atividade cognitiva completa.",
+      "alternativas": {
+        "A": "Atribuição de significado ao texto.",
+        "B": "Decifração das palavras e frases.",
+        "C": "Leitura superficial do conteúdo.",
+        "D": "Identificação das palavras-chave.",
+        "E": "Decodificação do código escrito."
+      },
+      "gabarito": "A",
+      "explicacao": "O texto distingue dois níveis: ler (decifrar/decodificar) e compreender (interpretar e dar sentido). Para que a leitura seja uma atividade cognitiva completa, não basta reconhecer as palavras — é preciso atribuir significado ao texto. A decodificação (B e E) é apenas o ponto de partida, e a leitura superficial (C) contraria a ideia de compreensão profunda. A identificação de palavras-chave (D) é uma estratégia parcial, não o elemento central."
+    },
+    {
+      "id": 14,
+      "secao": "S3",
+      "enunciado": "Leia o texto: \"Assim, para ler bem é preciso decifrar bem. Esse pré-requisito é tido como fundamental para a maioria absoluta dos estudiosos de leitura, no atual estágio de desenvolvimento dos estudos sobre o tema. No entanto, decifrado não se confunde com compreensão, porque a compreensão não faz parte do ato de leitura propriamente dito: ela ocorre depois do lento processo de transposição dos signos escritos em signos vocais (BAJARD, 1994), não se podendo reduzir ler a decodificar\" (PINTO, 2010; 2011). — FLÔRES, Onici Claro. A inter-relação leitura & escrita. Signo, Santa Cruz do Sul, 2016.\n\nConsidere as afirmativas a seguir:\n\nI. A leitura, sendo uma atividade interativa e multifacetada, permite que o leitor ultrapasse os limites do contexto situacional, ampliando seus horizontes de entendimento e promovendo um engajamento crítico e reflexivo.\nII. Os professores, ao abordar as diversas propostas teóricas para o ensino da leitura e escrita, devem adotar uma postura crítica e fundamentada, adaptando e integrando essas teorias às necessidades dos alunos e às dinâmicas sociais em constante mudança.\nIII. A compreensão leitora transcende a simples decodificação dos signos escritos, englobando a interpretação e a construção de significados complexos, fundamentados no conhecimento prévio e nas estratégias leitoras eficazes.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "I e II, apenas.",
+        "C": "I, II e III.",
+        "D": "I, apenas.",
+        "E": "I e III, apenas."
+      },
+      "gabarito": "C",
+      "explicacao": "As três afirmativas são sustentadas pelo texto e pelo contexto da disciplina:\n\nI – A leitura como atividade interativa e reflexiva vai além da decodificação, abrindo horizontes de entendimento.\n\nII – O texto sugere que a teoria (decifração ≠ compreensão) precisa ser integrada à prática pedagógica criticamente.\n\nIII – É a síntese direta do texto citado: compreensão não se reduz à decodificação; ela constrói significados complexos a partir do conhecimento prévio e de estratégias leitoras."
+    },
+    {
+      "id": 15,
+      "secao": "S3",
+      "enunciado": "Desde a Grécia Antiga, reconhece-se que a linguagem tem um papel central nos regimes democráticos, contrastando com sua supressão em regimes totalitários onde o discurso é frequentemente controlado. A vitalidade da democracia é refletida no livre intercâmbio de ideias e no debate público, enquanto os regimes autoritários tendem a restringir a linguagem para fortalecer seu controle. Exemplos históricos e contemporâneos mostram como a manipulação da linguagem pode influenciar a percepção pública e reforçar ou desafiar o poder político.\n\nCom base nas informações fornecidas e na compreensão do uso político da linguagem, avalie as seguintes afirmações:\n\nI. Em regimes democráticos, a liberdade de expressão permite que a linguagem evolua naturalmente, refletindo a diversidade de perspectivas e opiniões da população.\nII. A restrição do uso de certos termos é característica apenas de regimes totalitários e nunca ocorre em democracias modernas.\nIII. O controle linguístico em regimes autoritários serve como ferramenta para limitar o pensamento crítico e reforçar a ideologia dominante.\nIV. A apropriação e alteração de termos populares por grupos elitistas nunca têm implicações políticas ou sociais.\n\nÉ correto o que se afirma em:",
+      "alternativas": {
+        "A": "I, II e IV, apenas.",
+        "B": "I e III, apenas.",
+        "C": "I, II, III e IV.",
+        "D": "II e IV, apenas.",
+        "E": "III e IV, apenas."
+      },
+      "gabarito": "B",
+      "explicacao": "I – correta: a democracia pressupõe livre circulação de ideias, o que permite à linguagem refletir a diversidade da população.\n\nII – incorreta: democracias também podem restringir certos discursos (discurso de ódio, difamação, segredos de Estado). O 'nunca' é absoluto demais.\n\nIII – correta: controlar o que pode ser dito é controlar o que pode ser pensado — mecanismo central dos regimes autoritários.\n\nIV – incorreta: a apropriação de termos populares por grupos elitistas é exatamente o tipo de fenômeno com fortes implicações políticas e sociais (esvaziamento do sentido original, usurpação simbólica)."
+    },
+    {
+      "id": 16,
+      "secao": "S3",
+      "enunciado": "A relação entre linguagem, poder e democracia destaca a importância das palavras e seus significados como um bem comum pertencente a todos os cidadãos. Em uma democracia, as palavras têm significados que são moldados coletivamente pelo povo. No entanto, quando essas palavras são forçadas a mudar por um indivíduo ou grupo específico, isso indica uma anomalia democrática.\n\nRelacione as expressões (Lista I) com as descrições (Lista II):\n\nLista I: I. Usurpação discursiva / II. Higienização da língua / III. Manipulação midiática / IV. Legitimidade forçada\n\nLista II: A. Prática de eliminar expressões populares para impor uma linguagem única e oficial. / B. Quando o sentido das palavras é alterado ou manipulado para justificar atos de poder ilegítimos. / C. Controle do discurso público por meio de órgãos de comunicação, promovendo interesses particulares. / D. Apropriação de termos e expressões de outras culturas ou classes sociais, retirando seu contexto original.\n\nAssinale a alternativa com a associação correta:",
+      "alternativas": {
+        "A": "I-A, II-B, III-D, IV-C",
+        "B": "I-D, II-B, III-A, IV-C",
+        "C": "I-B, II-A, III-D, IV-C",
+        "D": "I-D, II-A, III-C, IV-B",
+        "E": "I-C, II-D, III-B, IV-A"
+      },
+      "gabarito": "D",
+      "explicacao": "I. Usurpação discursiva → D: usurpar é tomar o que pertence a outro. No plano do discurso, é apropriar-se de termos de outras culturas/classes retirando seu contexto original.\n\nII. Higienização da língua → A: 'higienizar' significa expurgar. Trata-se da eliminação de expressões populares em favor de uma língua única e oficial.\n\nIII. Manipulação midiática → C: controle do discurso público pelos órgãos de comunicação, colocados a serviço de interesses particulares.\n\nIV. Legitimidade forçada → B: as palavras têm seu sentido alterado para revestir de aparente legalidade atos de poder ilegítimos — a 'anomalia democrática' do texto."
+    },
+    {
+      "id": 17,
+      "secao": "S3",
+      "enunciado": "De acordo com a Constituição Federal de 1988, a educação é um direito de todos e um dever do Estado e da família, promovida com a colaboração da sociedade. O objetivo da educação é assegurar o pleno desenvolvimento da pessoa, seu preparo para o exercício da cidadania e sua qualificação para o trabalho.\n\nCom relação a este contexto, avalie as asserções a seguir e a relação proposta entre elas:\n\nI. O sistema educacional deve proporcionar igualdade de oportunidades para todos os cidadãos, assegurando o acesso e a permanência na escola, de modo a formar indivíduos capazes de exercer plenamente sua cidadania e contribuir para o desenvolvimento social.\nPORQUE\nII. a exclusão econômica e social de grupos desfavorecidos, que limita o acesso à educação superior, é uma prática que perpetua desigualdades e impede a realização do ideal de uma sociedade justa e inclusiva, comprometendo a formação de cidadãos plenos e participativos.",
+      "alternativas": {
+        "A": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "B": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "C": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "D": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "E": "As asserções I e II são falsas."
+      },
+      "gabarito": "B",
+      "explicacao": "Asserção I (verdadeira): reproduz fielmente o Art. 205 da CF/88 (educação como direito de todos, preparo para a cidadania) e o Art. 206, inciso I (igualdade de condições para acesso e permanência na escola).\n\nAsserção II (verdadeira): a exclusão econômica de grupos desfavorecidos efetivamente restringe o acesso ao ensino superior, perpetuando desigualdades — diagnóstico que fundamentou políticas como ProUni, FIES e Lei de Cotas.\n\nRelação (justificativa): a II não é informação paralela; ela fornece a razão pela qual a exigência da I se impõe. Se a exclusão perpetua desigualdades (II), então o sistema precisa garantir igualdade de oportunidades (I). A é incorreta porque nega o nexo que existe entre elas."
+    },
+    {
+      "id": 18,
+      "secao": "S3",
+      "enunciado": "Leia o trecho: João, um estudante universitário de classe média, começou a usar gírias e expressões que ouviu de seus amigos da periferia em seu dia a dia. Ele acredita que isso o ajuda a se sentir mais conectado e descolado. No entanto, seus amigos da periferia pensam em outra coisa quando João fala, porque ele fica desfalcado do assunto.\n\nCom base no exemplo e nos estudos da disciplina, assinale a alternativa que explica a crítica à apropriação das expressões da periferia por jovens da classe média.",
+      "alternativas": {
+        "A": "João está promovendo a diversidade linguística ao usar expressões da periferia de maneira autêntica.",
+        "B": "João usa as expressões da periferia de maneira forçada, desrespeitando o contexto original e empobrecendo o sentido dessas palavras.",
+        "C": "João evita usar as expressões da periferia para manter a distinção social, mostrando respeito pelas diferenças culturais.",
+        "D": "A apropriação das expressões da periferia por João é vista como uma valorização das culturas periféricas.",
+        "E": "A apropriação das expressões da periferia por João é uma forma eficaz de promover a integração entre diferentes grupos sociais."
+      },
+      "gabarito": "B",
+      "explicacao": "O enunciado diz que os amigos da periferia 'pensam em outra coisa quando João fala', pois 'ele fica desfalcado do assunto' — há um descompasso entre forma e conteúdo: João domina o vocabulário, mas não a experiência social que lhe dá sentido.\n\nEsse é o mecanismo da usurpação discursiva: apropriação de termos de outro grupo social com retirada do contexto original. A linguagem periférica carrega marcas de pertencimento, história e resistência que não se transferem com a casca sonora.\n\nHá também uma assimetria: João pode adotar e abandonar essa linguagem sem custo social, enquanto o falante periférico é estigmatizado pelo mesmo modo de falar em contextos formais.\n\nA – o enunciado explicita que o uso não é autêntico. C – contraria o fato narrado. D e E – invertem o sentido da crítica: apropriação descontextualizada não é valorização nem integração."
+    },
+    {
+      "id": 19,
+      "secao": "S4",
+      "enunciado": "\"A coerência textual é um aspecto fundamental para a construção de um texto que faça sentido. Para que um texto seja coerente, é necessário que suas ideias estejam bem articuladas e apresentem uma relação lógica entre si. A coerência é garantida por meio de elementos como a [preencher 1] entre as partes do texto e a [preencher 2] das informações apresentadas\".\n\nOs termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
+      "alternativas": {
+        "A": "1 continuidade — 2 clareza",
+        "B": "1 conexão — 2 consistência",
+        "C": "1 sequência — 2 relevância",
+        "D": "1 articulação — 2 precisão",
+        "E": "1 coesão — 2 pertinência"
+      },
+      "gabarito": "B",
+      "explicacao": "B preenche os dois espaços de modo a reproduzir o raciocínio do texto:\n\n'Conexão' estabelece a relação lógica entre as diferentes partes do texto, e 'consistência' garante que as informações não sejam contraditórias e mantenham coerência interna.\n\nAs demais trazem termos plausíveis isoladamente, mas que não formam o par que melhor fecha o argumento: 'articulação' seria redundante com o início do texto; 'coesão' trocaria um dos planos pelo outro; 'pertinência' e 'relevância' enfatizam adequação ao tema, não relação lógica interna."
+    },
+    {
+      "id": 20,
+      "secao": "S4",
+      "enunciado": "A coerência textual é fundamental para a compreensão do texto como um todo. Ao escrever, torna-se importante avaliar se as ideias apresentadas estão conectadas de forma lógica e fluida.\n\nDe acordo com os estudos da disciplina, analise as afirmativas:\n\nI. A coerência se refere às frases isoladas dentro de um texto, desconsiderando o contexto mais amplo e as relações estabelecidas entre as frases.\nII. O conhecimento de mundo do leitor não exerce papel determinante na recuperação dos sentidos pretendidos pelo autor, uma vez que o texto é autossuficiente.\nIII. A coerência é global e se aplica ao todo do texto, influenciando a interpretabilidade e a compreensão geral da mensagem transmitida.\nIV. As palavras e frases dentro de um texto podem ter seus sentidos alterados dependendo das relações que estabelecem com outras partes do texto, contribuindo para a coerência.\n\nEstá correto o que afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "I e IV, apenas.",
+        "C": "III e IV, apenas.",
+        "D": "I, II e IV, apenas.",
+        "E": "I e III, apenas."
+      },
+      "gabarito": "C",
+      "explicacao": "I – Incorreta: a coerência é um fenômeno global, não de frases isoladas.\n\nII – Incorreta: o conhecimento de mundo do leitor é fundamental para preencher lacunas e atribuir sentido (o texto não é autossuficiente).\n\nIII – Correta: a coerência é um fenômeno global que garante que a mensagem do texto como um todo faça sentido e seja interpretável.\n\nIV – Correta: o sentido de palavras e frases é construído contextualmente pelas relações lógicas e semânticas estabelecidas com as demais partes do texto."
+    },
+    {
+      "id": 21,
+      "secao": "S4",
+      "enunciado": "Leia o texto: \"O cotidiano vivenciado por eles tem lhes trazido algumas dificuldades no cumprimento dos afazeres escolares: trabalhos e exercícios não feitos, atividades incompletas, texto não produzido ou produzido sem nenhum cuidado etc. Essa situação requer do professor, especialmente do de Língua Portuguesa, que promova situações dinâmicas e interessantes de ensino-aprendizagem, principalmente no que se refere às atividades de produção de textos...\"\n\nIdentifique e associe corretamente os termos (Lista 1) às definições (Lista 2):\n\nLista 1: I. Coerência / II. Coesão / III. Intencionalidade / IV. Aceitabilidade / V. Situacionalidade\n\nLista 2: A. Relaciona-se à continuidade, progressão, não contradição interna e externa, e articulação do texto. / B. Refere-se ao uso de mecanismos na superfície textual que garantem a continuidade e a articulação do texto. / C. A preocupação do aluno em construir um texto que atenda às expectativas do professor avaliador. / D. Refere-se à adequação do texto às expectativas do leitor quanto à sua estrutura e conteúdo. / E. Contexto em que o texto é produzido e recebido, influenciando sua interpretação.\n\nAssinale a alternativa com a associação correta:",
+      "alternativas": {
+        "A": "I-C, II-A, III-E, IV-B, V-D",
+        "B": "I-B, II-A, III-D, IV-E, V-C",
+        "C": "I-A, II-B, III-C, IV-D, V-E",
+        "D": "I-A, II-C, III-B, IV-D, V-E",
+        "E": "I-B, II-C, III-A, IV-E, V-D"
+      },
+      "gabarito": "C",
+      "explicacao": "I. Coerência → A: fatores lógicos e semânticos do texto — continuidade, progressão, não contradição e articulação dos sentidos.\n\nII. Coesão → B: recursos e mecanismos formais/gramaticais na superfície do texto (conectivos, pronomes, elipses) que conectam as partes.\n\nIII. Intencionalidade → C: empenho do produtor em alcançar seus objetivos; no contexto escolar, o aluno busca atender às expectativas do professor.\n\nIV. Aceitabilidade → D: disposição do leitor em receber o texto como conjunto coerente e coeso que atende às suas expectativas.\n\nV. Situacionalidade → E: fatores que tornam um texto adequado para a situação comunicativa/contexto em que é produzido e recebido."
+    },
+    {
+      "id": 22,
+      "secao": "S4",
+      "enunciado": "Um conjunto de palavras forma uma mensagem dirigida a um público dentro de um cenário comunicativo específico. A estrutura textual organiza essas partes de maneira integrada e fluida, garantindo que o conteúdo seja compreendido de forma clara. Além disso, os textos refletem os valores culturais e os objetivos do autor, desempenhando um papel fundamental na interação humana.\n\nCom base no texto acima, avalie as afirmativas a seguir:\n\nI. A textualidade envolve a organização de partes do texto, assegurando que as ideias se relacionem de forma clara e lógica.\nII. O texto pode ser definido como uma unidade de comunicação, falada ou escrita, que tem um propósito social e formal.\nIII. Textos são apenas coleções de frases ou orações, sem que aspectos culturais influenciem sua construção.\nIV. A produção de um texto deve estar conectada a uma situação específica de comunicação, para que o seu propósito seja atingido.\n\nEstá correto o que afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "I e III, apenas.",
+        "C": "I, II e IV, apenas.",
+        "D": "I e IV, apenas.",
+        "E": "II, III e IV, apenas."
+      },
+      "gabarito": "C",
+      "explicacao": "I – Correta: a textualidade diz respeito aos fatores que transformam uma sequência de frases em texto coeso e coerente.\n\nII – Correta: o texto é a unidade básica de comunicação (verbal ou não verbal) que cumpre uma função social dentro de uma determinada estrutura/propósito.\n\nIII – Incorreta: um texto não é mera coleção de frases. Os aspectos culturais e sociais influenciam diretamente sua construção e interpretação.\n\nIV – Correta: todo texto é produzido dentro de um contexto comunicativo (situacionalidade) para atingir um objetivo específico."
+    },
+    {
+      "id": 23,
+      "secao": "S4",
+      "enunciado": "A coesão textual é garantida por diferentes mecanismos que conectam partes do texto, garantindo fluidez e clareza. Entre esses mecanismos, incluem-se a referência, a substituição, a elipse, a conjunção e a coesão lexical.\n\nAssocie corretamente os mecanismos de coesão textual (Lista 1) às suas descrições (Lista 2):\n\nLista 1: I. Referência / II. Substituição / III. Elipse / IV. Conjunção / V. Coesão lexical\n\nLista 2: A. Uso de pronomes ou advérbios que remetem a elementos previamente mencionados ou que serão mencionados. / B. Omissão de um termo que pode ser recuperado pelo contexto. / C. Uso de termos que substituem outros previamente mencionados. / D. Palavras ou expressões que conectam frases ou orações indicando relações como adição, contraste, causa, tempo, etc. / E. Relação entre termos por sinonímia, hiperonímia ou campo semântico.\n\nAssinale a alternativa com a associação correta:",
+      "alternativas": {
+        "A": "I-B; II-A; III-D; IV-C; V-E",
+        "B": "I-D; II-B; III-C; IV-A; V-E",
+        "C": "I-A; II-C; III-B; IV-D; V-E",
+        "D": "I-C; II-A; III-E; IV-B; V-D",
+        "E": "I-A; II-C; III-B; IV-E; V-D"
+      },
+      "gabarito": "C",
+      "explicacao": "I. Referência → A: elementos (pronomes, demonstrativos, advérbios) que remetem a itens do próprio texto (anafórica ou cataforicamente).\n\nII. Substituição → C: colocação de um item no lugar de outro mencionado anteriormente para evitar repetição.\n\nIII. Elipse → B: omissão subentendida de um termo que pode ser facilmente recuperado pelo contexto prévio.\n\nIV. Conjunção → D: conectivos que estabelecem ligações lógicas e semânticas entre orações ou parágrafos (adição, oposição, causa, conclusão, etc.).\n\nV. Coesão lexical → E: reiteração de sentidos por meio de sinônimos, hiperônimos, hipônimos ou palavras do mesmo campo semântico."
+    },
+    {
+      "id": 24,
+      "secao": "S4",
+      "enunciado": "A coesão textual é um elemento essencial para garantir que as partes de um texto estejam conectadas de maneira clara e fluida. Ela utiliza mecanismos linguísticos para criar relações entre palavras, frases e parágrafos, permitindo que o leitor acompanhe o desenvolvimento das ideias.\n\nConforme os estudos da disciplina, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A coesão sequencial organiza as ideias principalmente de forma cronológica, e a coesão referencial é um recurso opcional, já que o entendimento do texto depende principalmente da ordem temporal e progressiva das informações.",
+        "B": "O uso de coesão referencial e sequencial pode ser minimizado, desde que a coerência geral do texto seja mantida, garantindo que o leitor compreenda as informações sem necessariamente precisar de conexões claras entre os elementos.",
+        "C": "A coesão textual é alcançada através do uso de conectivos, pronomes, sinônimos e elipses, que ajudam a estabelecer relações entre palavras, frases e parágrafos.",
+        "D": "A coerência entre as ideias principais de um texto é suficiente para garantir sua clareza, e a coesão referencial e sequencial são mecanismos que podem ser menos usados sem prejudicar a conexão entre as partes do texto.",
+        "E": "A coesão referencial e a coesão sequencial podem ser substituídas por outros recursos, pois o entendimento global de um texto depende mais da coerência entre as ideias principais do que de conexões detalhadas entre os elementos."
+      },
+      "gabarito": "C",
+      "explicacao": "C descreve corretamente os mecanismos da coesão textual: conectivos (conjunção), pronomes (referência), sinônimos (coesão lexical) e elipses (omissão recuperável) são exatamente os recursos que estabelecem relações entre as partes do texto.\n\nA e B reduzem indevidamente a importância de mecanismos coesivos específicos. D e E subordinam a coesão à coerência, como se fossem hierarquicamente independentes — na prática, coesão e coerência são dimensões complementares e interdependentes da textualidade."
+    },
+    {
+      "id": 25,
+      "secao": "S4",
+      "enunciado": "A coerência textual é essencial para garantir que o leitor compreenda a progressão lógica das ideias. Quando a continuidade temática é interrompida ou as ideias não se conectam adequadamente, a compreensão do texto é prejudicada.\n\nLeia o texto: \"A prática regular de exercícios físicos é fundamental para a saúde. Caminhadas diárias podem prevenir doenças e aumentar a qualidade de vida. Além disso, manter uma dieta balanceada é essencial para a obtenção de resultados satisfatórios. Nos últimos anos, o uso de smartphones durante as refeições tem aumentado significativamente, prejudicando o foco na alimentação. É importante adotar hábitos saudáveis, como evitar alimentos ultraprocessados e manter uma rotina de sono adequada.\"\n\nCom base nos estudos da disciplina e na leitura do texto, identifique a alternativa que apresenta um problema de coerência:",
+      "alternativas": {
+        "A": "A análise do texto revela que ele articula de maneira eficiente os diferentes tópicos abordados, estabelecendo conexões lógicas entre eles.",
+        "B": "O texto utiliza uma estrutura coesa e coerente, apresentando uma sequência de ideias conectadas entre os parágrafos.",
+        "C": "O texto apresenta quebras de continuidade temática, mudando abruptamente de tópicos e prejudicando a coerência das ideias.",
+        "D": "O texto apresenta uma progressão temática clara, desenvolvendo suas ideias de forma sequencial e lógica.",
+        "E": "O texto mantém uma continuidade temática, tratando de hábitos saudáveis de maneira coesa ao longo de todo o desenvolvimento."
+      },
+      "gabarito": "C",
+      "explicacao": "O texto começa tratando de exercícios físicos e alimentação saudável, mas de repente introduz uma informação sobre 'uso de smartphones durante as refeições' — tema que não é desenvolvido nem integrado ao fio condutor. Essa mudança abrupta constitui uma quebra de continuidade temática: o leitor não encontra a conexão lógica esperada entre o parágrafo anterior (dieta balanceada) e a informação sobre smartphones.\n\nA, B, D e E afirmam o contrário do que o texto demonstra — logo são incorretas."
+    },
+    {
+      "id": 26,
+      "secao": "S4",
+      "enunciado": "A progressão temática é um elemento essencial para a coerência textual. Ela garante que as ideias do texto avancem de forma lógica e sequencial, evitando a repetição desnecessária e a circularidade.\n\nLeia o texto: \"A educação é fundamental para o desenvolvimento das pessoas. Ela fornece informações valiosas e habilidades para a vida. Com a educação, a vida se torna mais interessante. Através dos estudos, aprendemos sobre diferentes culturas e adquirimos novos conhecimentos. Com a educação, podemos melhorar nossa capacidade de resolver problemas e tomar decisões informadas. A educação é um meio essencial para o progresso.\"\n\nCom relação a este tema e ao texto apresentado, observe as afirmativas a seguir:\n\nI. O texto apresenta uma progressão temática clara, discutindo diferentes aspectos da importância da educação.\nII. O texto é circular, pois repete a ideia da importância da educação sem acrescentar novos pontos.\nIII. O texto mostra como a educação contribui para o desenvolvimento pessoal e social em uma sociedade.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "I e II, apenas.",
+        "B": "II e III, apenas.",
+        "C": "I, apenas.",
+        "D": "I, II e III.",
+        "E": "I e III, apenas."
+      },
+      "gabarito": "E",
+      "explicacao": "I – Correta: o texto lista diferentes aspectos (informações, habilidades, culturas, resolução de problemas), ainda que de forma superficial.\n\nII – Incorreta: embora o texto não progrida de modo aprofundado, não é apenas circular. Ele avança por diferentes facetas da educação.\n\nIII – Correta: o texto menciona aspectos que dizem respeito tanto ao desenvolvimento pessoal ('habilidades para a vida', 'resolver problemas') quanto social ('diferentes culturas', 'progresso').\n\nA chave está em não confundir ausência de profundidade com circularidade absoluta."
+    },
+    {
+      "id": 27,
+      "secao": "S4",
+      "enunciado": "Comunicação clara é a capacidade de transmitir informações, ideias e sentimentos de maneira que sejam facilmente compreendidos pelo receptor. Isso envolve o uso de uma linguagem precisa, organizada e livre de ambiguidades.\n\nCom relação a este contexto, analise as asserções a seguir e a relação proposta entre elas:\n\nI. O uso de pronomes e expressões coesivas é fundamental para garantir a continuidade lógica e a clareza de um texto.\nPORQUE\nII. A coesão textual é responsável por ligar as partes do texto de maneira que as ideias avancem de forma lógica e inter-relacionada.",
+      "alternativas": {
+        "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "B": "As asserções I e II são falsas.",
+        "C": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "D": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "E": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I."
+      },
+      "gabarito": "C",
+      "explicacao": "I – Verdadeira: pronomes e expressões coesivas (conectivos, referências, elipses) são exatamente os mecanismos que garantem continuidade e clareza.\n\nII – Verdadeira: a coesão é definida como o conjunto de mecanismos que ligam as partes do texto de modo lógico e inter-relacionado.\n\nRelação: a II é justificativa da I porque explica por que o uso de pronomes e expressões coesivas produz continuidade e clareza — precisamente porque a coesão tem a função de ligar as partes do texto de forma lógica. A relação causal é clara e legítima."
+    },
+    {
+      "id": 28,
+      "secao": "S4",
+      "enunciado": "Leia o exemplo: \"A alimentação saudável é essencial para o bem-estar. Consumir frutas e vegetais diariamente fornece vitaminas importantes para o corpo. Além disso, evitar alimentos processados pode prevenir doenças. Portanto, adotar uma dieta equilibrada contribui significativamente para uma vida mais saudável e ativa.\"\n\nNeste texto, a coesão é garantida pelo uso de conectores como 'Além disso' e 'portanto', que ligam as frases, enquanto a coerência é mantida pela ideia central de alimentação saudável e seus benefícios.\n\nAnalise as asserções a seguir e a relação proposta entre elas:\n\nI. A coesão é um dos fatores que contribuem para a coerência textual.\nPORQUE\nII. A separação entre coesão e coerência é claramente definida e não apresenta sobreposições.",
+      "alternativas": {
+        "A": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "B": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "C": "As asserções I e II são falsas.",
+        "D": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "E": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira."
+      },
+      "gabarito": "D",
+      "explicacao": "I – Verdadeira: a coesão — o encadeamento formal das partes do texto — contribui para a coerência global. O exemplo confirma isso: os conectores ('Além disso', 'portanto') amarram as frases e sustentam a lógica do argumento.\n\nII – Falsa: na teoria textual (Halliday & Hasan, Koch, Beaugrande & Dressler), coesão e coerência são dimensões distintas, mas há sobreposições reconhecidas. Um texto pode ser coeso sem ser coerente (frases bem encadeadas que não fazem sentido juntas) ou coerente sem ser coeso (sentido compreensível apesar de pouca articulação formal). A afirmação de que 'não há sobreposições' é incorreta."
+    },
+    {
+      "id": 29,
+      "secao": "S4",
+      "enunciado": "Os mecanismos de coesão são importantes para criar textos claros e bem conectados. Eles ajudam a ligar frases e ideias de forma lógica. A coesão é mostrada através de palavras e estruturas que conectam as partes do texto.\n\nConsiderando os mecanismos de coesão textual, assinale a alternativa correta:",
+      "alternativas": {
+        "A": "A elipse e a substituição são tipos de coesão conjuntiva.",
+        "B": "As conjunções aditiva, adversativa e causal são mecanismos de coesão lexical.",
+        "C": "A referenciação pode ser pessoal, demonstrativa e comparativa.",
+        "D": "A referenciação é um tipo de coesão construída pelo uso de repetições e sinônimos.",
+        "E": "A coesão lexical inclui repetição, sinonímia, hiperonímia e elipse."
+      },
+      "gabarito": "C",
+      "explicacao": "C está correta com base no modelo de Halliday e Hasan: a referência (referenciação) se subdivide em:\n- Pessoal: pronomes pessoais e possessivos ('ele', 'seu')\n- Demonstrativa: pronomes e advérbios demonstrativos ('este', 'aquilo', 'lá')\n- Comparativa: termos que remetem por comparação ('o mesmo', 'tal', 'melhor', 'outro')\n\nPor que as demais estão erradas:\nA – Elipse e substituição são mecanismos autônomos, não subtipos da coesão conjuntiva.\nB – Conjunções formam a coesão conjuntiva (gramatical), não lexical.\nD – Repetições e sinônimos caracterizam a coesão lexical, não a referenciação.\nE – A elipse não é lexical: é um mecanismo gramatical à parte, baseado na omissão de termo recuperável pelo contexto."
+    },
+    {
+      "id": 30,
+      "secao": "S4",
+      "enunciado": "Um grupo de alunos do ensino médio foi desafiado a escrever redações argumentativas sobre a importância da preservação ambiental. O professor destacou alguns conceitos essenciais para a construção de um texto coerente: situacionalidade, intencionalidade e aceitabilidade, informatividade, focalização, intertextualidade e relevância.\n\nConsiderando o caso das redações dos alunos e os conceitos apresentados, avalie as seguintes afirmativas:\n\nI. A situacionalidade implica que os elementos que compõem um texto devem interagir para formar um todo dentro de uma situação e contexto de comunicação.\nII. A intencionalidade e a aceitabilidade destacam a importância de o texto atender tanto às expectativas do escritor quanto do leitor.\nIII. A informatividade envolve equilibrar informações previsíveis com novidades, de modo a não tornar o texto nem enfadonho nem incompreensível.\nIV. A focalização relaciona-se diretamente com os aspectos do assunto que são enfatizados na redação, conforme o conhecimento compartilhado entre escritor e leitor.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "I, II, III e IV.",
+        "C": "I e IV, apenas.",
+        "D": "I e III, apenas.",
+        "E": "I, II e IV, apenas."
+      },
+      "gabarito": "B",
+      "explicacao": "Todas as afirmativas descrevem corretamente os fatores de coerência (na linha de Beaugrande & Dressler, retomados por Koch e Travaglia):\n\nI – Situacionalidade: adequação ao contexto comunicativo (aqui, o contexto escolar/dissertativo sobre preservação ambiental).\n\nII – Intencionalidade é o propósito do escritor; aceitabilidade é a disposição e expectativa do leitor. São as duas faces da interação textual.\n\nIII – Informatividade: equilíbrio entre o previsível e o novo. Só obviedades → enfadonho; só novidade densa → incompreensível.\n\nIV – Focalização: aspectos do tema que ganham destaque dependendo do conhecimento partilhado entre escritor e leitor."
+    },
+    {
+      "id": 31,
+      "secao": "S5",
+      "enunciado": "Considerando a concepção da escrita como um processo em conformidade com os PCNs para o ensino de língua portuguesa, Arnemann e Veçossi (2017) defendem a 'informatividade como possibilidade de promover avanços em escritas argumentativas'. Investir em atividades que promovam a informatividade na sala de aula é fundamental para o desenvolvimento de habilidades de escrita argumentativa entre os estudantes.\n\nAnalise as asserções a seguir e a relação proposta entre elas:\n\nI. A compreensão da escrita como processo, conforme os PCNs, favorece a realização de atividades mais complexas, como a produção de textos argumentativos.\nPORQUE\nII. A informatividade é um princípio de textualidade que, quando integrado ao ensino, pode melhorar a qualidade da escrita argumentativa dos estudantes.",
+      "alternativas": {
+        "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "B": "As asserções I e II são falsas.",
+        "C": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "D": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "E": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa."
+      },
+      "gabarito": "C",
+      "explicacao": "I – Verdadeira: tratar a escrita como processo (planejamento, produção, revisão) abre espaço para atividades mais complexas como a argumentação, pois o aluno aprende a construir e reconstruir o texto com intencionalidade.\n\nII – Verdadeira: a informatividade — equilíbrio entre o previsível e o novo — quando integrada ao ensino, ajuda os alunos a construir argumentos mais sólidos e a sustentar o interesse do leitor.\n\nRelação: a II é justificativa da I porque explica o mecanismo pelo qual a concepção processual favorece a produção argumentativa: é justamente por meio do trabalho com a informatividade que a escrita-como-processo gera avanços na argumentação."
+    },
+    {
+      "id": 32,
+      "secao": "S5",
+      "enunciado": "A informatividade desempenha um papel essencial na compreensão e criação de textos, referindo-se à novidade ou à familiaridade das informações apresentadas aos receptores. \"O termo informatividade designa em que medida os materiais linguísticos apresentados no texto são esperados/não esperados, conhecidos/não conhecidos da parte dos receptores. A informatividade exerce um importante controle na seleção e arranjo de alternativas no texto\" (Fávero, 1985).\n\nConsiderando o exposto, leia as afirmativas a seguir:\n\nI. A informatividade é importante porque ajuda a manter o interesse e a atenção do leitor ou ouvinte e pode ser influenciada pelo contexto em que o texto é produzido.\nII. A informatividade está relacionada à seleção e organização de informações no texto para que tenha coesão, coerência e mantenha a atenção do leitor durante a leitura.\nIII. A informatividade se refere à medida em que as informações apresentadas no texto são esperadas ou não esperadas, conhecidas ou não conhecidas pelos receptores.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "I, apenas.",
+        "B": "I e III, apenas.",
+        "C": "II e III, apenas.",
+        "D": "I, II e III.",
+        "E": "I e II, apenas."
+      },
+      "gabarito": "B",
+      "explicacao": "I – Correta: a informatividade influencia o interesse do leitor (ocorrências muito previsíveis geram desatenção; as inesperadas despertam interesse) e é relativa ao contexto e ao repertório dos receptores.\n\nII – Incorreta: a afirmação diz que a seleção e organização servem 'para que o texto tenha coesão e coerência'. Isso inverte a arquitetura teórica: informatividade, coesão e coerência são critérios paralelos e distintos de textualidade. Um texto pode ser coeso e coerente e, ainda assim, ter baixa informatividade (ex.: 'A água é a substância mais comum na Terra').\n\nIII – Correta: é praticamente a definição literal do texto citado de Fávero — a medida em que os materiais linguísticos são esperados/não esperados, conhecidos/não conhecidos pelos receptores."
+    },
+    {
+      "id": 33,
+      "secao": "S5",
+      "enunciado": "Leia os textos a seguir:\n\nTexto I: \"As palavras de conteúdo seriam geralmente mais informativas. A escolha seria maior, elas ativariam mais extensos e diversos materiais cognitivos e poderiam produzir mais emoções e imagens mentais do que as funcionais. Contudo, o produtor pode alternar ou inverter os papéis dos tipos de palavras, podendo ocorrer, por exemplo, palavras funcionais em sequências pouco comuns.\" (Fávero, 1985)\n\nTexto II: \"...na escola, é o professor, 'parceiro mais competente' na relação docente-discente, que engendra uma série de procedimentos articulados, os quais visam a que o estudante atinja determinados propósitos de aprendizagem. No caso das atividades realizadas na aula de LP, observamos que se organizam em três eixos principais: leitura, produção de texto e gramática, havendo, muitas vezes, ênfase sobre esse último núcleo, o qual, de forma desconectada, passa a ser compreendido como 'aula de português', sem que haja a devida inter-relação com leitura e escrita.\" (Arnemann; Veçossi, 2018)\n\nAnalise as asserções e a relação proposta entre elas:\n\nI. As palavras de conteúdo são mais informativas e evocativas de emoções e imagens mentais em comparação com as palavras funcionais, mas suas funções podem ser invertidas pelo produtor.\nPORQUE\nII. Na educação, a mediação do professor é essencial para conectar gramática, leitura e escrita, evitando que a gramática seja vista apenas como nomenclatura, sem uma reflexão prática.",
+      "alternativas": {
+        "A": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "B": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "C": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "D": "As asserções I e II são falsas.",
+        "E": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira."
+      },
+      "gabarito": "C",
+      "explicacao": "I – Verdadeira: o Texto I afirma que palavras de conteúdo são geralmente mais informativas, mas que o produtor pode inverter os papéis (palavras funcionais em sequências incomuns ganham alta informatividade).\n\nII – Verdadeira: o Texto II critica exatamente o isolamento da gramática, defendendo a mediação do professor para integrá-la à leitura e à escrita.\n\nRelação: a II NÃO é justificativa da I. São afirmações verdadeiras e complementares, mas retiradas de contextos diferentes (teoria da informatividade vs. prática pedagógica). A veracidade de uma não explica nem fundamenta a outra; são planos distintos."
+    },
+    {
+      "id": 34,
+      "secao": "S5",
+      "enunciado": "O paralelismo é uma técnica estilística e gramatical que consiste em usar estruturas semelhantes em frases ou partes de frases para criar um padrão harmonioso e equilibrado.\n\nFrase 1: Desejamos que todos os funcionários aproveitem as férias e uma boa estada no hotel da empresa.\nFrase 2: Desejamos que todos os funcionários aproveitem as férias e tenham uma boa estada no hotel da empresa.\n\nObserve as afirmativas:\n\nI. Na frase 1, falta paralelismo porque as duas partes da oração que se seguem ao verbo 'desejamos' não possuem a mesma estrutura gramatical.\nII. Na frase 2, há uso de paralelismo. As duas partes da oração que seguem ao verbo 'desejamos' possuem uma estrutura gramatical paralela.\nIII. Na frase 2, a falta de paralelismo entre 'aproveitem as férias' e 'tenham uma boa estada no hotel da empresa' torna a frase mais confusa e menos clara.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "I e II, apenas.",
+        "C": "I, II e III.",
+        "D": "I e III, apenas.",
+        "E": "I, apenas."
+      },
+      "gabarito": "B",
+      "explicacao": "I – Correta: na Frase 1, temos 'aproveitem as férias' (verbo + objeto) e 'uma boa estada no hotel' (sintagma nominal sem verbo). As estruturas não são paralelas.\n\nII – Correta: na Frase 2, temos 'aproveitem as férias' (verbo + objeto) e 'tenham uma boa estada...' (verbo + objeto). As duas orações subordinadas têm a mesma estrutura — há paralelismo.\n\nIII – Incorreta: a frase 2 TEM paralelismo (como afirma corretamente a afirmativa II). Dizer que 'falta paralelismo na frase 2' é contradizer o enunciado."
+    },
+    {
+      "id": 35,
+      "secao": "S5",
+      "enunciado": "A informatividade se refere ao grau de novidade e ao impacto que a informação causa no receptor. Ela pode ser classificada em três níveis:\n1. Alta informatividade: informação inesperada ou nova, gerando maior impacto e engajamento.\n2. Informatividade média: combinação de elementos conhecidos e novos, que pode manter o interesse.\n3. Baixa informatividade: informação previsível, que pode levar à desatenção.\n\nAssinale a alternativa que reconhece corretamente a informatividade média.",
+      "alternativas": {
+        "A": "Uma apresentação em que os dados são muito técnicos e detalhados, mas sem nenhuma novidade significativa para os receptores.",
+        "B": "Uma apresentação que utiliza humor para manter o público entretido, independentemente da novidade das informações.",
+        "C": "Uma apresentação que mistura informações já conhecidas com alguns elementos novos, mantendo o interesse do público.",
+        "D": "Uma apresentação que repete continuamente informações já conhecidas, sem apresentar novidades.",
+        "E": "Uma apresentação que traz apenas informações novas e surpreendentes, que os receptores não esperavam, causando grande impacto."
+      },
+      "gabarito": "C",
+      "explicacao": "C descreve exatamente o grau médio de informatividade: equilíbrio entre o já conhecido e alguns elementos novos, o que sustenta o interesse sem sobrecarregar o receptor.\n\nA e D descrevem baixa informatividade (alta previsibilidade, sem novidade).\nE descreve alta informatividade (apenas informações inesperadas).\nB não diz respeito ao grau de informatividade, mas a uma estratégia de engajamento (humor) que não define o conceito."
+    },
+    {
+      "id": 36,
+      "secao": "S5",
+      "enunciado": "A informatividade de um texto pode ser classificada em três graus principais: baixo, médio e alto.\n\nAssocie os graus de informatividade (Lista I) às suas características (Lista II):\n\nLista I: I. Grau Baixo de Informatividade / II. Grau Médio de Informatividade / III. Grau Alto de Informatividade\n\nLista II: A. Apresentação de informações que são facilmente previsíveis para o leitor, baseadas em seu conhecimento prévio ou no contexto comunicativo. / B. Envolve a introdução de elementos que quebram as expectativas do leitor, sendo menos previsíveis e mais surpreendentes. / C. Equilibra a introdução de novos elementos com informações conhecidas, permitindo uma compreensão adequada do texto pelo leitor.\n\nAssinale a alternativa com a associação correta:",
+      "alternativas": {
+        "A": "I-A, II-B, III-C",
+        "B": "I-A, II-C, III-B",
+        "C": "I-B, II-A, III-C",
+        "D": "I-B, II-C, III-A",
+        "E": "I-C, II-A, III-B"
+      },
+      "gabarito": "B",
+      "explicacao": "I. Grau baixo → A: ocorrências altamente previsíveis, apoiadas no conhecimento prévio do leitor ou no contexto comunicativo. Exigem pouco esforço de processamento.\n\nII. Grau médio → C: padrão da maioria dos textos — equilibra o já conhecido com elementos novos, sustentando a progressão temática.\n\nIII. Grau alto → B: introduz ocorrências inesperadas, que quebram as expectativas do leitor. Exigem maior esforço interpretativo e, quando bem dosadas, produzem efeito de surpresa e destaque."
+    },
+    {
+      "id": 37,
+      "secao": "S5",
+      "enunciado": "A ideia de que 'escrever bem é escrever difícil' é uma convicção que pode ser prejudicial, tanto para escritores iniciantes, quanto para leitores. Essa concepção sugere que textos repletos de palavras rebuscadas e com estruturas gramaticais complexas são superiores e mais valorizados. No entanto, dependendo do contexto, a boa escrita não se mede pela dificuldade, mas sim pela clareza, eficácia e capacidade de comunicar ideias de maneira acessível e envolvente.\n\nCom base no apresentado, observe as afirmativas:\n\nI. Quando um texto é muito complicado, pode confundir o leitor, obscurecer a mensagem principal e tornar a leitura frustrante.\nII. Uma escrita excessivamente clara e simples pode alienar o público, enquanto uma escrita mais bem elaborada e complexa atrai mais leitores.\nIII. Textos acessíveis e diretos tendem a envolver mais o leitor, facilitando a compreensão e a retenção das informações.\nIV. Grandes escritores são admirados por escreverem utilizando palavras complexas e elaboradas, independentemente do público-alvo.\n\nEstá correto o que afirma em:",
+      "alternativas": {
+        "A": "II, III e IV, apenas.",
+        "B": "I, II e IV, apenas.",
+        "C": "I e III, apenas.",
+        "D": "II e III, apenas.",
+        "E": "I e IV, apenas."
+      },
+      "gabarito": "C",
+      "explicacao": "I – Correta: o excesso de complexidade cria ruído, sobrecarrega o leitor, dilui a mensagem e transforma a leitura em obstáculo.\n\nII – Incorreta: a afirmativa inverte a lógica do enunciado. Clareza e simplicidade ampliam o alcance do texto, não afastam o público. Complexidade por si só não atrai leitores.\n\nIII – Correta: textos acessíveis e diretos reduzem o esforço de processamento, favorecendo engajamento, compreensão e retenção.\n\nIV – Incorreta: grandes escritores são admirados pela adequação ao propósito e ao público. O 'independentemente do público-alvo' contraria o princípio de que a boa escrita se ajusta ao leitor e à situação."
+    },
+    {
+      "id": 38,
+      "secao": "S5",
+      "enunciado": "A palavra 'texto' vem do latim 'tēxtus,us', que significa 'narrativa' ou 'exposição'. O verbo latino 'tēxo, is, xŭi, xtum, ĕre', de onde 'tēxtus' se origina, significa [Preencher 1], fazer tecido, entrelaçar, construir sobrepondo ou entrelaçando, reforçando a analogia entre tecer um tecido e criar um texto. Na escrita, palavras e frases são organizadas cuidadosamente para transmitir uma [Preencher 2] clara e coesa.\n\nOs termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
+      "alternativas": {
+        "A": "1 tecer — 2 mensagem",
+        "B": "1 tecer — 2 fazer tecido",
+        "C": "1 construir — 2 planejamento",
+        "D": "1 fazer tecido — 2 narrativa",
+        "E": "1 entrelaçar — 2 mensagem"
+      },
+      "gabarito": "A",
+      "explicacao": "Preenchimento 1: a série de significados do verbo latino aparece como enumeração no próprio enunciado: '[Preencher 1], fazer tecido, entrelaçar, construir sobrepondo ou entrelaçando'. Como 'fazer tecido', 'entrelaçar' e 'construir' já estão na sequência, a lacuna só pode ser 'tecer' — sentido primeiro do verbo, sem repetição dos demais itens.\n\nPreenchimento 2: o que se transmite ao leitor é a mensagem. 'Planejamento' não se transmite (é etapa anterior à escrita); 'narrativa' restringe indevidamente o conceito a um único tipo textual."
+    },
+    {
+      "id": 39,
+      "secao": "S5",
+      "enunciado": "A introdução é fundamental na estrutura de qualquer texto, sendo necessária para captar a atenção do leitor, revelar o contexto do tema abordado e apresentar a tese ou o propósito principal do texto.\n\nCom relação a este tema, observe as afirmativas:\n\nI. Uma introdução bem estruturada apresenta claramente a tese ou o propósito principal do texto.\nII. Uma introdução extensa e detalhada facilita a compreensão do texto e ajuda o leitor a entender o conteúdo com clareza.\nIII. Uma introdução bem elaborada demonstra organização e clareza de pensamento, aumentando a persuasão e a eficácia do texto.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "I, apenas.",
+        "B": "II e III, apenas.",
+        "C": "I e III, apenas.",
+        "D": "I, II e III.",
+        "E": "I e II, apenas."
+      },
+      "gabarito": "C",
+      "explicacao": "I – Verdadeira: apresentar a tese ou propósito principal é função essencial da introdução.\n\nII – Falsa: uma introdução não precisa ser extensa e detalhada; deve ser clara, objetiva e adequada ao texto. Introduções longas demais podem afastar o leitor e esvaziar o corpo do texto.\n\nIII – Verdadeira: uma boa introdução demonstra organização e clareza de pensamento, o que contribui para a persuasão e a eficácia do texto como um todo."
+    },
+    {
+      "id": 40,
+      "secao": "S5",
+      "enunciado": "Na produção textual, o conceito de informatividade refere-se à maneira como as informações são apresentadas no texto, considerando o grau de novidade ou familiaridade dessas informações para o leitor.\n\nConsiderando o exposto, avalie as afirmativas:\n\nI. A mensagem deve ser suficientemente nova para captar e manter a atenção, mas não tão inesperada a ponto de ser incompreensível ou irrelevante.\nII. Os graus de informatividade englobam o conjunto todo do texto, garantindo uma uniformidade na apresentação das informações.\nIII. O grau médio de informatividade significa que as informações apresentadas são altamente previsíveis para o leitor.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "I e II, apenas.",
+        "B": "I e III, apenas.",
+        "C": "I, II e III.",
+        "D": "I, apenas.",
+        "E": "II e III, apenas."
+      },
+      "gabarito": "D",
+      "explicacao": "I – Correta: é o equilíbrio que define a boa informatividade — nova o bastante para prender a atenção, mas ancorada no que o leitor já conhece para permanecer compreensível.\n\nII – Incorreta: o grau de informatividade não é uniforme ao longo do texto. Ele é avaliado em ocorrências ou segmentos específicos; um mesmo texto pode ter passagens altamente previsíveis e outras de forte imprevisibilidade — e é essa alternância que sustenta a progressão temática.\n\nIII – Incorreta: a afirmativa descreve o grau BAIXO (altamente previsível). O grau médio equilibra o previsível com o novo; o grau alto apresenta ocorrências inesperadas que exigem maior esforço de processamento."
+    },
+    {
+      "id": 41,
+      "secao": "S5",
+      "enunciado": "Os Graus de informatividade são fundamentais para a produção textual, influenciando diretamente na capacidade de captar e manter o interesse do leitor ao equilibrar a novidade das informações apresentadas com a sua previsibilidade em relação ao conhecimento prévio do público-alvo.\n\nAssinale a alternativa que descreve corretamente os diferentes graus de informatividade e suas características.",
+      "alternativas": {
+        "A": "Alto grau de informatividade: a informação é previsível e conhecida, não despertando interesse adicional no leitor durante a leitura.",
+        "B": "Médio grau de informatividade: a informação é altamente previsível, apresentando poucos elementos novos ou inesperados para o leitor.",
+        "C": "Baixo grau de informatividade: a informação é menos previsível, surpreendendo o leitor e mantendo alto interesse.",
+        "D": "Baixo grau de informatividade: a informação é altamente previsível, conhecida pelo leitor ou facilmente deduzida a partir de seu conhecimento prévio.",
+        "E": "Alto grau de informatividade: a informação é completamente nova para o leitor, sem nenhuma relação com seu conhecimento prévio."
+      },
+      "gabarito": "D",
+      "explicacao": "D está correta: o baixo grau de informatividade é exatamente aquele em que as ocorrências são altamente previsíveis — o leitor já as conhece ou as deduz sem esforço.\n\nA – descreve o grau baixo, não o alto. O grau alto se caracteriza pela imprevisibilidade.\nB – alta previsibilidade corresponde ao grau baixo. O médio equilibra o conhecido e o novo.\nC – inverte: informação menos previsível e surpreendente define o grau alto, não o baixo.\nE – o erro está no exagero: o grau alto envolve informação inesperada, mas não desvinculada do conhecimento prévio. Sem qualquer ancoragem, o texto se torna incompreensível."
+    },
+    {
+      "id": 42,
+      "secao": "S6",
+      "enunciado": "O debate sobre as variedades linguísticas no ensino da Língua Portuguesa enfatiza três atitudes principais: respeitar, valorizar e adequar.\n\nLeia o exemplo: Uma professora percebe que alguns de seus alunos utilizam variedades linguísticas diferentes da norma culta durante uma apresentação oral. Ela decide promover uma discussão sobre essas variedades, destacando sua importância e valor cultural, ao mesmo tempo em que ajuda os alunos a entenderem a necessidade de adequar suas falas a diferentes contextos.\n\nCom relação ao entendimento das atitudes de respeitar, valorizar e adequar, observe as afirmativas:\n\nI. A professora está apenas tolerando as variedades linguísticas dos alunos sem promovê-las ativamente.\nII. A professora está valorizando as variedades linguísticas dos alunos, reconhecendo sua importância cultural.\nIII. A professora está desconsiderando as variedades linguísticas dos alunos e impondo a norma culta.\n\nEstá correto o que se afirma em:",
+      "alternativas": {
+        "A": "I e II apenas.",
+        "B": "II e III apenas.",
+        "C": "III apenas.",
+        "D": "II apenas.",
+        "E": "I apenas."
+      },
+      "gabarito": "D",
+      "explicacao": "A professora promove uma discussão destacando 'importância e valor cultural' das variedades — isso é valorizar, não apenas tolerar. Ao mesmo tempo, ela não ignora a norma culta, mas a apresenta como adequação contextual, não imposição.\n\nI – incorreta: a professora vai além da tolerância passiva; ela promove ativamente a discussão e o reconhecimento.\nIII – incorreta: a professora não descarta as variedades nem impõe a norma; ela trabalha a adequação ao contexto.\nII – correta: o reconhecimento da 'importância e valor cultural' das variedades é exatamente a atitude de valorizar."
+    },
+    {
+      "id": 43,
+      "secao": "S6",
+      "enunciado": "O debate sobre as variedades linguísticas da Língua Portuguesa e sua relação com o trabalho em sala de aula trouxe, nos últimos vinte anos, a recomendação de três atitudes principais: respeitar, valorizar e adequar as variedades praticadas pelos alunos.\n\nAssinale a alternativa que corretamente identifica uma das atitudes recomendadas para lidar com as variedades linguísticas no ensino de Língua Portuguesa.",
+      "alternativas": {
+        "A": "Desencorajar o uso de variedades linguísticas que não sejam de prestígio.",
+        "B": "Respeitar as variedades linguísticas dos alunos, tratando com consideração.",
+        "C": "Considerar as variedades linguísticas irrelevantes no processo de ensino.",
+        "D": "Forçar os alunos a abandonar suas variedades linguísticas em favor da norma culta.",
+        "E": "Ignorar as variedades linguísticas dos alunos para manter a uniformidade."
+      },
+      "gabarito": "B",
+      "explicacao": "B descreve diretamente uma das três atitudes recomendadas: respeitar — tratar com consideração as variedades linguísticas dos alunos, reconhecendo que nenhuma variedade é intrinsecamente inferior.\n\nAs demais alternativas contradizem exatamente o que as três atitudes preconizam: desencorajar, ignorar ou forçar o abandono são práticas que desrespeitam a diversidade linguística dos alunos."
+    },
+    {
+      "id": 44,
+      "secao": "S6",
+      "enunciado": "Em discursos políticos, a escolha de palavras pode ter grande impacto sobre a maneira como o público reage emocionalmente. A seguir, apresentamos dois trechos hipotéticos de um discurso:\n\nTrecho 1: 'Devemos lutar pela liberdade com todas as nossas forças.'\nTrecho 2: 'Precisamos buscar a liberdade com todos os nossos esforços.'\n\nConsiderando os efeitos de sentido que essas escolhas lexicais podem produzir, assinale a alternativa que define o impacto das palavras escolhidas.",
+      "alternativas": {
+        "A": "Ambos os trechos têm efeitos de sentido diferentes, e cada um pode ser eficaz, dependendo do público e do contexto.",
+        "B": "O segundo trecho, pois 'buscar' transmite uma ação mais intensa e combativa, ideal para gerar um efeito de urgência.",
+        "C": "O segundo trecho, pois 'buscar' sugere uma ação menos agressiva e mais reflexiva, sendo mais adequado para campanhas de mobilização social.",
+        "D": "A escolha de 'lutar' no Trecho 1 gera um impacto emocional mais forte e combativo, enquanto 'buscar' no Trecho 2 sugere um esforço mais moderado e diplomático.",
+        "E": "O primeiro trecho, pois 'lutar' enfatiza um esforço contínuo e colaborativo, com foco em ações passivas."
+      },
+      "gabarito": "D",
+      "explicacao": "'Lutar' pertence ao campo semântico do conflito, da combatividade e da resistência ativa — gera impacto emocional forte e mobiliza o sentimento de enfrentamento.\n\n'Buscar' pertence ao campo da procura, da busca ativa mas sem conotação de conflito — sugere um esforço moderado e diplomático.\n\nB e C erram a análise de 'buscar': nenhuma delas descreve corretamente o contraste. A (embora parcialmente verdadeira ao admitir que o contexto importa) não faz a análise específica pedida. E atribui sentido passivo a 'lutar', o que é incorreto."
+    },
+    {
+      "id": 45,
+      "secao": "S6",
+      "enunciado": "A compreensão de textos escritos envolve a distinção entre o contexto de produção (momento e condições em que o texto foi criado) e o contexto de uso (cenário em que o texto é interpretado).\n\nLeia o diálogo:\nSecretária: Alô.\nPai: Meu filho está muito gripado e não vai poder ir à escola hoje.\nSecretária: Quem está falando?\nPai: Quem está falando é o meu pai.\n(Koch; Elias, 2006)\n\nCom base no diálogo, qual alternativa apresenta a melhor análise sobre como o contexto de produção e o contexto de uso afetam a interpretação do texto?",
+      "alternativas": {
+        "A": "O diálogo ilustra como a falta de uma articulação clara entre os contextos de produção e uso pode levar a interpretações equivocadas.",
+        "B": "O diálogo sugere que o contexto de produção pode ser mais relevante que o contexto de uso, principalmente quando há necessidade de clareza na comunicação.",
+        "C": "O diálogo mostra que o contexto sociocognitivo tem pouca relevância para a interpretação da mensagem em situações comunicativas como esta.",
+        "D": "O diálogo demonstra a importância de considerar o contexto de uso e as informações que ele oferece para a correta interpretação da mensagem.",
+        "E": "O diálogo destaca que o produtor do texto deve sempre explicitar todas as informações necessárias para evitar ambiguidades na comunicação."
+      },
+      "gabarito": "D",
+      "explicacao": "No diálogo, o pai comete um deslize de perspectiva: ao responder 'quem está falando é o meu pai', ele adota o ponto de vista do filho. A secretária consegue interpretar a situação porque mobiliza o contexto de uso: sabe que a ligação vem de um responsável, que a primeira fala anunciava 'meu filho está gripado', que quem justifica a falta é normalmente o pai ou a mãe.\n\nO sentido não está pronto no enunciado — constrói-se na relação entre o que foi dito e o que o interlocutor acrescenta a partir da situação e de seus conhecimentos prévios.\n\nA descreve o problema como falha que leva a equívoco, mas a comunicação se realiza apesar da formulação estranha. C contradiz o exemplo — o contexto sociocognitivo é o que resolve a interpretação. E defende explicitação total, impossível e desnecessária."
+    },
+    {
+      "id": 46,
+      "secao": "S6",
+      "enunciado": "O conceito de discurso é amplo e envolve aspectos que vão além da simples comunicação. Compreender o discurso implica analisar como a linguagem é utilizada em diferentes contextos para construir significados, levando em conta fatores culturais, sociais e históricos que influenciam a interação entre os interlocutores.\n\nCom base nesse entendimento, escolha a alternativa que reconhece corretamente o conceito de discurso.",
+      "alternativas": {
+        "A": "Discurso é uma fala espontânea, definida pela pouca influência do contexto.",
+        "B": "Discurso é o uso da linguagem que caracteriza contextos artísticos.",
+        "C": "Discurso é a transmissão de informações de um locutor para outro.",
+        "D": "Discurso é o efeito de sentido entre locutores, marcado por fatores históricos e sociais.",
+        "E": "Discurso é a combinação de palavras randômicas, é um tipo artístico abstrato de texto."
+      },
+      "gabarito": "D",
+      "explicacao": "D vem da tradição bakhtiniana e da análise do discurso: a linguagem em uso não transporta um conteúdo pronto de um emissor a um receptor — ela produz sentidos na interação, e esses sentidos dependem de quem fala, para quem, em que momento histórico e a partir de que posição social.\n\nA – o discurso é justamente atravessado pelo contexto, não independente dele.\nB – restringe indevidamente à arte; discurso existe no jornalismo, na política, na conversa cotidiana.\nC – é o modelo simplista de emissor-mensagem-receptor, que a noção de discurso supera.\nE – não corresponde a nenhuma definição do conceito."
+    },
+    {
+      "id": 47,
+      "secao": "S6",
+      "enunciado": "A estrutura de um texto dissertativo desempenha um papel fundamental na clareza e organização das ideias apresentadas. A introdução, por exemplo, é a seção responsável por contextualizar o tema e preparar o leitor para os argumentos que serão desenvolvidos.\n\nA alternativa que corretamente reconhece a função da introdução em um texto dissertativo é:",
+      "alternativas": {
+        "A": "A introdução deve apresentar os argumentos principais e os exemplos que serão discutidos.",
+        "B": "A introdução deve apenas fazer um pequeno resumo das ideias que serão desenvolvidas no texto.",
+        "C": "A introdução deve conter a análise detalhada de cada ponto abordado no desenvolvimento.",
+        "D": "A introdução deve contextualizar o tema e apresentar a tese que será defendida ao longo do texto.",
+        "E": "A introdução deve, em todos os casos, expor a conclusão e as soluções para os problemas abordados."
+      },
+      "gabarito": "D",
+      "explicacao": "D descreve as duas funções essenciais da introdução: situar o leitor no assunto (contextualizar) e anunciar o posicionamento que o texto vai sustentar (tese). Isso dá ao leitor o 'mapa' para acompanhar o percurso argumentativo.\n\nA e C – desenvolver argumentos, exemplos e análises detalhadas é tarefa do desenvolvimento.\nB – reduz a introdução a resumo, sem mencionar a tese que orienta a leitura.\nE – conclusão e propostas pertencem ao fechamento; o 'em todos os casos' denuncia rigidez excessiva."
+    },
+    {
+      "id": 48,
+      "secao": "S6",
+      "enunciado": "Na produção textual, a revisão é uma etapa essencial para aprimorar a clareza e a coerência das ideias apresentadas. De acordo com as táticas de revisão discutidas, uma das estratégias recomendadas é deixar o texto 'descansar' antes de revisá-lo, para que o autor possa lê-lo posteriormente com um olhar mais crítico e objetivo. Outra tática consiste em reler o texto assumindo a posição de leitor, e não de autor, a fim de identificar possíveis ambiguidades ou lacunas na argumentação. Durante a revisão, o autor deve prestar atenção especial à [preencher 1] e à [preencher 2] do texto, garantindo que as ideias estejam organizadas de maneira lógica e fluida.\n\nOs termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
+      "alternativas": {
+        "A": "1 clareza — 2 coesão",
+        "B": "1 clareza — 2 ortografia",
+        "C": "1 coesão — 2 coerência",
+        "D": "1 gramática — 2 coesão",
+        "E": "1 gramática — 2 ortografia"
+      },
+      "gabarito": "C",
+      "explicacao": "A pista está no fecho da frase: 'garantindo que as ideias estejam organizadas de maneira lógica e fluida'.\n\nCoesão — a articulação entre as partes do texto (conectivos, retomadas, referências), responsável pela fluidez.\nCoerência — a organização lógica do sentido global, sem contradições ou lacunas na argumentação.\n\nAs demais alternativas trazem elementos de outro nível da revisão: gramática e ortografia dizem respeito à correção formal (norma-padrão), não à articulação e progressão das ideias que é o foco descrito no enunciado."
+    },
+    {
+      "id": 49,
+      "secao": "S6",
+      "enunciado": "A leitura e a escrita são processos fundamentais para o desenvolvimento cognitivo e social do indivíduo. Para que o ensino da leitura e da escrita seja eficaz, é importante que os educadores utilizem evidências que contextualizem e reforcem o aprendizado. Essas evidências não apenas tornam o conteúdo mais concreto e significativo, mas também ajudam a estabelecer conexões com a realidade dos alunos, permitindo uma compreensão mais profunda do texto e do contexto.\n\nSelecione a alternativa que descreve a importância do uso de evidências no ensino da leitura e da escrita.",
+      "alternativas": {
+        "A": "Evidências são úteis principalmente em níveis mais avançados de aprendizagem, enquanto em níveis iniciais seu impacto pode ser reduzido.",
+        "B": "O uso de evidências contribui para a contextualização do conteúdo, promovendo uma aprendizagem mais significativa e conectada à realidade dos alunos.",
+        "C": "As evidências podem ajudar a tornar o conteúdo mais acessível, porém sua utilização depende do nível de experiência do professor e do tempo disponível em aula.",
+        "D": "O uso de evidências facilita a explicação dos conceitos, mas sua ausência não compromete completamente o processo de aprendizagem, especialmente em aulas mais expositivas.",
+        "E": "Evidências são importantes principalmente para a correção dos exercícios, pois ajudam a justificar as respostas dos alunos e a esclarecer dúvidas."
+      },
+      "gabarito": "B",
+      "explicacao": "B reproduz exatamente o argumento do enunciado: as evidências tornam o conteúdo mais concreto e significativo e ajudam a estabelecer conexões com a realidade dos alunos — contextualização e aprendizagem significativa.\n\nA restringe o uso a níveis avançados, mas a contextualização é igualmente importante nas fases iniciais de alfabetização.\nC condiciona o valor das evidências a fatores externos (experiência do professor, tempo), deslocando o foco do papel pedagógico.\nD relativiza a importância e privilegia a aula expositiva, contrariando a ideia de aprendizagem significativa.\nE reduz as evidências a instrumento de correção de exercícios — função muito mais estreita."
+    },
+    {
+      "id": 50,
+      "secao": "S6",
+      "enunciado": "Na prática de leitura e escrita acadêmicas, é fundamental implementar estratégias eficazes que promovam o desenvolvimento crítico e autônomo dos alunos. Essas estratégias devem considerar não apenas a escolha dos textos e a dinâmica das aulas, mas também a avaliação contínua da eficácia das abordagens utilizadas. Um dos desafios é equilibrar a interdisciplinaridade e a adequação dos materiais ao nível de conhecimento dos alunos.\n\nCom base nos desafios e estratégias comuns na prática da leitura e escrita acadêmicas, selecione a que apresenta uma estratégia eficaz para promover a participação ativa dos alunos:",
+      "alternativas": {
+        "A": "A ênfase na leitura crítica de textos acadêmicos sem a introdução prévia de estratégias de compreensão leitora.",
+        "B": "A utilização de atividades práticas que incentivam os alunos a aplicar conceitos aprendidos em situações reais, promovendo maior engajamento.",
+        "C": "A abordagem interdisciplinar sem considerar as diferenças individuais nos estilos de aprendizagem dos alunos.",
+        "D": "A dependência de ferramentas digitais para mediar todas as atividades de leitura e escrita sem considerar a interação presencial.",
+        "E": "A seleção de textos complexos para expor os alunos a conceitos avançados, independentemente do seu nível atual de compreensão."
+      },
+      "gabarito": "B",
+      "explicacao": "B descreve atividades práticas que levam os alunos a aplicar conceitos em situações reais — aproximando o conteúdo acadêmico da vivência deles e favorecendo engajamento e autonomia.\n\nAs outras alternativas descrevem justamente os desafios mal resolvidos:\nA – cobrar leitura crítica sem antes ensinar estratégias de compreensão inverte o processo.\nC – interdisciplinaridade sem atenção às diferenças individuais esvazia a proposta.\nD – apostar exclusivamente no digital elimina a mediação presencial e a interação entre pares.\nE – desconsiderar o nível atual de compreensão contraria a adequação dos materiais e desestimula a participação."
+    },
+    {
+      "id": 51,
+      "secao": "S6",
+      "enunciado": "Durante o desenvolvimento de um Trabalho de Conclusão de Curso (TCC), é comum enfrentar desafios relacionados à clareza, foco e estrutura do texto. No caso de Cibele, sua pesquisa inicial apresentou divergências e falta de clareza conceitual. Entretanto, após várias revisões e com o auxílio de seu orientador, ela conseguiu aprimorar e organizar seu trabalho, resultando em um TCC bem estruturado e reconhecido por sua qualidade.\n\nConsiderando as etapas e mudanças feitas durante o desenvolvimento do TCC de Cibele, analise as seguintes estratégias e selecione aquela que pode ter tido o maior impacto na melhoria da qualidade final do trabalho.",
+      "alternativas": {
+        "A": "Adotar rigorosamente as normas metodológicas desde a primeira versão do trabalho para garantir conformidade desde o início.",
+        "B": "Optar por uma metodologia inovadora para a análise dos dados, oferecendo uma nova perspectiva sobre o tema.",
+        "C": "Reescrever os trechos revisados do TCC, focando na clareza e coerência dos argumentos e na estrutura lógica do texto.",
+        "D": "Consultar referências bibliográficas renomadas para fortalecer o embasamento teórico do trabalho.",
+        "E": "Reorganizar as seções do TCC, com ênfase no referencial teórico para melhor estruturar o conteúdo."
+      },
+      "gabarito": "C",
+      "explicacao": "O enunciado identifica o problema de Cibele como falta de clareza conceitual e divergências no texto, resolvidas por meio de várias revisões com o orientador. A estratégia que responde diretamente a esse diagnóstico é a reescrita dos trechos revisados com foco em clareza, coerência dos argumentos e estrutura lógica — o ciclo revisar → reescrever descrito no caso.\n\nA – normas metodológicas tratam da formatação e rigor formal, não da clareza conceitual.\nB – inovação metodológica pode agregar valor, mas não corrige as divergências e a falta de clareza.\nD – bom embasamento teórico é necessário, mas referências renomadas não garantem por si só um texto claro e coerente.\nE – reorganizar seções é ação parcial; sem reescrita, os problemas de argumentação permanecem."
     }
   ]
 }
