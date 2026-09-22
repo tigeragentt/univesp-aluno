@@ -1,26 +1,6 @@
 import './QuestionCard.css';
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E'];
-const TO_ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
-
-// Return true if any alternativa text contains Roman numeral references (I, II, III…)
-function alternativasUseRoman(alternativas) {
-  const allText = Object.values(alternativas).join(' ');
-  return /\b(I{1,3}|IV|VI{0,3}|IX)\b/.test(allText);
-}
-
-// If the enunciado has Arabic-numbered items AND the alternativas reference Roman
-// numerals, convert the markers: 1. → I., 2. → II., etc.
-function normalizeEnunciado(text, alternativas) {
-  const hasArabic = /\s\d+\.\s/.test(text);
-  if (hasArabic && alternativasUseRoman(alternativas)) {
-    return text.replace(/(\s)(\d+)(\.\s)/g, (_, space, num, dot) => {
-      const n = parseInt(num, 10);
-      return space + (TO_ROMAN[n] || num) + dot;
-    });
-  }
-  return text;
-}
 
 // Render enunciado: split Arabic (1. 2. 3.) or Roman (I. II. III.) lists onto separate lines.
 function EnunciadoText({ text }) {
@@ -59,12 +39,11 @@ export default function QuestionCard({ question, selected, answered, onAnswer })
 
   const sourceLabel = question.source === 'prova' ? '📝 Prova' : '📖 Módulo';
   const sourceClass = question.source === 'prova' ? 'source-badge prova' : 'source-badge modulo';
-  const enunciado = normalizeEnunciado(question.enunciado, question.alternativas);
 
   return (
     <div className="question-card">
       <span className={sourceClass}>{sourceLabel}</span>
-      <EnunciadoText text={enunciado} />
+      <EnunciadoText text={question.enunciado} />
       <ul className="options">
         {LETTERS.filter((l) => question.alternativas[l] !== undefined).map((letter) => (
           <li key={letter}>
