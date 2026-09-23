@@ -1,0 +1,133 @@
+const fs = require('fs');
+const path = require('path');
+
+const FILE = path.join(__dirname, '../src/questions/com100.json');
+const data = JSON.parse(fs.readFileSync(FILE, 'utf-8'));
+
+let nextId = data.questoes.length > 0 ? Math.max(...data.questoes.map(q => q.id)) + 1 : 1;
+const NOTA = 'Resolução Claude — gabarito não oficial';
+const SOURCE = 'Prova-2026-09';
+
+const novas = [
+  {
+    secao: 'S1',
+    enunciado: 'Com as mudanças constantes no mundo e com o desenvolvimento, a cada dia mais rápido, da tecnologia, entende-se que uma pessoa não pode mais parar de estudar, ela precisa aprender durante toda a vida.\n\nEsse aspecto da vida contemporânea pode ser traduzido por qual sigla em inglês?',
+    alternativas: {
+      A: 'GPT.',
+      B: 'PPT.',
+      C: 'LLL.',
+      D: 'XLS.',
+      E: 'ABC.',
+    },
+    gabarito: 'C',
+    explicacao: 'LLL significa Lifelong Learning (aprendizagem ao longo da vida), exatamente a ideia descrita no enunciado — a necessidade de continuar aprendendo durante toda a vida diante do desenvolvimento acelerado da tecnologia.',
+  },
+  {
+    secao: 'S2',
+    enunciado: 'A estratégia conhecida também como "dividir para conquistar", que foi usada por guerreiros no passado, relaciona-se com qual pilar do pensamento computacional?',
+    alternativas: {
+      A: 'Decomposição.',
+      B: 'Algoritmo.',
+      C: 'Composição.',
+      D: 'Abstração.',
+      E: 'Reconhecimento de padrões.',
+    },
+    gabarito: 'A',
+    explicacao: '"Dividir para conquistar" consiste em quebrar um problema grande em partes menores e mais fáceis de resolver — que é justamente a definição do pilar de Decomposição no pensamento computacional.',
+  },
+  {
+    secao: 'S4',
+    enunciado: 'Ao longo das videoaulas, usamos bastante os comandos "mova" e "deslize". Considerando o que o "mova" faz, por que deve haver um outro comando?',
+    alternativas: {
+      A: 'Porque o "mova" não pode ser usado em animações.',
+      B: 'Porque o "mova" não faz o ator mudar de posição na tela.',
+      C: 'Porque o "mova" só faz movimentos muito grandes.',
+      D: 'Para dar impressão de que o ator está se movimentando, temos que dar passos pequenos no "mova" e incluir um "espere", e repetir muitas vezes este procedimento, o que são muitos comandos.',
+      E: 'Porque o "deslize" não se relaciona com movimentos de atores.',
+    },
+    gabarito: 'D',
+    explicacao: 'O comando "mova" desloca o ator de forma instantânea; para simular um movimento gradual e fluido seria preciso combinar vários "mova" pequenos com "espere" entre eles, repetindo o processo muitas vezes — daí a necessidade do comando "deslize", que encapsula tudo isso em um único bloco.',
+  },
+  {
+    secao: 'S1',
+    enunciado: 'São pilares do pensamento computacional:',
+    alternativas: {
+      A: 'Decomposição.',
+      B: 'Todas as alternativas.',
+      C: 'Abstração.',
+      D: 'Algoritmos.',
+      E: 'Reconhecimento de padrões.',
+    },
+    gabarito: 'B',
+    explicacao: 'Os quatro pilares clássicos do pensamento computacional são: decomposição, abstração, reconhecimento de padrões e algoritmos. Todas as opções A, C, D e E estão corretas individualmente, portanto a resposta é B (todas as alternativas).',
+  },
+  {
+    secao: 'S1',
+    enunciado: 'Assinale a alternativa que apresenta os pilares que fundamentam a Aprendizagem Criativa, segundo Resnick:',
+    alternativas: {
+      A: 'Memorização, Cópia e Repetição.',
+      B: 'Projetos, Paixão, Pares, Pensar Brincando (Play).',
+      C: 'Programação, Perfeição, Paralelismo, Pensamento.',
+      D: 'Regras, Regulação e Regimento.',
+      E: 'Decomposição, Abstração, Reconhecimento de Padrões, Algoritmos.',
+    },
+    gabarito: 'B',
+    explicacao: 'Segundo Mitchel Resnick, os "4 Ps" da Aprendizagem Criativa são: Projetos, Paixão, Pares e Pensar Brincando (Play). A alternativa E está incorreta: ela descreve os pilares do Pensamento Computacional, não os da Aprendizagem Criativa.',
+  },
+  {
+    secao: 'S2',
+    enunciado: 'Você vai fazer uma viagem e quer uma estimativa de quanto vai gastar. Você soma o total de combustível que vai gastar e os pedágios. Nesse cálculo, você não se preocupou com questões como manutenção do carro, alguma parada para lanche etc.\n\nTomando como referência a descrição acima, pode-se dizer que você aplicou qual dos pilares do pensamento computacional?',
+    alternativas: {
+      A: 'Composição.',
+      B: 'Decomposição.',
+      C: 'Algoritmo.',
+      D: 'Abstração.',
+      E: 'Reconhecimento de padrões.',
+    },
+    gabarito: 'D',
+    explicacao: 'Abstração é o pilar que consiste em ignorar detalhes irrelevantes e focar apenas nas informações essenciais para o problema. No caso, considerar apenas combustível e pedágios, descartando manutenção e paradas para lanche, é um exemplo clássico de abstração.',
+  },
+  {
+    secao: 'S5',
+    enunciado: 'Entre as ferramentas apresentadas nesta disciplina (Pensamento Computacional), algumas têm como foco a geração de conteúdo através do uso de Inteligência Artificial.\n\nTendo isso em conta, assinale a alternativa que inclui apenas esse tipo de ferramenta.',
+    alternativas: {
+      A: 'Formulários, Suno, Freepik.',
+      B: 'ChatGPT, Suno, Drive.',
+      C: 'ChatGPT, Sala de Aula, Suno.',
+      D: 'Formulários, Drive, ChatGPT.',
+      E: 'ChatGPT, Suno, Freepik.',
+    },
+    gabarito: 'E',
+    explicacao: 'ChatGPT, Suno e Freepik são ferramentas de geração de conteúdo por IA (texto, música e imagem, respectivamente). As demais alternativas incluem Formulários, Drive ou Sala de Aula — ferramentas que não geram conteúdo por IA.',
+  },
+  {
+    secao: 'S1',
+    enunciado: 'Em um mundo a cada dia mais complexo, aliado às demandas da Indústria 4.0, é necessário desenvolver nas crianças e jovens a criatividade e a inteligência emocional, bem como a resolução de problemas complexos.\n\nEssas necessidades são exemplos de:',
+    alternativas: {
+      A: 'habilidades do Século XXI.',
+      B: 'características de pessoas muito inteligentes.',
+      C: 'aprendizados obtidos apenas em cursos de pós-graduação.',
+      D: 'coisas que se aprende só em casa.',
+      E: 'conteúdos teóricos de disciplinas.',
+    },
+    gabarito: 'A',
+    explicacao: 'Criatividade, inteligência emocional e resolução de problemas complexos são classicamente listadas entre as competências do século XXI (soft skills), exigidas pelo mundo do trabalho e pela Indústria 4.0.',
+  },
+];
+
+for (const q of novas) {
+  data.questoes.push({
+    id: nextId++,
+    secao: q.secao,
+    source: SOURCE,
+    enunciado: q.enunciado,
+    alternativas: q.alternativas,
+    gabarito: q.gabarito,
+    explicacao: q.explicacao,
+    nota: NOTA,
+  });
+}
+
+fs.writeFileSync(FILE, JSON.stringify(data, null, 2), 'utf-8');
+console.log(`Adicionadas ${novas.length} questões. Total agora: ${data.questoes.length}`);
+novas.forEach((q, i) => console.log(`  id=${nextId - novas.length + i} secao=${q.secao} gabarito=${q.gabarito}`));
