@@ -1,0 +1,12 @@
+{
+  "materia": "COM100",
+  "nome": "Pensamento Computacional",
+  "secoes": [
+    { "id": "S1", "nome": "Fundamentos do pensamento computacional" },
+    { "id": "S2", "nome": "Decomposição e abstração" },
+    { "id": "S3", "nome": "Reconhecimento de padrões" },
+    { "id": "S4", "nome": "Algoritmos e lógica" },
+    { "id": "S5", "nome": "Aplicações e resolução de problemas" }
+  ],
+  "questoes": []
+}
