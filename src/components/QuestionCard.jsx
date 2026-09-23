@@ -37,8 +37,9 @@ export default function QuestionCard({ question, selected, answered, onAnswer })
     return 'option';
   };
 
-  const sourceLabel = question.source === 'prova' ? '📝 Prova' : '📖 Módulo';
-  const sourceClass = question.source === 'prova' ? 'source-badge prova' : 'source-badge modulo';
+  const isModulo = question.source === 'modulo';
+  const sourceLabel = isModulo ? '📖 Módulo' : `📝 ${question.source}`;
+  const sourceClass = isModulo ? 'source-badge modulo' : 'source-badge prova';
 
   return (
     <div className="question-card">
@@ -62,6 +63,7 @@ export default function QuestionCard({ question, selected, answered, onAnswer })
         <div className="explicacao">
           <strong>Explicação:</strong>
           <p>{question.explicacao}</p>
+          {question.nota && <p className="explicacao-nota">⚠️ {question.nota}</p>}
         </div>
       )}
     </div>

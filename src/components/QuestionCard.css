@@ -121,3 +121,13 @@ div.enunciado p {
   margin-bottom: 0.4rem;
   color: #4338ca;
 }
+
+.explicacao-nota {
+  margin-top: 0.75rem;
+  padding: 0.4rem 0.75rem;
+  background: #fef9c3;
+  border-left: 3px solid #eab308;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.85rem;
+  color: #713f12;
+}
