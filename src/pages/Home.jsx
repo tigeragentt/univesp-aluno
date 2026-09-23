@@ -1,22 +1,34 @@
 import { useState } from 'react';
 import './Home.css';
 
+function getPool(questoes, secao, source) {
+  return questoes.filter((q) => {
+    const matchSecao = secao === 'all' || q.secao === secao;
+    const matchSource = source === 'all' || q.source === source;
+    return matchSecao && matchSource;
+  });
+}
+
 export default function Home({ discipline, onStart, onBack }) {
   const { data } = discipline;
   const [secao, setSecao] = useState('all');
+  const [source, setSource] = useState('all');
   const [numQ, setNumQ] = useState(() => data.questoes.length);
 
-  const filtered = secao === 'all'
-    ? data.questoes
-    : data.questoes.filter((q) => q.secao === secao);
-
+  const sources = [...new Set(data.questoes.map((q) => q.source))].sort();
+  const filtered = getPool(data.questoes, secao, source);
   const maxQ = filtered.length;
 
   const handleSecaoChange = (e) => {
     const val = e.target.value;
     setSecao(val);
-    const newFiltered = val === 'all' ? data.questoes : data.questoes.filter((q) => q.secao === val);
-    setNumQ(newFiltered.length);
+    setNumQ(getPool(data.questoes, val, source).length);
+  };
+
+  const handleSourceChange = (e) => {
+    const val = e.target.value;
+    setSource(val);
+    setNumQ(getPool(data.questoes, secao, val).length);
   };
 
   const handleNumChange = (e) => {
@@ -25,10 +37,7 @@ export default function Home({ discipline, onStart, onBack }) {
   };
 
   const handleStart = () => {
-    const pool = secao === 'all'
-      ? data.questoes
-      : data.questoes.filter((q) => q.secao === secao);
-    onStart(pool.slice(0, numQ));
+    onStart(filtered.slice(0, numQ));
   };
 
   return (
@@ -50,6 +59,18 @@ export default function Home({ discipline, onStart, onBack }) {
               {data.secoes.map((s) => (
                 <option key={s.id} value={s.id}>
                   {s.id} – {s.nome}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="source">Fonte</label>
+            <select id="source" value={source} onChange={handleSourceChange}>
+              <option value="all">Todas</option>
+              {sources.map((s) => (
+                <option key={s} value={s}>
+                  {s === 'modulo' ? '📖 Módulo' : `📝 ${s}`}
                 </option>
               ))}
             </select>
