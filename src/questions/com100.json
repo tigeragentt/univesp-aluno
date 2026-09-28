@@ -1,7 +1,7 @@
 {
   "materia": "COM100",
   "nome": "Pensamento Computacional",
-  "secoes": [
+  "modulos": [
     {
       "id": "S1",
       "nome": "Fundamentos do pensamento computacional"
@@ -26,7 +26,7 @@
   "questoes": [
     {
       "id": 1,
-      "secao": "S1",
+      "modulo": "S1",
       "source": "Prova-2026-09",
       "enunciado": "Com as mudanças constantes no mundo e com o desenvolvimento, a cada dia mais rápido, da tecnologia, entende-se que uma pessoa não pode mais parar de estudar, ela precisa aprender durante toda a vida.\n\nEsse aspecto da vida contemporânea pode ser traduzido por qual sigla em inglês?",
       "alternativas": {
@@ -37,12 +37,13 @@
         "E": "ABC."
       },
       "gabarito": "C",
-      "explicacao": "LLL significa Lifelong Learning (aprendizagem ao longo da vida), exatamente a ideia descrita no enunciado — a necessidade de continuar aprendendo durante toda a vida diante do desenvolvimento acelerado da tecnologia.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "Correta é a alternativa C) LLL (Lifelong Learning). A sigla representa \"aprendizagem ao longo da vida\", exatamente a ideia descrita no enunciado.",
+      "nivelDificuldade": "Fácil",
+      "objetivoAprendizado": "RECONHECER A IMPORTÂNCIA DA APRENDIZAGEM CONSTANTE."
     },
     {
       "id": 2,
-      "secao": "S2",
+      "modulo": "S2",
       "source": "Prova-2026-09",
       "enunciado": "A estratégia conhecida também como \"dividir para conquistar\", que foi usada por guerreiros no passado, relaciona-se com qual pilar do pensamento computacional?",
       "alternativas": {
@@ -53,12 +54,13 @@
         "E": "Reconhecimento de padrões."
       },
       "gabarito": "A",
-      "explicacao": "\"Dividir para conquistar\" consiste em quebrar um problema grande em partes menores e mais fáceis de resolver — que é justamente a definição do pilar de Decomposição no pensamento computacional.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "Correta é a alternativa A) Decomposição. \"Dividir para conquistar\" consiste em quebrar um problema grande em partes menores e mais fáceis de resolver, que é justamente a definição do pilar de decomposição.\n\nA decomposição é um pilar associado à ideia de se dividir um problema em problemas menores para que se consiga resolvê-lo com mais facilidade. Também é conhecido como \"dividir para conquistar\".",
+      "nivelDificuldade": "Médio",
+      "objetivoAprendizado": "IDENTIFICAÇÃO DE CONCEITO-CHAVE (IMPORTÂNCIA) DO PENSAMENTO COMPUTACIONAL."
     },
     {
       "id": 3,
-      "secao": "S4",
+      "modulo": "S4",
       "source": "Prova-2026-09",
       "enunciado": "Ao longo das videoaulas, usamos bastante os comandos \"mova\" e \"deslize\". Considerando o que o \"mova\" faz, por que deve haver um outro comando?",
       "alternativas": {
@@ -69,12 +71,13 @@
         "E": "Porque o \"deslize\" não se relaciona com movimentos de atores."
       },
       "gabarito": "D",
-      "explicacao": "O comando \"mova\" desloca o ator de forma instantânea; para simular um movimento gradual e fluido seria preciso combinar vários \"mova\" pequenos com \"espere\" entre eles, repetindo o processo muitas vezes — daí a necessidade do comando \"deslize\", que encapsula tudo isso em um único bloco.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "Correta é a alternativa D). O comando \"mova\" desloca o ator de forma instantânea; para simular um movimento gradual e fluido seria preciso combinar vários \"mova\" pequenos com \"espere\" entre eles, repetindo o processo muitas vezes — daí a necessidade de um comando como \"deslize\", que faz isso em um único bloco. A alternativa E está incorreta, pois é justamente o contrário: o \"deslize\" existe para resolver o problema de movimento dos atores.\n\nSe queremos fazer uma animação dando a impressão que o ator está se movimentando (como se caminhasse pela tela, por exemplo), temos que usar um passo pequeno no \"mova\" e incluir um \"espere\", e repetir esse procedimento muitas vezes. Não é simples simular com \"mova\" um movimento contínuo.",
+      "nivelDificuldade": "Difícil",
+      "objetivoAprendizado": "COMPREENSÃO DE QUE EXISTEM COMANDOS MAIS COMPLEXOS DO SCRATCH, COMPOSTOS POR UMA SEQUÊNCIA DE COMANDOS INTERNOS, QUE PODEM SER USADOS EM SUBSTITUIÇÃO AOS COMANDOS ORIGINAIS DE FORMA A TORNAR O CÓDIGO MAIS CLARO E CONCISO."
     },
     {
       "id": 4,
-      "secao": "S1",
+      "modulo": "S1",
       "source": "Prova-2026-09",
       "enunciado": "São pilares do pensamento computacional:",
       "alternativas": {
@@ -85,12 +88,13 @@
         "E": "Reconhecimento de padrões."
       },
       "gabarito": "B",
-      "explicacao": "Os quatro pilares clássicos do pensamento computacional são: decomposição, abstração, reconhecimento de padrões e algoritmos. Todas as opções A, C, D e E estão corretas individualmente, portanto a resposta é B (todas as alternativas).",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "Correta é a alternativa B) Todas as alternativas. Os quatro pilares clássicos do pensamento computacional são decomposição, abstração, reconhecimento de padrões e algoritmos — todas as opções A, C, D e E estão corretas individualmente.\n\nSão pilares do pensamento computacional: abstração, decomposição, reconhecimento de padrões, algoritmos.",
+      "nivelDificuldade": "Médio",
+      "objetivoAprendizado": "IDENTIFICAÇÃO DE CONCEITO-CHAVE (IMPORTÂNCIA) DO PENSAMENTO COMPUTACIONAL."
     },
     {
       "id": 5,
-      "secao": "S1",
+      "modulo": "S1",
       "source": "Prova-2026-09",
       "enunciado": "Assinale a alternativa que apresenta os pilares que fundamentam a Aprendizagem Criativa, segundo Resnick:",
       "alternativas": {
@@ -101,12 +105,13 @@
         "E": "Decomposição, Abstração, Reconhecimento de Padrões, Algoritmos."
       },
       "gabarito": "B",
-      "explicacao": "Segundo Mitchel Resnick, os \"4 Ps\" da Aprendizagem Criativa são: Projetos, Paixão, Pares e Pensar Brincando (Play). A alternativa E está incorreta: ela descreve os pilares do Pensamento Computacional, não os da Aprendizagem Criativa.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "Correta é a alternativa B) Projetos, Paixão, Pares, Pensar Brincando (Play). Segundo Mitchel Resnick, esses são os \"4 Ps\" da Aprendizagem Criativa. A alternativa E está incorreta: ela descreve os pilares do Pensamento Computacional, não os da Aprendizagem Criativa.\n\nResnick define a aprendizagem criativa com base em quatro pilares, conhecidos como os 4Ps:\n• Projetos: o aprendizado é orientado pela criação de projetos que têm significado para o aluno;\n• Paixão: a motivação é impulsionada pelo engajamento em projetos pelos quais o aluno sente verdadeira paixão;\n• Pares: a colaboração é fundamental, permitindo a troca de ideias e o aprendizado em grupo;\n• Pensar brincando (Play): o processo de aprendizagem deve ser lúdico e experimental, e os erros são oportunidades de crescimento.",
+      "nivelDificuldade": "Fácil",
+      "objetivoAprendizado": "IDENTIFICAR OS PILARES BÁSICOS DA APRENDIZAGEM CRIATIVA."
     },
     {
       "id": 6,
-      "secao": "S2",
+      "modulo": "S2",
       "source": "Prova-2026-09",
       "enunciado": "Você vai fazer uma viagem e quer uma estimativa de quanto vai gastar. Você soma o total de combustível que vai gastar e os pedágios. Nesse cálculo, você não se preocupou com questões como manutenção do carro, alguma parada para lanche etc.\n\nTomando como referência a descrição acima, pode-se dizer que você aplicou qual dos pilares do pensamento computacional?",
       "alternativas": {
@@ -117,12 +122,13 @@
         "E": "Reconhecimento de padrões."
       },
       "gabarito": "D",
-      "explicacao": "Abstração é o pilar que consiste em ignorar detalhes irrelevantes e focar apenas nas informações essenciais para o problema. No caso, considerar apenas combustível e pedágios, descartando manutenção e paradas para lanche, é um exemplo clássico de abstração.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "Correta é a alternativa D) Abstração. Abstração é o pilar que consiste em ignorar detalhes irrelevantes e focar apenas nas informações essenciais para o problema — no caso, considerar só combustível e pedágios, descartando manutenção e paradas para lanche.\n\nA abstração é um pilar do pensamento computacional que foca naquilo que é mais importante para a resolução de um problema, abstraindo detalhes menores.",
+      "nivelDificuldade": "Médio",
+      "objetivoAprendizado": "IDENTIFICAÇÃO DE CONCEITO-CHAVE (IMPORTÂNCIA) DO PENSAMENTO COMPUTACIONAL."
     },
     {
       "id": 7,
-      "secao": "S5",
+      "modulo": "S5",
       "source": "Prova-2026-09",
       "enunciado": "Entre as ferramentas apresentadas nesta disciplina (Pensamento Computacional), algumas têm como foco a geração de conteúdo através do uso de Inteligência Artificial.\n\nTendo isso em conta, assinale a alternativa que inclui apenas esse tipo de ferramenta.",
       "alternativas": {
@@ -133,12 +139,13 @@
         "E": "ChatGPT, Suno, Freepik."
       },
       "gabarito": "E",
-      "explicacao": "ChatGPT, Suno e Freepik são ferramentas de geração de conteúdo por IA (texto, música e imagem, respectivamente). As demais alternativas incluem Formulários, Drive ou Sala de Aula — ferramentas que não geram conteúdo por IA.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "Correta é a alternativa E) ChatGPT, Suno, Freepik. As três são ferramentas de geração de conteúdo por IA (ChatGPT gera texto, Suno gera música e Freepik gera imagens). As demais alternativas incluem Formulários, Drive ou Sala de Aula, que não são ferramentas de geração de conteúdo por IA.\n\nChatGPT (bem como similares de outras empresas, como o Gemini e Copilot), Suno, Freepik e Simplified são exemplos de ferramentas focadas em gerar coisas utilizando Inteligência Artificial.",
+      "nivelDificuldade": "Difícil",
+      "objetivoAprendizado": "COMPREENDER QUAIS AS FERRAMENTAS QUE USAM A IA."
     },
     {
       "id": 8,
-      "secao": "S1",
+      "modulo": "S1",
       "source": "Prova-2026-09",
       "enunciado": "Em um mundo a cada dia mais complexo, aliado às demandas da Indústria 4.0, é necessário desenvolver nas crianças e jovens a criatividade e a inteligência emocional, bem como a resolução de problemas complexos.\n\nEssas necessidades são exemplos de:",
       "alternativas": {
@@ -149,8 +156,9 @@
         "E": "conteúdos teóricos de disciplinas."
       },
       "gabarito": "A",
-      "explicacao": "Criatividade, inteligência emocional e resolução de problemas complexos são classicamente listadas entre as competências do século XXI (soft skills), exigidas pelo mundo do trabalho e pela Indústria 4.0.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "Correta é a alternativa A) habilidades do Século XXI. Criatividade, inteligência emocional e resolução de problemas complexos são classicamente listadas entre as competências (\"soft skills\") do século XXI, exigidas pelo mundo do trabalho e pela Indústria 4.0.\n\nAlém de conhecimentos técnicos, é essencial que se desenvolvam as Habilidades do Século XXI para capacitar as pessoas para o mercado de trabalho e para a vida no mundo atual. São Habilidades do Século XXI: Pensamento analítico e análise crítica; Aprendizado ativo e estratégias para o aprendizado; Inovação, criatividade, originalidade e iniciativa; Design e uso de tecnologias; Resolução de problemas complexos; Liderança e influência social; Inteligência emocional; Análise e avaliação de sistemas.",
+      "nivelDificuldade": "Difícil",
+      "objetivoAprendizado": "ANALISAR AS HABILIDADES DO SÉCULO XXI."
     }
   ]
 }

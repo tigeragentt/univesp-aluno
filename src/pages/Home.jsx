@@ -1,34 +1,34 @@
 import { useState } from 'react';
 import './Home.css';
 
-function getPool(questoes, secao, source) {
+function getPool(questoes, modulo, source) {
   return questoes.filter((q) => {
-    const matchSecao = secao === 'all' || q.secao === secao;
+    const matchModulo = modulo === 'all' || q.modulo === modulo;
     const matchSource = source === 'all' || q.source === source;
-    return matchSecao && matchSource;
+    return matchModulo && matchSource;
   });
 }
 
 export default function Home({ discipline, onStart, onBack }) {
   const { data } = discipline;
-  const [secao, setSecao] = useState('all');
+  const [modulo, setModulo] = useState('all');
   const [source, setSource] = useState('all');
   const [numQ, setNumQ] = useState(() => data.questoes.length);
 
   const sources = [...new Set(data.questoes.map((q) => q.source))].sort();
-  const filtered = getPool(data.questoes, secao, source);
+  const filtered = getPool(data.questoes, modulo, source);
   const maxQ = filtered.length;
 
-  const handleSecaoChange = (e) => {
+  const handleModuloChange = (e) => {
     const val = e.target.value;
-    setSecao(val);
+    setModulo(val);
     setNumQ(getPool(data.questoes, val, source).length);
   };
 
   const handleSourceChange = (e) => {
     const val = e.target.value;
     setSource(val);
-    setNumQ(getPool(data.questoes, secao, val).length);
+    setNumQ(getPool(data.questoes, modulo, val).length);
   };
 
   const handleNumChange = (e) => {
@@ -53,10 +53,10 @@ export default function Home({ discipline, onStart, onBack }) {
 
         <div className="home-controls">
           <div className="form-group">
-            <label htmlFor="secao">Módulo</label>
-            <select id="secao" value={secao} onChange={handleSecaoChange}>
+            <label htmlFor="modulo">Módulo</label>
+            <select id="modulo" value={modulo} onChange={handleModuloChange}>
               <option value="all">Todos</option>
-              {data.secoes.map((s) => (
+              {data.modulos.map((s) => (
                 <option key={s.id} value={s.id}>
                   {s.id} – {s.nome}
                 </option>

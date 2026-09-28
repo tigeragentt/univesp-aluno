@@ -1,7 +1,7 @@
 {
   "materia": "LET110",
   "nome": "Letramento, Leitura e Escrita",
-  "secoes": [
+  "modulos": [
     {
       "id": "S1",
       "nome": "As funções sociais da leitura e da escrita"
@@ -30,7 +30,7 @@
   "questoes": [
     {
       "id": 1,
-      "secao": "S1",
+      "modulo": "S1",
       "enunciado": "A crítica à abordagem tradicional de ensino da gramática, conforme discutida por Geraldi, enfatiza o uso problemático de estratégias como a imitação de textos considerados exemplares, sem necessariamente engajar os alunos no entendimento crítico ou na transformação de suas realidades. Considerando esse contexto, observe as seguintes afirmativas sobre o impacto da imitação de textos na formação cultural e linguística dos indivíduos e assinale a alternativa correta.",
       "alternativas": {
         "A": "A imitação de textos exemplares, tratada como um fim em si mesma, não promove o impacto cultural ou a profunda compreensão literária esperada, resultando em uma aprendizagem que é meramente superficial e mecânica.",
@@ -45,7 +45,7 @@
     },
     {
       "id": 2,
-      "secao": "S1",
+      "modulo": "S1",
       "enunciado": "Dentro da reflexão de Paulo Freire, a leitura do mundo é um direito subjetivo fundamental que todos possuímos, pois dominar os signos e os sentidos circulando na sociedade é um pré-requisito essencial para o acesso ao poder e à cidadania. Com base nesse contexto, observe as afirmativas abaixo:\n\nI. A leitura do mundo permite que os indivíduos interpretem e critiquem as estruturas sociais existentes, promovendo a inclusão e a democratização do conhecimento.\nII. Quando compreendemos e interpretamos os símbolos e significados ao nosso redor, adquirimos o poder de transformar nossa realidade e exercer nossa cidadania.\nIII. O processo de humanização está diretamente relacionado à capacidade de compreender e utilizar os símbolos e significados presentes na sociedade.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "I, apenas.",
@@ -60,7 +60,7 @@
     },
     {
       "id": 3,
-      "secao": "S1",
+      "modulo": "S1",
       "enunciado": "A linguagem é uma ferramenta fundamental que nos permite expressar e consagrar a essência do ser humano. Por meio dela, não apenas comunicamos pensamentos e sentimentos, mas também moldamos nossa identidade e compreendemos nosso lugar no mundo. Por meio dela, transmitimos conhecimentos, tradições e valores de geração em geração, assegurando a continuidade da identidade coletiva. Ao mesmo tempo, a linguagem é dinâmica, adaptando-se às novas realidades e incorporando novas expressões e significados. Essa adaptabilidade é importante para nos mantermos relevantes e conectados em um mundo em constante mudança. A alternativa que melhor reflete um dos papéis fundamentais da linguagem na experiência humana pode ser observada em:",
       "alternativas": {
         "A": "A linguagem é um processo que distorce as experiências humanas e cria barreiras entre o indivíduo e o mundo ao seu redor.",
@@ -75,7 +75,7 @@
     },
     {
       "id": 4,
-      "secao": "S1",
+      "modulo": "S1",
       "enunciado": "Tomando como base as reflexões de Paulo Freire sobre a importância da leitura do mundo e da palavra para a humanização, percebemos que o domínio dos signos e sentidos é crucial. A leitura não só enriquece o entendimento humano, mas se torna essencial para o processo de humanização. Ao explorar as palavras do oprimido, revelamos não apenas perspectivas únicas, mas também as ausências que clamam por justiça, cada palavra e pausa ecoando o que é silenciado e suprimido, desdobrando uma narrativa de opressão entrelaçada com injustiças e resistências.\n\nCom base no texto, analise as afirmativas:\n\nI. A leitura do mundo da palavra, como proposta por Paulo Freire, amplia o entendimento humano ao revelar tanto o que é expresso quanto o que é oculto, dando voz especialmente aos oprimidos.\nII. A sintaxe usada pelos oprimidos não apenas reflete uma perspectiva única, mas também destaca as lacunas significativas que clamam por reconhecimento, justiça social e reparação.\nIII. A experiência de aniquilamento, embora devastadora, é frequentemente retratada como algo que pode eventualmente contribuir para a resiliência e o fortalecimento da resistência contra a opressão.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "II e III, apenas.",
@@ -90,7 +90,7 @@
     },
     {
       "id": 5,
-      "secao": "S1",
+      "modulo": "S1",
       "enunciado": "A era digital trouxe avanços significativos nas tecnologias de comunicação, como a internet e as redes sociais, facilitando a troca de informações e o acesso a uma vasta gama de conhecimentos e culturas. No entanto, essas tecnologias também geraram novos desafios, incluindo a superficialidade no consumo de informações, a superficialidade das interações sociais e o paradoxo de maior conectividade acompanhada de maior isolamento emocional e físico.\n\nConsidere as afirmativas:\n\nI. As tecnologias de comunicação, como a internet e as redes sociais, facilitaram a troca de informações, mas também contribuíram para o crescimento da incultura, caracterizada pela superficialidade no consumo de informações.\nII. A globalização e o acesso a uma diversidade de informações e culturas ampliaram os horizontes de conhecimento e experiência das pessoas, embora isso não tenha necessariamente resultado em interações sociais mais profundas.\nIII. A redução das barreiras físicas de distância, possibilitada pelas tecnologias de comunicação, tem levado a um aumento no distanciamento na área física e afetiva entre os indivíduos.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "III, apenas.",
@@ -105,7 +105,7 @@
     },
     {
       "id": 6,
-      "secao": "S1",
+      "modulo": "S1",
       "enunciado": "A escrita é um sistema de símbolos complexo e fundamental na transmissão de ideias e conhecimentos, seguindo convenções estabelecidas e compartilhadas dentro de grupos linguísticos. Esses símbolos, que incluem letras, caracteres ou sinais, permitem a comunicação eficaz e a preservação cultural entre aqueles que compartilham um mesmo contexto linguístico. Selecione a alternativa que corretamente descreve a natureza e o papel da escrita como um sistema de comunicação e preservação cultural.",
       "alternativas": {
         "A": "Os símbolos da escrita são convencionais e essenciais para a comunicação e a preservação cultural dentro de uma comunidade linguística.",
@@ -120,7 +120,7 @@
     },
     {
       "id": 7,
-      "secao": "S1",
+      "modulo": "S1",
       "enunciado": "A escrita desempenha um papel significativo na sociedade, não apenas como uma ferramenta de comunicação, mas também como uma influência poderosa que pode amplificar e dar credibilidade às informações. Esse impacto é refletido na maneira como as notícias são percebidas quando publicadas em formas escritas, comparativamente à comunicação oral. Analise as alternativas a seguir e assinale a que aponta corretamente como a escola deve abordar o ensino da escrita para maximizar seu valor educacional e crítico, incorporando os avanços tecnológicos.",
       "alternativas": {
         "A": "Manter um foco em formatos de escrita tradicionais sem integrar tecnologias modernas no processo de aprendizagem.",
@@ -135,7 +135,7 @@
     },
     {
       "id": 8,
-      "secao": "S2",
+      "modulo": "S2",
       "enunciado": "Na teoria da linguagem, distinguem-se três tipos de atividades que os falantes realizam com a língua: atividade linguística, que é a prática direta de comunicar e compreender mensagens; atividade epilinguística, que é a reflexão imediata sobre o uso da língua durante a comunicação; e atividade metalinguística, que é uma reflexão mais profunda e formal sobre a estrutura e as regras da língua.\n\nConsidere as afirmações e assinale a alternativa correta:\n\nI. A atividade linguística é a base para a reflexão tanto epilinguística quanto metalinguística, fornecendo o contexto e as experiências necessárias para a análise formal e teórica da língua.\nII. A atividade metalinguística envolve uma análise profunda e abrangente das estruturas linguísticas, enquanto a atividade epilinguística ocorre de forma mais fluida e adaptável em contextos variados de comunicação.\nIII. A atividade epilinguística serve para ajustes e correções imediatas durante a comunicação, diferindo da atividade metalinguística que visa a uma compreensão teórica e sistemática das normas linguísticas.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "II e III, apenas.",
@@ -150,7 +150,7 @@
     },
     {
       "id": 9,
-      "secao": "S2",
+      "modulo": "S2",
       "enunciado": "Na análise linguística, os princípios teóricos desempenham um papel fundamental na compreensão dos fenômenos da linguagem. Inicialmente, são formulados com base em observações de dados linguísticos e, posteriormente, são testados e ajustados conforme necessário para melhor explicar e prever os comportamentos linguísticos observados. O papel dos princípios teóricos na análise linguística pode ser observado em:",
       "alternativas": {
         "A": "Estabelecer uma base estática para interpretação de dados empíricos, ignorando ajustes conforme novas evidências surgem.",
@@ -165,7 +165,7 @@
     },
     {
       "id": 10,
-      "secao": "S2",
+      "modulo": "S2",
       "enunciado": "Considere as afirmações abaixo sobre a aplicação do conhecimento linguístico no cotidiano do ser humano:\n\nI. A compreensão dos fonemas e sua correta articulação são fundamentais para a alfabetização e a aquisição da linguagem nas crianças.\nII. O domínio dos morfemas e suas regras de combinação facilita a aprendizagem de novos vocabulários e a construção de palavras complexas.\nIII. O entendimento das estruturas sintáticas ajuda na produção e interpretação de sentenças complexas, melhorando a comunicação escrita e oral.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "I e II, apenas.",
@@ -180,7 +180,7 @@
     },
     {
       "id": 11,
-      "secao": "S2",
+      "modulo": "S2",
       "enunciado": "Lev Vygotsky enfatiza o papel da linguagem como uma ferramenta fundamental no desenvolvimento cognitivo. Segundo ele, a linguagem não apenas permite a comunicação, mas também serve como um meio através do qual as experiências são internalizadas e os conhecimentos são construídos. Esta função mediatória da linguagem facilita a interação entre o indivíduo e seu ambiente social e cultural, promovendo a formação do pensamento crítico.\n\nExamine as afirmativas:\n\nI. Para Vygotsky, a linguagem serve como um meio de comunicação fundamental que facilita a interação entre indivíduos e o mundo, contribuindo significativamente para a evolução da cognição.\nII. A visão de Vygotsky sobre a linguagem destaca sua função como ferramenta de pensamento, mediando não só a interação com o ambiente mas também permitindo a internalização de experiências e a construção de significados.\nIII. Vygotsky considera a mediação das relações sociais pela linguagem como um fator importante no desenvolvimento cognitivo, mas reconhece que outros aspectos do ambiente também são influentes.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "II e III, apenas.",
@@ -195,7 +195,7 @@
     },
     {
       "id": 12,
-      "secao": "S3",
+      "modulo": "S3",
       "enunciado": "O desenvolvimento de habilidades de leitura é um aspecto vital da educação, especialmente no contexto acadêmico. Estratégias eficazes de leitura não só aprimoram a capacidade de entender textos complexos, mas também ampliam a capacidade crítica e analítica do leitor.\n\nCom base na descrição das estratégias de leitura, leia as seguintes afirmativas sobre a compreensão leitora:\n\nI. A decodificação, embora seja fundamental, representa apenas o início do processo de leitura, sendo a base para avançar para etapas mais complexas de interpretação e análise crítica de textos.\nII. Compreender um texto envolve mais do que apenas reconhecer palavras; requer a habilidade de conectar ideias, questionar conceitos e discutir suas implicações, tornando a leitura uma atividade cognitiva ativa.\nIII. O papel dos professores é essencial para guiar os alunos para além da decodificação mecânica, promovendo habilidades de interpretação profunda e análise crítica essenciais no ensino superior.\n\nEstá correto o que afirma em:",
       "alternativas": {
         "A": "II e III, apenas.",
@@ -210,7 +210,7 @@
     },
     {
       "id": 13,
-      "secao": "S3",
+      "modulo": "S3",
       "enunciado": "Para entender bem os textos, tanto no ensino médio quanto no ensino superior, é importante saber tanto ler quanto compreender o que está escrito. Ler envolve reconhecer as palavras e frases no papel ou na tela. Compreender, por outro lado, significa interpretar e dar sentido ao que se lê. Na escola, por exemplo, quando você está estudando um livro de história, primeiro você precisa ler as palavras (decifração) e depois entender o contexto e as ideias apresentadas (compreensão). Portanto, essas duas habilidades juntas ajudam a ter um bom desempenho nas tarefas escolares e nos estudos em geral.\n\nCom base no contexto, assinale a alternativa que apresenta o que é importante para garantir que a leitura seja uma atividade cognitiva completa.",
       "alternativas": {
         "A": "Atribuição de significado ao texto.",
@@ -225,7 +225,7 @@
     },
     {
       "id": 14,
-      "secao": "S3",
+      "modulo": "S3",
       "enunciado": "Leia o texto: \"Assim, para ler bem é preciso decifrar bem. Esse pré-requisito é tido como fundamental para a maioria absoluta dos estudiosos de leitura, no atual estágio de desenvolvimento dos estudos sobre o tema. No entanto, decifrado não se confunde com compreensão, porque a compreensão não faz parte do ato de leitura propriamente dito: ela ocorre depois do lento processo de transposição dos signos escritos em signos vocais (BAJARD, 1994), não se podendo reduzir ler a decodificar\" (PINTO, 2010; 2011). — FLÔRES, Onici Claro. A inter-relação leitura & escrita. Signo, Santa Cruz do Sul, 2016.\n\nConsidere as afirmativas a seguir:\n\nI. A leitura, sendo uma atividade interativa e multifacetada, permite que o leitor ultrapasse os limites do contexto situacional, ampliando seus horizontes de entendimento e promovendo um engajamento crítico e reflexivo.\nII. Os professores, ao abordar as diversas propostas teóricas para o ensino da leitura e escrita, devem adotar uma postura crítica e fundamentada, adaptando e integrando essas teorias às necessidades dos alunos e às dinâmicas sociais em constante mudança.\nIII. A compreensão leitora transcende a simples decodificação dos signos escritos, englobando a interpretação e a construção de significados complexos, fundamentados no conhecimento prévio e nas estratégias leitoras eficazes.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "II e III, apenas.",
@@ -240,7 +240,7 @@
     },
     {
       "id": 15,
-      "secao": "S3",
+      "modulo": "S3",
       "enunciado": "Desde a Grécia Antiga, reconhece-se que a linguagem tem um papel central nos regimes democráticos, contrastando com sua supressão em regimes totalitários onde o discurso é frequentemente controlado. A vitalidade da democracia é refletida no livre intercâmbio de ideias e no debate público, enquanto os regimes autoritários tendem a restringir a linguagem para fortalecer seu controle. Exemplos históricos e contemporâneos mostram como a manipulação da linguagem pode influenciar a percepção pública e reforçar ou desafiar o poder político.\n\nCom base nas informações fornecidas e na compreensão do uso político da linguagem, avalie as seguintes afirmações:\n\nI. Em regimes democráticos, a liberdade de expressão permite que a linguagem evolua naturalmente, refletindo a diversidade de perspectivas e opiniões da população.\nII. A restrição do uso de certos termos é característica apenas de regimes totalitários e nunca ocorre em democracias modernas.\nIII. O controle linguístico em regimes autoritários serve como ferramenta para limitar o pensamento crítico e reforçar a ideologia dominante.\nIV. A apropriação e alteração de termos populares por grupos elitistas nunca têm implicações políticas ou sociais.\n\nÉ correto o que se afirma em:",
       "alternativas": {
         "A": "I, II e IV, apenas.",
@@ -255,7 +255,7 @@
     },
     {
       "id": 16,
-      "secao": "S3",
+      "modulo": "S3",
       "enunciado": "A relação entre linguagem, poder e democracia destaca a importância das palavras e seus significados como um bem comum pertencente a todos os cidadãos. Em uma democracia, as palavras têm significados que são moldados coletivamente pelo povo. No entanto, quando essas palavras são forçadas a mudar por um indivíduo ou grupo específico, isso indica uma anomalia democrática.\n\nRelacione as expressões (Lista I) com as descrições (Lista II):\n\nLista I: I. Usurpação discursiva / II. Higienização da língua / III. Manipulação midiática / IV. Legitimidade forçada\n\nLista II: A. Prática de eliminar expressões populares para impor uma linguagem única e oficial. / B. Quando o sentido das palavras é alterado ou manipulado para justificar atos de poder ilegítimos. / C. Controle do discurso público por meio de órgãos de comunicação, promovendo interesses particulares. / D. Apropriação de termos e expressões de outras culturas ou classes sociais, retirando seu contexto original.\n\nAssinale a alternativa com a associação correta:",
       "alternativas": {
         "A": "I-A, II-B, III-D, IV-C",
@@ -270,7 +270,7 @@
     },
     {
       "id": 17,
-      "secao": "S3",
+      "modulo": "S3",
       "enunciado": "De acordo com a Constituição Federal de 1988, a educação é um direito de todos e um dever do Estado e da família, promovida com a colaboração da sociedade. O objetivo da educação é assegurar o pleno desenvolvimento da pessoa, seu preparo para o exercício da cidadania e sua qualificação para o trabalho.\n\nCom relação a este contexto, avalie as asserções a seguir e a relação proposta entre elas:\n\nI. O sistema educacional deve proporcionar igualdade de oportunidades para todos os cidadãos, assegurando o acesso e a permanência na escola, de modo a formar indivíduos capazes de exercer plenamente sua cidadania e contribuir para o desenvolvimento social.\nPORQUE\nII. a exclusão econômica e social de grupos desfavorecidos, que limita o acesso à educação superior, é uma prática que perpetua desigualdades e impede a realização do ideal de uma sociedade justa e inclusiva, comprometendo a formação de cidadãos plenos e participativos.",
       "alternativas": {
         "A": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
@@ -285,7 +285,7 @@
     },
     {
       "id": 18,
-      "secao": "S3",
+      "modulo": "S3",
       "enunciado": "Leia o trecho: João, um estudante universitário de classe média, começou a usar gírias e expressões que ouviu de seus amigos da periferia em seu dia a dia. Ele acredita que isso o ajuda a se sentir mais conectado e descolado. No entanto, seus amigos da periferia pensam em outra coisa quando João fala, porque ele fica desfalcado do assunto.\n\nCom base no exemplo e nos estudos da disciplina, assinale a alternativa que explica a crítica à apropriação das expressões da periferia por jovens da classe média.",
       "alternativas": {
         "A": "João está promovendo a diversidade linguística ao usar expressões da periferia de maneira autêntica.",
@@ -300,7 +300,7 @@
     },
     {
       "id": 19,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "\"A coerência textual é um aspecto fundamental para a construção de um texto que faça sentido. Para que um texto seja coerente, é necessário que suas ideias estejam bem articuladas e apresentem uma relação lógica entre si. A coerência é garantida por meio de elementos como a [preencher 1] entre as partes do texto e a [preencher 2] das informações apresentadas\".\n\nOs termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
       "alternativas": {
         "A": "1 continuidade — 2 clareza",
@@ -315,7 +315,7 @@
     },
     {
       "id": 20,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "A coerência textual é fundamental para a compreensão do texto como um todo. Ao escrever, torna-se importante avaliar se as ideias apresentadas estão conectadas de forma lógica e fluida.\n\nDe acordo com os estudos da disciplina, analise as afirmativas:\n\nI. A coerência se refere às frases isoladas dentro de um texto, desconsiderando o contexto mais amplo e as relações estabelecidas entre as frases.\nII. O conhecimento de mundo do leitor não exerce papel determinante na recuperação dos sentidos pretendidos pelo autor, uma vez que o texto é autossuficiente.\nIII. A coerência é global e se aplica ao todo do texto, influenciando a interpretabilidade e a compreensão geral da mensagem transmitida.\nIV. As palavras e frases dentro de um texto podem ter seus sentidos alterados dependendo das relações que estabelecem com outras partes do texto, contribuindo para a coerência.\n\nEstá correto o que afirma em:",
       "alternativas": {
         "A": "II e III, apenas.",
@@ -330,7 +330,7 @@
     },
     {
       "id": 21,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "Leia o texto: \"O cotidiano vivenciado por eles tem lhes trazido algumas dificuldades no cumprimento dos afazeres escolares: trabalhos e exercícios não feitos, atividades incompletas, texto não produzido ou produzido sem nenhum cuidado etc. Essa situação requer do professor, especialmente do de Língua Portuguesa, que promova situações dinâmicas e interessantes de ensino-aprendizagem, principalmente no que se refere às atividades de produção de textos...\"\n\nIdentifique e associe corretamente os termos (Lista 1) às definições (Lista 2):\n\nLista 1: I. Coerência / II. Coesão / III. Intencionalidade / IV. Aceitabilidade / V. Situacionalidade\n\nLista 2: A. Relaciona-se à continuidade, progressão, não contradição interna e externa, e articulação do texto. / B. Refere-se ao uso de mecanismos na superfície textual que garantem a continuidade e a articulação do texto. / C. A preocupação do aluno em construir um texto que atenda às expectativas do professor avaliador. / D. Refere-se à adequação do texto às expectativas do leitor quanto à sua estrutura e conteúdo. / E. Contexto em que o texto é produzido e recebido, influenciando sua interpretação.\n\nAssinale a alternativa com a associação correta:",
       "alternativas": {
         "A": "I-C, II-A, III-E, IV-B, V-D",
@@ -345,7 +345,7 @@
     },
     {
       "id": 22,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "Um conjunto de palavras forma uma mensagem dirigida a um público dentro de um cenário comunicativo específico. A estrutura textual organiza essas partes de maneira integrada e fluida, garantindo que o conteúdo seja compreendido de forma clara. Além disso, os textos refletem os valores culturais e os objetivos do autor, desempenhando um papel fundamental na interação humana.\n\nCom base no texto acima, avalie as afirmativas a seguir:\n\nI. A textualidade envolve a organização de partes do texto, assegurando que as ideias se relacionem de forma clara e lógica.\nII. O texto pode ser definido como uma unidade de comunicação, falada ou escrita, que tem um propósito social e formal.\nIII. Textos são apenas coleções de frases ou orações, sem que aspectos culturais influenciem sua construção.\nIV. A produção de um texto deve estar conectada a uma situação específica de comunicação, para que o seu propósito seja atingido.\n\nEstá correto o que afirma em:",
       "alternativas": {
         "A": "II e III, apenas.",
@@ -360,7 +360,7 @@
     },
     {
       "id": 23,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "A coesão textual é garantida por diferentes mecanismos que conectam partes do texto, garantindo fluidez e clareza. Entre esses mecanismos, incluem-se a referência, a substituição, a elipse, a conjunção e a coesão lexical.\n\nAssocie corretamente os mecanismos de coesão textual (Lista 1) às suas descrições (Lista 2):\n\nLista 1: I. Referência / II. Substituição / III. Elipse / IV. Conjunção / V. Coesão lexical\n\nLista 2: A. Uso de pronomes ou advérbios que remetem a elementos previamente mencionados ou que serão mencionados. / B. Omissão de um termo que pode ser recuperado pelo contexto. / C. Uso de termos que substituem outros previamente mencionados. / D. Palavras ou expressões que conectam frases ou orações indicando relações como adição, contraste, causa, tempo, etc. / E. Relação entre termos por sinonímia, hiperonímia ou campo semântico.\n\nAssinale a alternativa com a associação correta:",
       "alternativas": {
         "A": "I-B; II-A; III-D; IV-C; V-E",
@@ -375,7 +375,7 @@
     },
     {
       "id": 24,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "A coesão textual é um elemento essencial para garantir que as partes de um texto estejam conectadas de maneira clara e fluida. Ela utiliza mecanismos linguísticos para criar relações entre palavras, frases e parágrafos, permitindo que o leitor acompanhe o desenvolvimento das ideias.\n\nConforme os estudos da disciplina, assinale a alternativa correta.",
       "alternativas": {
         "A": "A coesão sequencial organiza as ideias principalmente de forma cronológica, e a coesão referencial é um recurso opcional, já que o entendimento do texto depende principalmente da ordem temporal e progressiva das informações.",
@@ -390,7 +390,7 @@
     },
     {
       "id": 25,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "A coerência textual é essencial para garantir que o leitor compreenda a progressão lógica das ideias. Quando a continuidade temática é interrompida ou as ideias não se conectam adequadamente, a compreensão do texto é prejudicada.\n\nLeia o texto: \"A prática regular de exercícios físicos é fundamental para a saúde. Caminhadas diárias podem prevenir doenças e aumentar a qualidade de vida. Além disso, manter uma dieta balanceada é essencial para a obtenção de resultados satisfatórios. Nos últimos anos, o uso de smartphones durante as refeições tem aumentado significativamente, prejudicando o foco na alimentação. É importante adotar hábitos saudáveis, como evitar alimentos ultraprocessados e manter uma rotina de sono adequada.\"\n\nCom base nos estudos da disciplina e na leitura do texto, identifique a alternativa que apresenta um problema de coerência:",
       "alternativas": {
         "A": "A análise do texto revela que ele articula de maneira eficiente os diferentes tópicos abordados, estabelecendo conexões lógicas entre eles.",
@@ -405,7 +405,7 @@
     },
     {
       "id": 26,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "A progressão temática é um elemento essencial para a coerência textual. Ela garante que as ideias do texto avancem de forma lógica e sequencial, evitando a repetição desnecessária e a circularidade.\n\nLeia o texto: \"A educação é fundamental para o desenvolvimento das pessoas. Ela fornece informações valiosas e habilidades para a vida. Com a educação, a vida se torna mais interessante. Através dos estudos, aprendemos sobre diferentes culturas e adquirimos novos conhecimentos. Com a educação, podemos melhorar nossa capacidade de resolver problemas e tomar decisões informadas. A educação é um meio essencial para o progresso.\"\n\nCom relação a este tema e ao texto apresentado, observe as afirmativas a seguir:\n\nI. O texto apresenta uma progressão temática clara, discutindo diferentes aspectos da importância da educação.\nII. O texto é circular, pois repete a ideia da importância da educação sem acrescentar novos pontos.\nIII. O texto mostra como a educação contribui para o desenvolvimento pessoal e social em uma sociedade.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "I e II, apenas.",
@@ -420,7 +420,7 @@
     },
     {
       "id": 27,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "Comunicação clara é a capacidade de transmitir informações, ideias e sentimentos de maneira que sejam facilmente compreendidos pelo receptor. Isso envolve o uso de uma linguagem precisa, organizada e livre de ambiguidades.\n\nCom relação a este contexto, analise as asserções a seguir e a relação proposta entre elas:\n\nI. O uso de pronomes e expressões coesivas é fundamental para garantir a continuidade lógica e a clareza de um texto.\nPORQUE\nII. A coesão textual é responsável por ligar as partes do texto de maneira que as ideias avancem de forma lógica e inter-relacionada.",
       "alternativas": {
         "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
@@ -435,7 +435,7 @@
     },
     {
       "id": 28,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "Leia o exemplo: \"A alimentação saudável é essencial para o bem-estar. Consumir frutas e vegetais diariamente fornece vitaminas importantes para o corpo. Além disso, evitar alimentos processados pode prevenir doenças. Portanto, adotar uma dieta equilibrada contribui significativamente para uma vida mais saudável e ativa.\"\n\nNeste texto, a coesão é garantida pelo uso de conectores como 'Além disso' e 'portanto', que ligam as frases, enquanto a coerência é mantida pela ideia central de alimentação saudável e seus benefícios.\n\nAnalise as asserções a seguir e a relação proposta entre elas:\n\nI. A coesão é um dos fatores que contribuem para a coerência textual.\nPORQUE\nII. A separação entre coesão e coerência é claramente definida e não apresenta sobreposições.",
       "alternativas": {
         "A": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
@@ -450,7 +450,7 @@
     },
     {
       "id": 29,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "Os mecanismos de coesão são importantes para criar textos claros e bem conectados. Eles ajudam a ligar frases e ideias de forma lógica. A coesão é mostrada através de palavras e estruturas que conectam as partes do texto.\n\nConsiderando os mecanismos de coesão textual, assinale a alternativa correta:",
       "alternativas": {
         "A": "A elipse e a substituição são tipos de coesão conjuntiva.",
@@ -465,7 +465,7 @@
     },
     {
       "id": 30,
-      "secao": "S4",
+      "modulo": "S4",
       "enunciado": "Um grupo de alunos do ensino médio foi desafiado a escrever redações argumentativas sobre a importância da preservação ambiental. O professor destacou alguns conceitos essenciais para a construção de um texto coerente: situacionalidade, intencionalidade e aceitabilidade, informatividade, focalização, intertextualidade e relevância.\n\nConsiderando o caso das redações dos alunos e os conceitos apresentados, avalie as seguintes afirmativas:\n\nI. A situacionalidade implica que os elementos que compõem um texto devem interagir para formar um todo dentro de uma situação e contexto de comunicação.\nII. A intencionalidade e a aceitabilidade destacam a importância de o texto atender tanto às expectativas do escritor quanto do leitor.\nIII. A informatividade envolve equilibrar informações previsíveis com novidades, de modo a não tornar o texto nem enfadonho nem incompreensível.\nIV. A focalização relaciona-se diretamente com os aspectos do assunto que são enfatizados na redação, conforme o conhecimento compartilhado entre escritor e leitor.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "II e III, apenas.",
@@ -480,7 +480,7 @@
     },
     {
       "id": 31,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "Considerando a concepção da escrita como um processo em conformidade com os PCNs para o ensino de língua portuguesa, Arnemann e Veçossi (2017) defendem a 'informatividade como possibilidade de promover avanços em escritas argumentativas'. Investir em atividades que promovam a informatividade na sala de aula é fundamental para o desenvolvimento de habilidades de escrita argumentativa entre os estudantes.\n\nAnalise as asserções a seguir e a relação proposta entre elas:\n\nI. A compreensão da escrita como processo, conforme os PCNs, favorece a realização de atividades mais complexas, como a produção de textos argumentativos.\nPORQUE\nII. A informatividade é um princípio de textualidade que, quando integrado ao ensino, pode melhorar a qualidade da escrita argumentativa dos estudantes.",
       "alternativas": {
         "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
@@ -495,7 +495,7 @@
     },
     {
       "id": 32,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "A informatividade desempenha um papel essencial na compreensão e criação de textos, referindo-se à novidade ou à familiaridade das informações apresentadas aos receptores. \"O termo informatividade designa em que medida os materiais linguísticos apresentados no texto são esperados/não esperados, conhecidos/não conhecidos da parte dos receptores. A informatividade exerce um importante controle na seleção e arranjo de alternativas no texto\" (Fávero, 1985).\n\nConsiderando o exposto, leia as afirmativas a seguir:\n\nI. A informatividade é importante porque ajuda a manter o interesse e a atenção do leitor ou ouvinte e pode ser influenciada pelo contexto em que o texto é produzido.\nII. A informatividade está relacionada à seleção e organização de informações no texto para que tenha coesão, coerência e mantenha a atenção do leitor durante a leitura.\nIII. A informatividade se refere à medida em que as informações apresentadas no texto são esperadas ou não esperadas, conhecidas ou não conhecidas pelos receptores.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "I, apenas.",
@@ -510,7 +510,7 @@
     },
     {
       "id": 33,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "Leia os textos a seguir:\n\nTexto I: \"As palavras de conteúdo seriam geralmente mais informativas. A escolha seria maior, elas ativariam mais extensos e diversos materiais cognitivos e poderiam produzir mais emoções e imagens mentais do que as funcionais. Contudo, o produtor pode alternar ou inverter os papéis dos tipos de palavras, podendo ocorrer, por exemplo, palavras funcionais em sequências pouco comuns.\" (Fávero, 1985)\n\nTexto II: \"...na escola, é o professor, 'parceiro mais competente' na relação docente-discente, que engendra uma série de procedimentos articulados, os quais visam a que o estudante atinja determinados propósitos de aprendizagem. No caso das atividades realizadas na aula de LP, observamos que se organizam em três eixos principais: leitura, produção de texto e gramática, havendo, muitas vezes, ênfase sobre esse último núcleo, o qual, de forma desconectada, passa a ser compreendido como 'aula de português', sem que haja a devida inter-relação com leitura e escrita.\" (Arnemann; Veçossi, 2018)\n\nAnalise as asserções e a relação proposta entre elas:\n\nI. As palavras de conteúdo são mais informativas e evocativas de emoções e imagens mentais em comparação com as palavras funcionais, mas suas funções podem ser invertidas pelo produtor.\nPORQUE\nII. Na educação, a mediação do professor é essencial para conectar gramática, leitura e escrita, evitando que a gramática seja vista apenas como nomenclatura, sem uma reflexão prática.",
       "alternativas": {
         "A": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
@@ -525,7 +525,7 @@
     },
     {
       "id": 34,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "O paralelismo é uma técnica estilística e gramatical que consiste em usar estruturas semelhantes em frases ou partes de frases para criar um padrão harmonioso e equilibrado.\n\nFrase 1: Desejamos que todos os funcionários aproveitem as férias e uma boa estada no hotel da empresa.\nFrase 2: Desejamos que todos os funcionários aproveitem as férias e tenham uma boa estada no hotel da empresa.\n\nObserve as afirmativas:\n\nI. Na frase 1, falta paralelismo porque as duas partes da oração que se seguem ao verbo 'desejamos' não possuem a mesma estrutura gramatical.\nII. Na frase 2, há uso de paralelismo. As duas partes da oração que seguem ao verbo 'desejamos' possuem uma estrutura gramatical paralela.\nIII. Na frase 2, a falta de paralelismo entre 'aproveitem as férias' e 'tenham uma boa estada no hotel da empresa' torna a frase mais confusa e menos clara.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "II e III, apenas.",
@@ -540,7 +540,7 @@
     },
     {
       "id": 35,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "A informatividade se refere ao grau de novidade e ao impacto que a informação causa no receptor. Ela pode ser classificada em três níveis:\n1. Alta informatividade: informação inesperada ou nova, gerando maior impacto e engajamento.\n2. Informatividade média: combinação de elementos conhecidos e novos, que pode manter o interesse.\n3. Baixa informatividade: informação previsível, que pode levar à desatenção.\n\nAssinale a alternativa que reconhece corretamente a informatividade média.",
       "alternativas": {
         "A": "Uma apresentação em que os dados são muito técnicos e detalhados, mas sem nenhuma novidade significativa para os receptores.",
@@ -555,7 +555,7 @@
     },
     {
       "id": 36,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "A informatividade de um texto pode ser classificada em três graus principais: baixo, médio e alto.\n\nAssocie os graus de informatividade (Lista I) às suas características (Lista II):\n\nLista I: I. Grau Baixo de Informatividade / II. Grau Médio de Informatividade / III. Grau Alto de Informatividade\n\nLista II: A. Apresentação de informações que são facilmente previsíveis para o leitor, baseadas em seu conhecimento prévio ou no contexto comunicativo. / B. Envolve a introdução de elementos que quebram as expectativas do leitor, sendo menos previsíveis e mais surpreendentes. / C. Equilibra a introdução de novos elementos com informações conhecidas, permitindo uma compreensão adequada do texto pelo leitor.\n\nAssinale a alternativa com a associação correta:",
       "alternativas": {
         "A": "I-A, II-B, III-C",
@@ -570,7 +570,7 @@
     },
     {
       "id": 37,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "A ideia de que 'escrever bem é escrever difícil' é uma convicção que pode ser prejudicial, tanto para escritores iniciantes, quanto para leitores. Essa concepção sugere que textos repletos de palavras rebuscadas e com estruturas gramaticais complexas são superiores e mais valorizados. No entanto, dependendo do contexto, a boa escrita não se mede pela dificuldade, mas sim pela clareza, eficácia e capacidade de comunicar ideias de maneira acessível e envolvente.\n\nCom base no apresentado, observe as afirmativas:\n\nI. Quando um texto é muito complicado, pode confundir o leitor, obscurecer a mensagem principal e tornar a leitura frustrante.\nII. Uma escrita excessivamente clara e simples pode alienar o público, enquanto uma escrita mais bem elaborada e complexa atrai mais leitores.\nIII. Textos acessíveis e diretos tendem a envolver mais o leitor, facilitando a compreensão e a retenção das informações.\nIV. Grandes escritores são admirados por escreverem utilizando palavras complexas e elaboradas, independentemente do público-alvo.\n\nEstá correto o que afirma em:",
       "alternativas": {
         "A": "II, III e IV, apenas.",
@@ -585,7 +585,7 @@
     },
     {
       "id": 38,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "A palavra 'texto' vem do latim 'tēxtus,us', que significa 'narrativa' ou 'exposição'. O verbo latino 'tēxo, is, xŭi, xtum, ĕre', de onde 'tēxtus' se origina, significa [Preencher 1], fazer tecido, entrelaçar, construir sobrepondo ou entrelaçando, reforçando a analogia entre tecer um tecido e criar um texto. Na escrita, palavras e frases são organizadas cuidadosamente para transmitir uma [Preencher 2] clara e coesa.\n\nOs termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
       "alternativas": {
         "A": "1 tecer — 2 mensagem",
@@ -600,7 +600,7 @@
     },
     {
       "id": 39,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "A introdução é fundamental na estrutura de qualquer texto, sendo necessária para captar a atenção do leitor, revelar o contexto do tema abordado e apresentar a tese ou o propósito principal do texto.\n\nCom relação a este tema, observe as afirmativas:\n\nI. Uma introdução bem estruturada apresenta claramente a tese ou o propósito principal do texto.\nII. Uma introdução extensa e detalhada facilita a compreensão do texto e ajuda o leitor a entender o conteúdo com clareza.\nIII. Uma introdução bem elaborada demonstra organização e clareza de pensamento, aumentando a persuasão e a eficácia do texto.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "I, apenas.",
@@ -615,7 +615,7 @@
     },
     {
       "id": 40,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "Na produção textual, o conceito de informatividade refere-se à maneira como as informações são apresentadas no texto, considerando o grau de novidade ou familiaridade dessas informações para o leitor.\n\nConsiderando o exposto, avalie as afirmativas:\n\nI. A mensagem deve ser suficientemente nova para captar e manter a atenção, mas não tão inesperada a ponto de ser incompreensível ou irrelevante.\nII. Os graus de informatividade englobam o conjunto todo do texto, garantindo uma uniformidade na apresentação das informações.\nIII. O grau médio de informatividade significa que as informações apresentadas são altamente previsíveis para o leitor.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "I e II, apenas.",
@@ -630,7 +630,7 @@
     },
     {
       "id": 41,
-      "secao": "S5",
+      "modulo": "S5",
       "enunciado": "Os Graus de informatividade são fundamentais para a produção textual, influenciando diretamente na capacidade de captar e manter o interesse do leitor ao equilibrar a novidade das informações apresentadas com a sua previsibilidade em relação ao conhecimento prévio do público-alvo.\n\nAssinale a alternativa que descreve corretamente os diferentes graus de informatividade e suas características.",
       "alternativas": {
         "A": "Alto grau de informatividade: a informação é previsível e conhecida, não despertando interesse adicional no leitor durante a leitura.",
@@ -645,7 +645,7 @@
     },
     {
       "id": 42,
-      "secao": "S6",
+      "modulo": "S6",
       "enunciado": "O debate sobre as variedades linguísticas no ensino da Língua Portuguesa enfatiza três atitudes principais: respeitar, valorizar e adequar.\n\nLeia o exemplo: Uma professora percebe que alguns de seus alunos utilizam variedades linguísticas diferentes da norma culta durante uma apresentação oral. Ela decide promover uma discussão sobre essas variedades, destacando sua importância e valor cultural, ao mesmo tempo em que ajuda os alunos a entenderem a necessidade de adequar suas falas a diferentes contextos.\n\nCom relação ao entendimento das atitudes de respeitar, valorizar e adequar, observe as afirmativas:\n\nI. A professora está apenas tolerando as variedades linguísticas dos alunos sem promovê-las ativamente.\nII. A professora está valorizando as variedades linguísticas dos alunos, reconhecendo sua importância cultural.\nIII. A professora está desconsiderando as variedades linguísticas dos alunos e impondo a norma culta.\n\nEstá correto o que se afirma em:",
       "alternativas": {
         "A": "I e II apenas.",
@@ -660,7 +660,7 @@
     },
     {
       "id": 43,
-      "secao": "S6",
+      "modulo": "S6",
       "enunciado": "O debate sobre as variedades linguísticas da Língua Portuguesa e sua relação com o trabalho em sala de aula trouxe, nos últimos vinte anos, a recomendação de três atitudes principais: respeitar, valorizar e adequar as variedades praticadas pelos alunos.\n\nAssinale a alternativa que corretamente identifica uma das atitudes recomendadas para lidar com as variedades linguísticas no ensino de Língua Portuguesa.",
       "alternativas": {
         "A": "Desencorajar o uso de variedades linguísticas que não sejam de prestígio.",
@@ -675,7 +675,7 @@
     },
     {
       "id": 44,
-      "secao": "S6",
+      "modulo": "S6",
       "enunciado": "Em discursos políticos, a escolha de palavras pode ter grande impacto sobre a maneira como o público reage emocionalmente. A seguir, apresentamos dois trechos hipotéticos de um discurso:\n\nTrecho 1: 'Devemos lutar pela liberdade com todas as nossas forças.'\nTrecho 2: 'Precisamos buscar a liberdade com todos os nossos esforços.'\n\nConsiderando os efeitos de sentido que essas escolhas lexicais podem produzir, assinale a alternativa que define o impacto das palavras escolhidas.",
       "alternativas": {
         "A": "Ambos os trechos têm efeitos de sentido diferentes, e cada um pode ser eficaz, dependendo do público e do contexto.",
@@ -690,7 +690,7 @@
     },
     {
       "id": 45,
-      "secao": "S6",
+      "modulo": "S6",
       "enunciado": "A compreensão de textos escritos envolve a distinção entre o contexto de produção (momento e condições em que o texto foi criado) e o contexto de uso (cenário em que o texto é interpretado).\n\nLeia o diálogo:\nSecretária: Alô.\nPai: Meu filho está muito gripado e não vai poder ir à escola hoje.\nSecretária: Quem está falando?\nPai: Quem está falando é o meu pai.\n(Koch; Elias, 2006)\n\nCom base no diálogo, qual alternativa apresenta a melhor análise sobre como o contexto de produção e o contexto de uso afetam a interpretação do texto?",
       "alternativas": {
         "A": "O diálogo ilustra como a falta de uma articulação clara entre os contextos de produção e uso pode levar a interpretações equivocadas.",
@@ -705,7 +705,7 @@
     },
     {
       "id": 46,
-      "secao": "S6",
+      "modulo": "S6",
       "enunciado": "O conceito de discurso é amplo e envolve aspectos que vão além da simples comunicação. Compreender o discurso implica analisar como a linguagem é utilizada em diferentes contextos para construir significados, levando em conta fatores culturais, sociais e históricos que influenciam a interação entre os interlocutores.\n\nCom base nesse entendimento, escolha a alternativa que reconhece corretamente o conceito de discurso.",
       "alternativas": {
         "A": "Discurso é uma fala espontânea, definida pela pouca influência do contexto.",
@@ -720,7 +720,7 @@
     },
     {
       "id": 47,
-      "secao": "S6",
+      "modulo": "S6",
       "enunciado": "A estrutura de um texto dissertativo desempenha um papel fundamental na clareza e organização das ideias apresentadas. A introdução, por exemplo, é a seção responsável por contextualizar o tema e preparar o leitor para os argumentos que serão desenvolvidos.\n\nA alternativa que corretamente reconhece a função da introdução em um texto dissertativo é:",
       "alternativas": {
         "A": "A introdução deve apresentar os argumentos principais e os exemplos que serão discutidos.",
@@ -735,7 +735,7 @@
     },
     {
       "id": 48,
-      "secao": "S6",
+      "modulo": "S6",
       "enunciado": "Na produção textual, a revisão é uma etapa essencial para aprimorar a clareza e a coerência das ideias apresentadas. De acordo com as táticas de revisão discutidas, uma das estratégias recomendadas é deixar o texto 'descansar' antes de revisá-lo, para que o autor possa lê-lo posteriormente com um olhar mais crítico e objetivo. Outra tática consiste em reler o texto assumindo a posição de leitor, e não de autor, a fim de identificar possíveis ambiguidades ou lacunas na argumentação. Durante a revisão, o autor deve prestar atenção especial à [preencher 1] e à [preencher 2] do texto, garantindo que as ideias estejam organizadas de maneira lógica e fluida.\n\nOs termos [preencher 1] e [preencher 2] são corretamente substituídos por:",
       "alternativas": {
         "A": "1 clareza — 2 coesão",
@@ -750,7 +750,7 @@
     },
     {
       "id": 49,
-      "secao": "S6",
+      "modulo": "S6",
       "enunciado": "A leitura e a escrita são processos fundamentais para o desenvolvimento cognitivo e social do indivíduo. Para que o ensino da leitura e da escrita seja eficaz, é importante que os educadores utilizem evidências que contextualizem e reforcem o aprendizado. Essas evidências não apenas tornam o conteúdo mais concreto e significativo, mas também ajudam a estabelecer conexões com a realidade dos alunos, permitindo uma compreensão mais profunda do texto e do contexto.\n\nSelecione a alternativa que descreve a importância do uso de evidências no ensino da leitura e da escrita.",
       "alternativas": {
         "A": "Evidências são úteis principalmente em níveis mais avançados de aprendizagem, enquanto em níveis iniciais seu impacto pode ser reduzido.",
@@ -765,7 +765,7 @@
     },
     {
       "id": 50,
-      "secao": "S6",
+      "modulo": "S6",
       "enunciado": "Na prática de leitura e escrita acadêmicas, é fundamental implementar estratégias eficazes que promovam o desenvolvimento crítico e autônomo dos alunos. Essas estratégias devem considerar não apenas a escolha dos textos e a dinâmica das aulas, mas também a avaliação contínua da eficácia das abordagens utilizadas. Um dos desafios é equilibrar a interdisciplinaridade e a adequação dos materiais ao nível de conhecimento dos alunos.\n\nCom base nos desafios e estratégias comuns na prática da leitura e escrita acadêmicas, selecione a que apresenta uma estratégia eficaz para promover a participação ativa dos alunos:",
       "alternativas": {
         "A": "A ênfase na leitura crítica de textos acadêmicos sem a introdução prévia de estratégias de compreensão leitora.",
@@ -780,7 +780,7 @@
     },
     {
       "id": 51,
-      "secao": "S6",
+      "modulo": "S6",
       "enunciado": "Durante o desenvolvimento de um Trabalho de Conclusão de Curso (TCC), é comum enfrentar desafios relacionados à clareza, foco e estrutura do texto. No caso de Cibele, sua pesquisa inicial apresentou divergências e falta de clareza conceitual. Entretanto, após várias revisões e com o auxílio de seu orientador, ela conseguiu aprimorar e organizar seu trabalho, resultando em um TCC bem estruturado e reconhecido por sua qualidade.\n\nConsiderando as etapas e mudanças feitas durante o desenvolvimento do TCC de Cibele, analise as seguintes estratégias e selecione aquela que pode ter tido o maior impacto na melhoria da qualidade final do trabalho.",
       "alternativas": {
         "A": "Adotar rigorosamente as normas metodológicas desde a primeira versão do trabalho para garantir conformidade desde o início.",
@@ -795,7 +795,7 @@
     },
     {
       "id": 52,
-      "secao": "S1",
+      "modulo": "S1",
       "source": "Prova-2024",
       "enunciado": "A história da humanidade é marcada por grandes mudanças e evoluções que alteraram a forma como as pessoas se relacionavam entre si, com o meio ambiente e com outros povos e culturas. Dentre essas mudanças, podemos citar o surgimento dos números, que serviam para representar quantidades da produção agrícola, por exemplo, e da escrita.\n\nIdentifique, nas alternativas a seguir, qual era o objetivo principal da invenção da escrita nas civilizações antigas.",
       "alternativas": {
@@ -810,7 +810,7 @@
     },
     {
       "id": 53,
-      "secao": "S2",
+      "modulo": "S2",
       "source": "Prova-2024",
       "enunciado": "Leia o trecho da canção Sinal fechado, de Paulinho da Viola:\n\n\"Olá, como vai?\nEu vou indo, e você, tudo bem?\nTudo bem, eu vou indo correndo\nPegar meu lugar no futuro, e você?\nTudo bem, eu vou indo em busca\nde um sono tranquilo, quem sabe?\nQuanto tempo, pois é, quanto tempo...\"\n\nNomeie a característica da linguagem representada pelo trecho da canção de Paulinho da Viola.",
       "alternativas": {
@@ -825,7 +825,7 @@
     },
     {
       "id": 54,
-      "secao": "S3",
+      "modulo": "S3",
       "source": "Prova-2024",
       "enunciado": "Uma criança toma contato com o mundo letrado em seu cotidiano, no ambiente familiar e social. Na escola, porém, ela terá contato com o conhecimento formal, que servirá de base para sua aprendizagem acadêmica ao longo dos anos que passar estudando.\n\nLogo de início, as atividades escolares se voltam para o conhecimento das letras, da representação que fazem do som e de seu formato gráfico. Esses conhecimentos serão utilizados futuramente para a leitura de textos.\n\nQual é o tipo de atividade que uma criança faz quando está conhecendo o alfabeto na escola? Indique a alternativa que nomeia corretamente essa atividade.",
       "alternativas": {
@@ -840,7 +840,7 @@
     },
     {
       "id": 55,
-      "secao": "S4",
+      "modulo": "S4",
       "source": "Prova-2024",
       "enunciado": "A produção textual com prática e conhecimento está cada vez mais complicada nas escolas, em que os alunos apresentam muitas dificuldades ao transportarem, para o papel, as suas ideias na construção de um texto, principalmente em relação à coesão de elementos e a coerência de ideias.\n\nNesse sentido, assinale abaixo a alternativa que justifica a dificuldade que o aluno tem na escrita de textos.",
       "alternativas": {
@@ -855,7 +855,7 @@
     },
     {
       "id": 56,
-      "secao": "S5",
+      "modulo": "S5",
       "source": "Prova-2024",
       "enunciado": "De modo geral, há um mito de que para escrever bem é necessário escrever difícil, com vocabulário complexo e sentenças com aspectos gramaticais obscuros, como ordem inversa. Ainda que haja textos difíceis, como os de alguns filósofos e da área do Direito, esses textos também tratam de assuntos muito complexos, que exigem certa organização textual e vocabulário bem específico.\n\nPara que um texto seja considerado bem escrito, é preciso que se respeite determinada característica. Assinale a alternativa que define essa característica.",
       "alternativas": {
@@ -870,7 +870,7 @@
     },
     {
       "id": 57,
-      "secao": "S4",
+      "modulo": "S4",
       "source": "Prova-2024",
       "enunciado": "Na apresentação de um texto, com diálogos entre personagens ou ações entre eles ou entre eles e o ambiente, destacam-se as justificativas do contexto apresentado. Por exemplo, em um texto que tem como tema a dengue e suas consequências, a explicação do que pode ocorrer se justifica por meio de palavras que se interligam.\n\nPartindo do pressuposto de que o fim da história/do texto justifica os fatos, podemos afirmar que isso ocorre devido ao uso de:",
       "alternativas": {
@@ -885,7 +885,7 @@
     },
     {
       "id": 58,
-      "secao": "S6",
+      "modulo": "S6",
       "source": "Prova-2024",
       "enunciado": "As nossas práticas de ensino, muitas vezes, refletem práticas tradicionais que foram utilizadas quando éramos estudantes na escola. Precisamos refletir se essas práticas tradicionais podem levar à reprodução de procedimentos sem reflexão sobre a pertinência dessas práticas na escola.\n\nQuando falamos em reprodução de práticas no ensino de escrita, qual a importância de refletirmos para construir práticas de reescrita na sala de aula?",
       "alternativas": {
@@ -900,7 +900,7 @@
     },
     {
       "id": 59,
-      "secao": "S6",
+      "modulo": "S6",
       "source": "Prova-2024",
       "enunciado": "Leia o trecho do poema Pronominais:\n\n\"Dê-me um cigarro\ndiz a gramática\ndo aluno e do professor\".\n\nANDRADE, O. Pronominais. In: ANDRADE, O. Obras completas. 4. ed. Rio de Janeiro, Civilização Brasileira, 1974.\n\nO trecho indica a forma correta de acordo com \"a gramática do aluno e do professor\". O poeta Oswald de Andrade reconhecia que a forma da primeira linha não era como o povo se expressava, mas pela construção \"me dá um cigarro\" — a colocação pronominal que segue a regra da gramática versus a que está presente no cotidiano.\n\nLevando em consideração esse contexto e os elementos referentes à adequação das variedades linguísticas, analise as asserções a seguir e a relação proposta entre elas.\n\nI. O conceito de adequação se refere à variedade linguística que deve ser utilizada em cada situação de comunicação, de maneira que o modo como se fala não fique desalinhado com o contexto.\nPORQUE\nII. O que acontece é a colocação de cada variedade em seu lugar, já que a adequação gera a valorização das diversas formas de expressão, desde que sejam usadas de maneira coerente.\n\nAnalisando as asserções anteriores, conclui-se que:",
       "alternativas": {
@@ -915,7 +915,7 @@
     },
     {
       "id": 60,
-      "secao": "S1",
+      "modulo": "S1",
       "source": "Prova-2026-09",
       "enunciado": "A princípio, o conhecimento das civilizações antigas, incluindo a Grécia, era repassado entre as gerações por meio da oralidade. A praça pública era o local das discussões e das trocas de saberes. As gerações passadas eram vistas como fonte de saberes e, por isso, eram valorizadas. Porém, com o tempo, a escrita tomou o lugar da oralidade e objetos culturais como os poemas épicos Ilíada e Odisseia ganharam sua versão escrita.\n\nDefina o objetivo que serviu a escrita de informações que eram passadas oralmente entre as gerações.",
       "alternativas": {
@@ -926,12 +926,14 @@
         "E": "Estratégia de sobrevivência militar."
       },
       "gabarito": "C",
-      "explicacao": "A passagem para a escrita, nesse contexto histórico, teve como finalidade registrar de forma duradoura os conhecimentos que antes dependiam da memória e da transmissão oral. A escrita de obras como a Ilíada e a Odisseia funcionou como instrumento de preservação dos saberes e da cultura de um povo, permitindo que gerações futuras tivessem acesso a esse patrimônio cultural.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "A passagem para a escrita, nesse contexto histórico, teve como finalidade registrar de forma duradoura os conhecimentos que antes dependiam da memória e da transmissão oral, evitando que se perdessem com o tempo. A escrita de obras como a Ilíada e a Odisseia funcionou justamente como um instrumento de preservação dos saberes e da cultura de um povo, permitindo que gerações futuras tivessem acesso a esse patrimônio cultural.\n\nA escrita, logo na sequência de servir como meio de comunicação, servia ao objetivo de preservação dos bens culturais e dos saberes das civilizações. Aquilo que era memorizado para ser dito oralmente poderia ser alterado ou mesmo esquecido. Com a escrita, registrava-se para a posteridade o conhecimento com menor risco de que esses saberes se perdessem com o tempo. Com o tempo, a escrita passou a servir a outros objetivos, como a dominação cultural e até mesmo como ferramenta para a expansão de territórios, mas esses não eram os objetivos iniciais. A expansão de territórios, o comércio e as estratégias militares eram praticados anteriormente à invenção da escrita, ou seja, são conhecimentos anteriores a essa tecnologia e não dependiam diretamente dela para existir.",
+      "nivelDificuldade": "Fácil",
+      "materialBase": "Videoaula 1 – Funções sociais da escrita. Slides 1 ao 3 / Vídeo de 3 minutos a 6 minutos e 30 segundos",
+      "objetivoAprendizado": "RECONHECER AS FUNÇÕES SOCIAIS DA ESCRITA"
     },
     {
       "id": 61,
-      "secao": "S2",
+      "modulo": "S2",
       "source": "Prova-2026-09",
       "enunciado": "\"Baseando-se nos estudos do psicólogo bielorusso Lev Semyonovich Vygotsky (1896-1934), a linguagem passa a ser entendida como um fator que constitui o homem, tendo função social e comunicativa. É a linguagem que possibilita um contato com o mundo.\" (GEDOZ; COSTA-HUBES, 2012, p. 129.)\n\nAssinale a alternativa que explica as contribuições de Bakhtin para uma concepção sociointeracionista da linguagem, que se aproxima mais do pressuposto vygotskyano.",
       "alternativas": {
@@ -942,12 +944,14 @@
         "E": "Bakhtin define que a fonte de origem das línguas é o psiquismo individual e a manifestação dessa língua se dá por meio de atos de fala individuais que devem ser considerados como expressão do pensamento daquele falante específico."
       },
       "gabarito": "A",
-      "explicacao": "Bakhtin concebe a língua/linguagem como fenômeno social, histórico e dialógico: o sentido só existe em enunciados concretos, produzidos em interação, atravessados por vozes sociais — visão compatível com o sociointeracionismo de Vygotsky. As demais alternativas descrevem visões estruturalistas (B), modelo do código/Jakobson (C), dicotomia rígida língua/fala (D) ou perspectiva subjetivista individual (E).",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "Em um primeiro momento, a língua era estudada de acordo com o que Bakhtin chamou de subjetivismo idealista, que considerava que a sua fonte era o psiquismo individual e que ela se fazia a partir de atos individuais de fala.\n\nApós isso, a apresentação da dicotomia entre fala e língua faz parte da teoria saussuriana, que é estruturalista e não sociointeracionista — não diz respeito aos estudos de Bakhtin. Da mesma forma, a ideia de que a língua é um sistema concreto de elementos analisados a partir das suas oposições também parte da escola estruturalista (Saussure).\n\nTemos também a teoria de Jakobson, que considerava que emissor e receptor deveriam conhecer do mesmo código para transmitirem a mensagem — essa é uma teoria da comunicação, não sociointeracionista. Bakhtin, seguindo o pressuposto de Vygotsky de que a língua é o elemento que constitui o homem, teorizava que seu estudo não poderia ser desvinculado dos enunciados concretos e de todas as vozes e relações sociais existentes nesses enunciados.\n\nA alternativa B descreve a visão estruturalista/saussuriana (língua como sistema de valores opositivos), a C descreve o modelo do código (Jakobson/teoria da comunicação), a D remete a uma dicotomia rígida entre língua e fala (também de base estruturalista) e a E remete a uma perspectiva subjetivista individual (psicologismo). Nenhuma dessas se alinha ao sociointeracionismo. Bakhtin, ao contrário, concebe a língua/linguagem como fenômeno social, histórico e dialógico: o sentido só existe em enunciados concretos, produzidos em interação, atravessados por vozes sociais — visão compatível com o sociointeracionismo de Vygotsky, para quem a linguagem constitui o sujeito nas relações sociais.",
+      "nivelDificuldade": "Médio",
+      "materialBase": "Texto-base – Concepção Sociointeracionista de linguagem: percurso histórico e contribuições para um novo olhar sobre o texto. Páginas: 126 a 131",
+      "objetivoAprendizado": "EXPLICAR BREVEMENTE AS CONCEPÇÕES BAKHTINIANAS INFLUENCIADAS POR VYGOTSKY NO ESTUDO DA LÍNGUA"
     },
     {
       "id": 62,
-      "secao": "S1",
+      "modulo": "S1",
       "source": "Prova-2026-09",
       "enunciado": "A leitura e a escrita, de modo geral, fazem parte dos currículos da educação básica, porém, isso não quer dizer que os estudantes, de fato, aprenderam a ler e a escrever de modo autônomo nas instituições escolares.\n\nSobre a leitura e a escrita, identifique se são Verdadeiras (V) ou Falsas (F) as afirmativas a seguir:\n\nI. Os exames nacionais, como o ENEM, por exemplo, permitem averiguar que as metas de leitura e escrita não foram atingidas.\n\nII. Ensinar a Língua Portuguesa para os próprios falantes da língua não é uma tarefa simples, como, em geral, supõe-se.\n\nIII. Frequentemente, o professor que recém terminou sua formação inicial baseia o seu ensino nos conceitos de gramática.\n\nIV. As escolas costumam investir mais em tarefas de escrita do que em tarefas de fala, apesar de estas serem mais presentes na vida das pessoas.\n\nAssinale a alternativa que apresenta a sequência correta:",
       "alternativas": {
@@ -957,13 +961,15 @@
         "D": "F, F, F, V.",
         "E": "F, V, V, V."
       },
-      "gabarito": "C",
-      "explicacao": "Todas as afirmativas correspondem a diagnósticos amplamente discutidos na literatura sobre ensino de língua materna: (I) os resultados de exames como o ENEM evidenciam déficits de leitura e escrita; (II) ensinar a própria língua materna é reconhecidamente complexo; (III) professores iniciantes tendem a apoiar-se nos conceitos normativos de gramática; (IV) as escolas historicamente priorizam a escrita em detrimento do trabalho sistemático com a oralidade.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "gabarito": "B",
+      "explicacao": "I. Verdadeira — os resultados de exames nacionais, como o ENEM, confirmam que os objetivos relacionados à produção de textos e à leitura não são atingidos pelos estudantes.\n\nII. Verdadeira — ainda que os alunos sejam falantes nativos da língua, o ensino de Língua Portuguesa abrange muitas questões (variação linguística, letramento, reflexão sobre os usos), não sendo tão simples quanto o senso comum julga.\n\nIII. Falsa — o professor que terminou recentemente sua formação inicial tende a fundamentar seu ensino em leitura e produção de textos, e não nos conceitos tradicionais de gramática, diferentemente do que a afirmativa propõe.\n\nIV. Verdadeira — as instituições de ensino costumam se preocupar mais com a produção escrita de textos do que com o trabalho sistemático sobre a oralidade.",
+      "nivelDificuldade": "Fácil",
+      "materialBase": "Texto-base: A inter-relação leitura & escrita: o papel do conhecimento prévio e das estratégias leitoras – Onici Claro Flôres. Página: 43",
+      "objetivoAprendizado": "RECONHECER OS PROCESSOS DE LEITURA E ESCRITA NA ESCOLA"
     },
     {
       "id": 63,
-      "secao": "S4",
+      "modulo": "S4",
       "source": "Prova-2026-09",
       "enunciado": "A produção textual com prática e conhecimento está cada vez mais complicada nas escolas, em que os alunos apresentam muitas dificuldades ao transportarem, para o papel, as suas ideias na construção de um texto, principalmente em relação à coesão de elementos e a coerência de ideias.\n\nNesse sentido, assinale abaixo a alternativa que justifica a dificuldade que o aluno tem na escrita de textos.",
       "alternativas": {
@@ -974,12 +980,14 @@
         "E": "A textualidade e a manifestação linguística são utilizadas, mas com coesão aleatória."
       },
       "gabarito": "C",
-      "explicacao": "O enunciado destaca explicitamente que a dificuldade dos alunos está relacionada à coesão de elementos e à coerência de ideias — ou seja, à capacidade de organizar e relacionar logicamente as informações dentro do texto. Isso corresponde diretamente à hierarquização das informações e suas correlações coerentes (alternativa C). As demais alternativas deslocam o problema para falta de repertório, cumprimento do propósito comunicativo ou aleatoriedade da coesão.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "O enunciado destaca explicitamente que a dificuldade dos alunos está relacionada à coesão de elementos e à coerência de ideias — ou seja, à capacidade de organizar e relacionar logicamente as informações dentro do texto. Isso corresponde diretamente à hierarquização das informações e suas correlações coerentes, tema central da alternativa C. As demais alternativas (B, D, E) deslocam o problema para falta de repertório de assuntos, cumprimento do propósito comunicativo ou aleatoriedade da coesão, o que não é o foco do enunciado.\n\nA alternativa que justifica a dificuldade que o aluno tem na escrita de textos refere-se à hierarquização das informações e suas correlações de forma coerente, pois se trata de um aspecto fundamental para a produção de um texto coeso e coerente.\n\nDe fato, a hierarquização das informações e a sua correlação de forma coerente no texto podem ser um desafio para muitos escritores. Isso se deve ao fato de que o autor precisa organizar as ideias de forma lógica e clara, estabelecendo uma ordem de importância, conectando-as de maneira coerente para que o texto possa ser compreendido de forma eficaz pelo leitor.\n\nA hierarquização das informações envolve a seleção e a ordenação das ideias, decidindo o que deve ser apresentado primeiro e o que deve vir em seguida, considerando a relevância e a importância de cada ideia. Essa hierarquização pode ser feita de diversas maneiras, como por ordem cronológica, por ordem de importância, por ordem de relevância para o tema, dentre outras.\n\nAs outras alternativas estão incorretas, pois não abordam aspectos que realmente podem influenciar na dificuldade do aluno na escrita de textos. Afirmar que a falta de informações é um problema não está correto, porque, muitas vezes, os alunos têm acesso a informações suficientes, mas não sabem como organizá-las em um texto. A alternativa que fala sobre a utilização de elementos de interlocução não apresenta clareza de como isso causaria dificuldades específicas na escrita. Já a alternativa que menciona o objetivo comunicativo sem o uso de coesão está incorreta, pois não é possível elaborar um texto que seja coerente e que cumpra com seus propósitos de comunicação se ele não estiver coeso. Por fim, a alternativa que fala sobre coesão aleatória não esclarece como isso seria uma dificuldade em si; além disso, não se pode afirmar que o aluno tenha usado da textualidade sem usar a coesão, ou seja, isso é contraditório, já que a coesão faz parte dos elementos de textualidade.",
+      "nivelDificuldade": "Médio",
+      "materialBase": "Texto-base – Coerência e coesão nos textos argumentativos dos alunos do ensino médio. Página: 2",
+      "objetivoAprendizado": "DESCREVER AS DIFICULDADES ENCONTRADAS NA ESCRITA DE TEXTOS DOS ALUNOS EM RELAÇÃO À COESÃO E À COERÊNCIA"
     },
     {
       "id": 64,
-      "secao": "S5",
+      "modulo": "S5",
       "source": "Prova-2026-09",
       "enunciado": "Os termos \"texto\" e \"textualidade\" são diferentes, mas se complementam na prática de uma construção textual. Esse sentido, caracterizado pela textualidade, refere-se às ideias apresentadas e à sequência lógica que aparecem no texto.\n\nQuanto aos critérios da textualidade, assinale a alternativa que corresponde a uma apresentação nova ou inesperada pelo receptor.",
       "alternativas": {
@@ -991,11 +999,13 @@
       },
       "gabarito": "A",
       "explicacao": "Entre os critérios de textualidade (Beaugrande e Dressler), a Informatividade diz respeito ao grau de previsibilidade/imprevisibilidade (novidade) das informações para o receptor: quanto mais inesperada ou nova a informação, maior a informatividade. A Situacionalidade (D) refere-se à adequação do texto à situação comunicativa (contexto de uso), não ao caráter novo da informação.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "nivelDificuldade": "Fácil",
+      "materialBase": "Videoaula: a noção de informatividade. Slides 4–5",
+      "objetivoAprendizado": "ESCREVER OS CRITÉRIOS DA TEXTUALIDADE COM SEUS CONCEITOS E SUAS DEFINIÇÕES"
     },
     {
       "id": 65,
-      "secao": "S6",
+      "modulo": "S6",
       "source": "Prova-2026-09",
       "enunciado": "Em qual alternativa encontramos uma definição de discurso em seu sentido amplo e que nos introduz em um campo disciplinar que trata da linguagem em seu funcionamento, segundo Eni Orlandi?",
       "alternativas": {
@@ -1006,12 +1016,14 @@
         "E": "Discurso é a mensagem entre emissor e receptor."
       },
       "gabarito": "D",
-      "explicacao": "Eni Orlandi define classicamente o discurso como \"efeito de sentidos entre interlocutores\" (Análise de Discurso: Princípios e Procedimentos). Essa definição rompe com a ideia de linguagem como simples transmissão de mensagem entre emissor e receptor (alternativa E, modelo informacional/código). As alternativas A, B e C reduzem discurso a formas textuais específicas, o que não corresponde ao sentido amplo da Análise do Discurso.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "explicacao": "Eni Orlandi, uma das principais referências da Análise de Discurso no Brasil, define classicamente o discurso como \"efeito de sentidos entre interlocutores\" (Orlandi, Análise de Discurso: Princípios e Procedimentos). Essa definição rompe com a ideia de linguagem como simples transmissão de mensagem entre emissor e receptor (alternativa E), que corresponde ao modelo informacional/código de comunicação, e não ao conceito de discurso na Análise do Discurso. As alternativas A, B e C reduzem discurso a formas textuais (oral, escrito para ser falado, diálogo), o que também não corresponde ao sentido amplo proposto pela autora.\n\nOrlandi define discurso amplamente como efeito de sentidos entre interlocutores.",
+      "nivelDificuldade": "Fácil",
+      "materialBase": "DISCURSO, IMAGINÁRIO SOCIAL E CONHECIMENTO. p: 53",
+      "objetivoAprendizado": "IDENTIFICAR O SENTIDO AMPLO DE DISCURSO"
     },
     {
       "id": 66,
-      "secao": "S3",
+      "modulo": "S3",
       "source": "Prova-2026-09",
       "enunciado": "A orientação de Trabalhos de Conclusão de Curso (TCCs) na universidade é um processo multifacetado que requer o desenvolvimento de habilidades críticas e reflexivas dos estudantes. Nesse sentido, é preciso fazer a integração entre teoria e prática e a construção de argumentos sólidos.\n\nConsiderando este contexto e o material estudado, analise as asserções a seguir e a relação proposta entre elas:\n\nI. A orientação de TCCs deve priorizar a construção de uma base teórica sólida antes de abordar a aplicação prática, garantindo que os estudantes compreendam profundamente os fundamentos teóricos de seu campo de estudo.\n\nPORQUE\n\nII. Uma abordagem que enfatiza inicialmente a base teórica fortalece a capacidade dos estudantes de aplicar esses conhecimentos em situações práticas, resultando em trabalhos de conclusão mais robustos e bem fundamentados.\n\nA respeito dessas asserções, assinale a alternativa correta:",
       "alternativas": {
@@ -1021,13 +1033,15 @@
         "D": "A asserção I é falsa, e a asserção II é verdadeira.",
         "E": "As asserções I e II são verdadeiras, e a II é uma justificativa correta da I."
       },
-      "gabarito": "B",
-      "explicacao": "O enunciado afirma que a orientação de TCC \"requer a integração entre teoria e prática\", não uma sequência rígida em que a teoria deve ser dominada antes. A literatura pedagógica defende que teoria e prática se retroalimentam simultaneamente ao longo da pesquisa. A asserção I, ao afirmar que se deve \"priorizar\" a teoria \"antes\" da prática, contraria essa ideia de integração — sendo falsa; a asserção II reforça a mesma lógica sequencial, também não se sustentando.",
-      "nota": "Resolução Claude — gabarito não oficial. Questão de interpretação sobre pedagogia da orientação de TCC; diferentes bancas podem adotar leituras diferentes. Vale conferir o gabarito oficial/material de apoio da disciplina."
+      "gabarito": "E",
+      "explicacao": "A asserção I é verdadeira: a orientação de TCCs deve priorizar a construção de uma base teórica sólida antes de abordar a aplicação prática, pois uma compreensão profunda dos fundamentos teóricos é essencial para que os estudantes possam contextualizar e aplicar de maneira eficaz os conceitos aprendidos durante o curso.\n\nA asserção II também é verdadeira: uma abordagem que enfatiza inicialmente a base teórica fortalece a capacidade dos estudantes de aplicar esses conhecimentos em situações práticas, resultando em trabalhos de conclusão mais robustos e bem fundamentados, já que uma sólida formação teórica oferece o embasamento necessário para que os estudantes desenvolvam argumentos consistentes e façam conexões entre teoria e prática.\n\nA asserção II justifica corretamente a asserção I, pois mostra que a formação teórica sólida é fundamental para a aplicação prática dos conhecimentos, o que resulta em TCCs de maior qualidade — uma abordagem integrada que assegura que os trabalhos demonstrem tanto conhecimento teórico quanto capacidade de aplicá-lo de forma prática e relevante.",
+      "nivelDificuldade": "Difícil",
+      "materialBase": "Texto-base 1: Ensinar a escrever na universidade: a orientação de trabalhos de conclusão de curso em questão (Ler: parte 2, seção 2, páginas 169–207) – Mical de Melo Marcelino",
+      "objetivoAprendizado": "ANALISAR A RELAÇÃO ENTRE TEORIA E PRÁTICA NA PRODUÇÃO DE TCCS"
     },
     {
       "id": 67,
-      "secao": "S4",
+      "modulo": "S4",
       "source": "Prova-2026-09",
       "enunciado": "\"A construção de um texto claro e bem estruturado exige a integração harmoniosa de duas dimensões, com a coerência garantindo a integridade do conteúdo e a coesão assegurando que esse conteúdo seja apresentado de maneira coesa e compreensível.\" (SILVA, R. C. B., 2017.)\n\nCom relação a este contexto e sobre o conteúdo estudado, avalie as asserções a seguir e a relação proposta entre elas:\n\nI. A coerência, como a estrutura profunda de um texto, organiza ideias de forma lógica e integrada, enquanto a coesão, a estrutura superficial, utiliza mecanismos linguísticos para conectar partes do texto. No entanto, a eficácia da coerência frequentemente depende da aplicação sutil de elementos coesivos que garantem uma continuidade argumentativa fluida.\n\nPORQUE\n\nII. A interação entre coerência e coesão deve ser analisada de forma integrada, pois a eficácia da organização lógica das ideias é frequentemente mediada pelos mecanismos de coesão, que garantem a fluidez e a clareza do texto. Portanto, a compreensão da construção textual exige a consideração da interdependência entre esses dois aspectos.\n\nA respeito dessas asserções, assinale a alternativa correta:",
       "alternativas": {
@@ -1037,9 +1051,11 @@
         "D": "As asserções I e II são falsas.",
         "E": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira."
       },
-      "gabarito": "C",
-      "explicacao": "A asserção I descreve corretamente a distinção entre coerência (estrutura profunda, organização lógica) e coesão (estrutura superficial, mecanismos linguísticos), afirmando que a coerência depende de elementos coesivos para se manifestar. A asserção II generaliza essa interdependência — exatamente a razão pela qual a I é verdadeira, funcionando como sua justificativa. Ambas são verdadeiras e a II justifica a I.",
-      "nota": "Resolução Claude — gabarito não oficial"
+      "gabarito": "B",
+      "explicacao": "A asserção I é verdadeira: coerência e coesão, embora frequentemente discutidas separadamente, são interdependentes na construção de um texto eficaz. A coerência refere-se à organização lógica das ideias e à sua integração em uma estrutura coerente, o que permite que o texto faça sentido como um todo. No entanto, a eficácia dessa organização lógica frequentemente depende do uso adequado de elementos de coesão (conjunções, pronomes etc.), que garantem a continuidade e a fluidez entre as partes do texto; sem esses mecanismos, a organização lógica das ideias pode se perder, resultando em um texto desconexo.\n\nA asserção II também é verdadeira: ela destaca a necessidade de considerar a coerência e a coesão como aspectos inter-relacionados na análise textual, já que a coesão não apenas conecta as partes do texto superficialmente, mas também facilita a implementação da coerência, assegurando que as ideias fluam de maneira contínua e compreensível.\n\nEntretanto, a asserção II não justifica a asserção I: enquanto a asserção I detalha especificamente como a coerência depende da aplicação de elementos coesivos para manter a continuidade e a fluidez do texto, a asserção II apenas reafirma, de forma mais geral, a necessidade de considerar a interdependência entre coerência e coesão, sem explicar como a coesão afeta diretamente a coerência. Por isso, embora ambas sejam verdadeiras, a II não constitui uma justificativa da I.",
+      "nivelDificuldade": "Difícil",
+      "materialBase": "Texto-base – Coerência e Coesão nos Textos Argumentativos dos alunos do Ensino Médio, de Roberto da Silva",
+      "objetivoAprendizado": "JULGAR A INTERDEPENDÊNCIA ENTRE COERÊNCIA E COESÃO TEXTUAIS E A CONTRIBUIÇÃO DE ELEMENTOS LINGUÍSTICOS PARA A CONSTRUÇÃO DE UM TEXTO CLARO E COMPREENSÍVEL"
     }
   ]
 }
